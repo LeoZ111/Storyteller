@@ -592,7 +592,9 @@ function zeigeKapitel(c) {
       <button data-a="-">A−</button><button data-a="+">A+</button>
       <button data-t="dunkel">${en ? 'Dark' : 'Dunkel'}</button><button data-t="nacht">${en ? 'Black' : 'Schwarz'}</button><button data-t="sepia">Sepia</button><button data-t="hell">${en ? 'Light' : 'Hell'}</button>
       ${e.tts === 'openai' ? '<button id="mp3">⬇ MP3</button>' : ''}
+      <button id="tontest">🔊 ${en ? 'Sound test' : 'Ton testen'}</button>
     </div>
+    <div id="tontest-aus" class="klein leise"></div>
     <article class="lesen">${seg
       .map((s, i) => {
         if (s.typ === 'rede' || s.typ === 'gedanke')
@@ -616,6 +618,7 @@ function zeigeKapitel(c) {
       })
   );
   $$('[data-t]').forEach((b) => (b.onclick = () => (speichereEinstellungen({ thema: b.dataset.t }), wendeLeseEinstellungenAn())));
+  $('#tontest').onclick = () => tonTest($('#tontest-aus'));
   playerEl.hidden = false;
   player.naechstesHref = c.nachHref;
   player.lade(c.kanon, seg, `${c.kanon.meta.titel} – ${c.titel}`);
@@ -646,12 +649,63 @@ function zeigeKapitel(c) {
   }
 }
 
+// ---------------------------------------------------------------- Tontest
+// Prueft Schritt fuer Schritt, ob das Geraet ueberhaupt Ton und Sprachausgabe abspielt.
+function tonTest(ausgabe) {
+  const zeilen = [];
+  const zeige = (t) => {
+    zeilen.push(t);
+    ausgabe.innerHTML = zeilen.map((z) => `<div>${esc(z)}</div>`).join('');
+  };
+  // 1. Piepton ueber Web Audio – zeigt, ob der Browser ueberhaupt Ton ausgibt.
+  try {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    const ctx = new AC();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    gain.gain.value = 0.15;
+    osc.frequency.value = 660;
+    osc.connect(gain).connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 0.4);
+    zeige('1. Piepton gesendet. Hörst du einen kurzen Piep? Wenn nicht: Lautstärke, Stummschalter (iPhone: Schalter an der Seite) oder Bluetooth prüfen.');
+  } catch (e) {
+    zeige('1. Piepton nicht möglich: ' + e.message);
+  }
+  // 2. Sprachausgabe
+  if (!('speechSynthesis' in window)) {
+    zeige('2. Dieser Browser hat keine Sprachausgabe. Bitte Chrome, Safari oder Edge verwenden.');
+    return;
+  }
+  const stimmen = speechSynthesis.getVoices();
+  const de = stimmen.filter((v) => v.lang.toLowerCase().startsWith('de'));
+  const en = stimmen.filter((v) => v.lang.toLowerCase().startsWith('en'));
+  zeige(`2. Stimmen gefunden: ${stimmen.length} insgesamt, ${de.length} deutsche, ${en.length} englische.${de.length ? ' Deutsch: ' + de.slice(0, 4).map((v) => v.name).join(', ') : ''}`);
+  if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance('Hallo. Das ist ein Test der Sprachausgabe. Wenn du mich hörst, funktioniert alles.');
+  u.lang = 'de-DE';
+  if (de[0]) u.voice = de[0];
+  let gestartet = false;
+  u.onstart = () => {
+    gestartet = true;
+    zeige('3. Die Sprachausgabe hat gestartet. Du solltest jetzt eine Stimme hören.');
+  };
+  u.onend = () => zeige('4. Fertig gesprochen.' + (gestartet ? '' : ' (ohne Start-Meldung)'));
+  u.onerror = (e) => zeige('Fehler der Sprachausgabe: ' + e.error);
+  setTimeout(() => {
+    if (!gestartet) zeige('3. Nach 4 Sekunden noch kein Start. Der Browser blockiert die Sprachausgabe. Tipp: Seite neu laden und den Test noch einmal drücken; auf Android in Chrome öffnen (nicht in einer App-Vorschau); auf dem iPhone Stummschalter aus.');
+  }, 4000);
+  speechSynthesis.resume();
+  speechSynthesis.speak(u);
+}
+
 // ---------------------------------------------------------------- Einstellungen
 function einstellungsAnsicht() {
   const e = einstellungen();
   const opt = (werte, aktuell) => Object.entries(werte).map(([k, v]) => `<option value="${k}" ${k === aktuell ? 'selected' : ''}>${esc(v)}</option>`).join('');
   app.innerHTML = `
     <h1>Einstellungen</h1>
+    <div class="karte"><b>Kein Ton?</b> <button class="knopf zweit" id="tontest" type="button">🔊 Ton testen</button><div id="tontest-aus" class="klein" style="margin-top:.5rem"></div></div>
     <form id="f">
       <h2>Claude (Geschichten)</h2>
       <label>Anthropic-API-Schlüssel</label>
@@ -682,6 +736,7 @@ function einstellungsAnsicht() {
 
       <p><button class="knopf">Speichern</button> <span id="ok" class="leise"></span></p>
     </form>`;
+  $('#tontest').onclick = () => tonTest($('#tontest-aus'));
   const f = $('#f');
   f.onsubmit = (ev) => {
     ev.preventDefault();
@@ -693,5 +748,8 @@ function einstellungsAnsicht() {
   };
 }
 
-if ('speechSynthesis' in window) speechSynthesis.onvoiceschanged = () => {};
+if ('speechSynthesis' in window) {
+  speechSynthesis.getVoices();
+  speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
+}
 route();

@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 7. Monat, 5. Tag",
+  "zeit": "Taehwa 12, 7. Monat, 7. Tag (Morgen)",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -129,7 +129,7 @@
       "geschlecht": "w",
       "alter": "58",
       "aussehen": "Klein, aber stehend wie eine Große; eisengraues Haar im strengen Knoten mit Holznadel; geflicktes dunkelgraues Gewand; lange Bambuspfeife, oft unangezündet.",
-      "persoenlichkeit": "Scharfzüngig, stolz, geduldig auf eine Art, die nervös macht. Lacht gern, wenn niemand hinsieht.",
+      "persoenlichkeit": "Scharfzüngig, stolz, geduldig auf eine Art, die nervös macht. Bittet niemanden mehr zu bleiben, seit sie elf Schüler gehen sah: Wer bleibt, soll bleiben, weil er will.",
       "sprechweise": "Knapp, spöttisch, trocken; wird leise, wenn es ernst ist.",
       "wunde": "Ihr Mann Ryu Gang, siebter Meister, starb vor zehn Jahren im Winter – obwohl sie für seine Medizin die Glocke Abend an Cheon Mu-gyeong verkaufte.",
       "ziel": "Die Sekte am Leben halten; beim Treffen von Hacheon Schutzaufträge gewinnen.",
@@ -270,14 +270,19 @@
       "persoenlichkeit": "Kühl, stolz, ehrgeizig; übt nachts, wenn alle schlafen.",
       "sprechweise": "Klar, kühl, präzise.",
       "wunde": "Mit neun Jahren aus dem abgebrannten Lagerhaus ihres Vaters am Fluss gerettet – von Seo Hwa-ryeong.",
-      "ziel": "Gesehen werden. Größer werden, als die arme Sekte es zulässt.",
+      "ziel": "Am 3. Tag des 8. Monats als Gastschülerin nach Seoan gehen. Nicht alt werden und eine Glocke schlagen, die niemand hört.",
       "beduerfnis": "",
       "geheimnis": "",
       "bogen": "",
-      "stufe": "Glockenohr (dritter Ton); schnellste Schwertkämpferin der Sekte",
+      "stufe": "Glockenohr, kurz vor dem vierten Ton (Unterton)",
       "status": "lebendig",
       "ort": "o-unmu",
-      "beziehungen": [],
+      "beziehungen": [
+        {
+          "zu": "f-seo",
+          "art": "verletzt, weil die Meisterin sie ohne Widerspruch gehen lässt"
+        }
+      ],
       "stimme": "Klar, kühl, präzise, junge Frau, mittlere Tonlage.",
       "ersterAuftritt": 2
     },
@@ -917,6 +922,33 @@
       ],
       "ereignis": "Mok Yeon hört die Glocke Stille im Wolgok-Tempel.",
       "folgen": "Die vierte Glocke ist gefunden."
+    },
+    {
+      "id": "e-12-1",
+      "kapitel": 12,
+      "weltzeit": "Taehwa 12, 7. Monat, 6. Tag, Abend",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seol-a",
+        "f-seo",
+        "f-chil",
+        "f-doyun",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Seol-a verkündet ihren Weggang nach Seoan; Seo lässt sie gehen.",
+      "folgen": "Riss in der Sekte; Chil ist verzweifelt."
+    },
+    {
+      "id": "e-12-2",
+      "kapitel": 12,
+      "weltzeit": "Taehwa 12, 7. Monat, 7. Tag, Morgengrauen",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-mok-yeon",
+        "f-seo"
+      ],
+      "ereignis": "Mok Yeon schlägt die Morgenglocke zum ersten Mal richtig.",
+      "folgen": "Er darf mit zum Treffen."
     }
   ],
   "faeden": [
@@ -1158,6 +1190,22 @@
     {
       "kapitel": 11,
       "text": "In der Mittherbstnacht gehen die jungen Leute von Hacheon mit Laternen an den Fluss; wer jemanden fragen will, fragt dann."
+    },
+    {
+      "kapitel": 12,
+      "text": "Seol-a geht am 3. Tag des 8. Monats nach Seoan. Die Meisterin hat nur 'Geh' gesagt."
+    },
+    {
+      "kapitel": 12,
+      "text": "Mok Yeon riet Seol-a: In Seoan genau hinhören, auch bei Menschen, die sie mag."
+    },
+    {
+      "kapitel": 12,
+      "text": "Am Morgen des 7. Tags des 7. Monats schlug Mok Yeon die Morgenglocke zum ersten Mal richtig – indem er erst zuhörte und im Ruhepunkt der Glocke zog. Tau summte von selbst mit. So hatte Ryu Gang sie geschlagen."
+    },
+    {
+      "kapitel": 12,
+      "text": "Die Meisterin nimmt Mok Yeon zum Treffen in Hacheon mit."
     }
   ],
   "kapitel": [
@@ -1237,6 +1285,13 @@
       "weltzeit": "Taehwa 12, 7. Monat, 5. Tag",
       "zusammenfassung": "Aus Do-yuns Sicht: Er hält sich für kein Talent. Madam Ok beauftragt ihn, ihre geretteten Pfänder nach Wolgok zu bringen; Mok Yeon fährt mit. Min-ji gibt Do-yun Essen mit: Komm zurück, Idiot. In einer Schlucht zählt Mok Yeon neun Banditen, bevor man sie sieht, und sagt jeden Angriff an. Dann schweigt er absichtlich. Gegen den einzigen echten Kämpfer schlägt Do-yun den ersten Schritt des Glockenschlag-Schwerts, seine Klinge klingt, und der Säbel des Gegners zerspringt: Widerhall, der fünfte Ton. Die Banditen sagen, ihr Anführer sei seit einem Monat verschwunden. Auf dem Rückweg hört Mok Yeon die Glocke Stille im Wolgok-Tempel. Do-yun beschließt, Min-ji in der Mittherbstnacht zu fragen.",
       "woerter": 2223
+    },
+    {
+      "nr": 12,
+      "titel": "Risse",
+      "weltzeit": "Taehwa 12, 7. Monat, 7. Tag (Morgen)",
+      "zusammenfassung": "Beim Hühneressen verkündet Seol-a, dass sie am 3. Tag des 8. Monats nach Seoan geht. Chil rennt weinend hinaus. Die Meisterin sagt nur: Geh. Seol-a ist verletzt, dass niemand sie zurückhält; Seo erklärt, sie bitte niemanden mehr zu bleiben. Auf dem Dach rät Mok Yeon Seol-a, in Seoan genau hinzuhören, auch bei Menschen, die sie mag; sie verteidigt Ui-jin. In der Nacht unter der Glocke versteht Mok Yeon die Worte des Gründers neu: Höre, bevor du schlägst. Im Morgengrauen schlägt er die Morgenglocke zum ersten Mal richtig, und Tau summt mit. Seo sagt, so habe Ryu Gang sie geschlagen, und nimmt ihn mit nach Hacheon.",
+      "woerter": 2183
     }
   ],
   "stimmen": {

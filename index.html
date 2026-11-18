@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#14110f" />
+  <title>Erzählwerk</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="kopf">
+    <a href="#/" class="marke">Erzählwerk</a>
+    <nav>
+      <a href="#/">Bibliothek</a>
+      <a href="#/einstellungen" aria-label="Einstellungen">⚙</a>
+    </nav>
+  </header>
+  <main id="app"></main>
+
+  <div id="player" class="player" hidden>
+    <button id="pl-zurueck" aria-label="Zurück">⏮</button>
+    <button id="pl-play" class="gross" aria-label="Abspielen">▶</button>
+    <button id="pl-vor" aria-label="Weiter">⏭</button>
+    <div class="pl-info"><span id="pl-sprecher">—</span><small id="pl-status"></small></div>
+    <select id="pl-tempo" aria-label="Tempo">
+      <option value="0.8">0,8×</option><option value="0.9">0,9×</option>
+      <option value="1" selected>1×</option><option value="1.1">1,1×</option>
+      <option value="1.25">1,25×</option><option value="1.5">1,5×</option>
+    </select>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

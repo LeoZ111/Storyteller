@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "neun-glocken",
+    "titel": {
+      "de": "Neun Glocken",
+      "en": "Nine Bells"
+    },
+    "genre": {
+      "de": "Murim · Rückkehrer",
+      "en": "Murim · Regression"
+    },
+    "logline": {
+      "de": "Er versteckte sich in einer Glocke, während seine Sekte starb. Einundvierzig Jahre später erwacht er neunzig Tage vor jener Nacht.",
+      "en": "He hid inside a bell while his sect died. Forty-one years later, he wakes ninety days before that night."
+    },
+    "kapitel": 10,
+    "kapiteltitel": {
+      "de": [
+        "Die Glocke, in der ich mich versteckte",
+        "Reis mit Salz",
+        "Das Glockenohr",
+        "Dein vierter Schritt ist eine Lüge",
+        "Wenn du lügst, dann lüg besser",
+        "Spatzenschritt",
+        "Die Pfandleihe",
+        "Feuer am Fluss",
+        "Zwei Glocken",
+        "Die gerechte Klinge"
+      ],
+      "en": [
+        "The Bell I Hid In",
+        "Rice with Salt",
+        "Bell Ear",
+        "Your Fourth Step Is a Lie",
+        "If You Lie, Lie Better",
+        "Sparrow Step",
+        "The Pawnshop",
+        "Fire on the River",
+        "Two Bells",
+        "The Righteous Blade"
+      ]
+    }
+  }
+]

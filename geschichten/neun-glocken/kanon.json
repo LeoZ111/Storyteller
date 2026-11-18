@@ -1,0 +1,1180 @@
+{
+  "meta": {
+    "titel": "Neun Glocken",
+    "logline": "Er versteckte sich in einer Glocke, während seine Sekte starb. Einundvierzig Jahre später erwacht er neunzig Tage vor jener Nacht.",
+    "genre": "Murim · Rückkehrer",
+    "ton": "warm, trocken-komisch, mit Ernst darunter",
+    "stil": "Personale Erzählweise mit wechselnden Perspektiven; Klang als Leitmotiv; bildhafte Panel-Momente.",
+    "sprache": "Deutsch",
+    "sprachen": [
+      "de",
+      "en"
+    ]
+  },
+  "welt": {
+    "beschreibung": "Die Zentralebene einer Kampfkunstwelt in der Ära Taehwa. Große Familien und Sekten bilden den Kampfkunstbund; kleine Sekten verschwinden still. Auf dem Unmu-Berg über dem Marktflecken Hacheon hängt die letzte Glocke des Tors der Neun Glocken.",
+    "regeln": [
+      "Die Weltzeit wird in Ära, Jahr, Monat und Tag gezählt (Mondmonate).",
+      "Kampfkünstler sammeln inneres Qi im Dantian und lenken es durch die Meridiane.",
+      "Verbotene Künste, die das Qi anderer rauben, werden vom Kampfkunstbund mit dem Tod bestraft."
+    ]
+  },
+  "machtsystem": {
+    "name": "Neun-Glocken-Gesang",
+    "beschreibung": "Die Kunst des Tors der Neun Glocken. Sie beginnt mit Hören statt Schlagen und gilt deshalb als schwach. Neun Töne führen vom eigenen Herzschlag bis zur legendären stillen Glocke.",
+    "stufen": [
+      {
+        "name": "Erster Ton",
+        "beschreibung": "Den eigenen Herzschlag hören."
+      },
+      {
+        "name": "Zweiter Ton",
+        "beschreibung": "Atem und Qi schwingen gemeinsam."
+      },
+      {
+        "name": "Glockenohr",
+        "beschreibung": "Fremde Qi-Ströme hören – die Absicht vor der Bewegung."
+      },
+      {
+        "name": "Unterton",
+        "beschreibung": "Falsche Noten hören: Lügen, verborgene Absichten."
+      },
+      {
+        "name": "Widerhall",
+        "beschreibung": "Die eigene Schwingung in die Waffe legen."
+      },
+      {
+        "name": "Glockenkörper",
+        "beschreibung": "Der Körper wird zum Resonanzraum."
+      },
+      {
+        "name": "Glockenschlag",
+        "beschreibung": "Eine Klangwelle nach außen."
+      },
+      {
+        "name": "Neun Stimmen",
+        "beschreibung": "Mehrere Resonanzen zugleich führen."
+      },
+      {
+        "name": "Die stille Glocke",
+        "beschreibung": "Nur aus Legenden bekannt."
+      }
+    ],
+    "regeln": [
+      "Hören ist Verständnis – Wirken braucht einen Körper, der es trägt.",
+      "Wer mehr hört, als sein Körper tragen kann, bezahlt mit Ohrensausen, Blut und im schlimmsten Fall mit dem Gehör.",
+      "Glocken verstärken die Resonanz des Gesangs."
+    ]
+  },
+  "handlungsbogen": {
+    "gesamtziel": "Die Sekte retten – und die neun Glocken wieder zum Klingen bringen.",
+    "akte": [
+      {
+        "titel": "Neunzig Tage",
+        "inhalt": "Kapitel 1–20"
+      },
+      {
+        "titel": "Widerhall",
+        "inhalt": "Kapitel 21–35"
+      },
+      {
+        "titel": "Die stille Glocke",
+        "inhalt": "Kapitel 36–50"
+      }
+    ]
+  },
+  "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
+  "zeit": "Taehwa 12, 7. Monat, 4. Tag (Nacht)",
+  "figuren": [
+    {
+      "id": "f-mok-yeon",
+      "name": "Mok Yeon",
+      "alias": "",
+      "rolle": "Schüler des Tors der Neun Glocken, kam mit zehn als Flutwaise auf den Berg; im ersten Leben einziger Überlebender",
+      "geschlecht": "m",
+      "alter": "16 (im Geist 57)",
+      "aussehen": "Schmal, blass, zu glatte Hände; schwarzes, ungekämmtes Haar; dunkle Augen, die oft ins Leere hören statt zu sehen.",
+      "persoenlichkeit": "Wortkarg, trocken, wörtlich, unfähig zu höflichen Lügen. Weint plötzlich über Kleinigkeiten, weil alle noch leben.",
+      "sprechweise": "Kurze Sätze, langsam, wie ein alter Mann. Sagt genau, was er meint.",
+      "wunde": "Versteckte sich in der Nacht des Massakers in der Glocke Morgen und hörte alle sterben.",
+      "ziel": "Die Laternennacht überleben – alle zusammen. Zuerst: den Körper stärken, die Meisterin vom Treffen mit Cheon fernhalten, das Seitentor klären, die Glocken zurückholen.",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "Zweiter Ton im Körper gefestigt; Verständnis weit darüber",
+      "status": "lebendig; Schnitt über den Rippen, Blut aus beiden Ohren nach dem Blechschlag",
+      "ort": "o-unmu",
+      "beziehungen": [
+        {
+          "zu": "f-seo",
+          "art": "Meisterin"
+        },
+        {
+          "zu": "f-chil",
+          "art": "jüngerer Mitschüler"
+        },
+        {
+          "zu": "f-madam-ok",
+          "art": "Wette: Brennt das Flusslager am 3. Tag des 7. Monats, bekommt er Tau und Aufschub für Herd; sonst arbeitet er ein Jahr für sie"
+        }
+      ],
+      "stimme": "Junge Stimme, aber tief gesetzt und langsam, wie ein alter Mann; ruhig, karg.",
+      "ersterAuftritt": 1
+    },
+    {
+      "id": "f-seo",
+      "name": "Seo Hwa-ryeong",
+      "alias": "",
+      "rolle": "Sektenmeisterin des Tors der Neun Glocken",
+      "geschlecht": "w",
+      "alter": "58",
+      "aussehen": "Klein, aber stehend wie eine Große; eisengraues Haar im strengen Knoten mit Holznadel; geflicktes dunkelgraues Gewand; lange Bambuspfeife, oft unangezündet.",
+      "persoenlichkeit": "Scharfzüngig, stolz, geduldig auf eine Art, die nervös macht. Lacht gern, wenn niemand hinsieht.",
+      "sprechweise": "Knapp, spöttisch, trocken; wird leise, wenn es ernst ist.",
+      "wunde": "Ihr Mann Ryu Gang, siebter Meister, starb vor zehn Jahren im Winter – obwohl sie für seine Medizin die Glocke Abend an Cheon Mu-gyeong verkaufte.",
+      "ziel": "Die Sekte am Leben halten; beim Treffen von Hacheon Schutzaufträge gewinnen.",
+      "beduerfnis": "",
+      "geheimnis": "Kennt jetzt die Karte und die Laternenmarke; hat versprochen, niemandem davon zu erzählen – vorerst.",
+      "bogen": "",
+      "stufe": "Vierter Ton (Unterton)",
+      "status": "lebendig",
+      "ort": "o-unmu",
+      "beziehungen": [
+        {
+          "zu": "f-mok-yeon",
+          "art": "hört, dass er etwas Wahres verschweigt; vertraut ihm vorerst"
+        },
+        {
+          "zu": "f-madam-ok",
+          "art": "kennen sich seit dreißig Jahren, würden sich nie Freundinnen nennen"
+        }
+      ],
+      "stimme": "Rau, tief, Raucherstimme, Mitte 50, trockener Humor.",
+      "ersterAuftritt": 1
+    },
+    {
+      "id": "f-chil",
+      "name": "Bang Chil",
+      "alias": "",
+      "rolle": "Jüngster Schüler",
+      "geschlecht": "m",
+      "alter": "13",
+      "aussehen": "Rund wie ein Reisknödel, Kutte zu kurz, Muttermal unter dem linken Auge, meistens etwas Essbares in der Hand.",
+      "persoenlichkeit": "Fröhlich, verfressen, ängstlich vor Geistern, großzügig.",
+      "sprechweise": "Schnell, empört, übertreibt; Stimme kippt im Stimmbruch.",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "Spatzenschritt: läuft lautlos, ohne dass die Trittsteine klappern",
+      "status": "lebendig",
+      "ort": "o-unmu",
+      "beziehungen": [
+        {
+          "zu": "f-mok-yeon",
+          "art": "hält ihn für einen netten Glockengeist; bringt ihm Opfergaben; lernt von ihm den Spatzenschritt"
+        }
+      ],
+      "stimme": "Heller Junge im Stimmbruch, schnell und lebhaft.",
+      "ersterAuftritt": 1
+    },
+    {
+      "id": "f-cheon",
+      "name": "Cheon Mu-gyeong",
+      "alias": "Die Gerechte Klinge",
+      "rolle": "Patriarch der Familie Cheon von Seoan; Beschützer der Region",
+      "geschlecht": "m",
+      "alter": "38 (im ersten Leben starb Mok Yeon, als Cheon 79 war)",
+      "aussehen": "Ruhiges, gütiges Gesicht, graue Strähnen an den Schläfen; sitzt sehr gerade; hält oft die rechte Hand flach unter dem Brustbein.",
+      "persoenlichkeit": "Warm, väterlich, pflichtbewusst. Glaubt, dass Tausende leben, weil er lebt – und rechtfertigt damit alles. Glaubt daran. Meistens.",
+      "sprechweise": "Sanft, ruhig, beinahe mitleidig.",
+      "wunde": "Mit 25 rissen seine Meridiane, als er dreißig Banditen aufhielt, damit zweihundert Flüchtlinge über einen Pass kamen. Seitdem ein Schmerz unter dem Brustbein; schläft nie länger als zwei Stunden.",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "Zieht gefangenen Mördern mit der Hand auf der Brust ihr Qi ab (rötlicher Dunst), um zu überleben. Ein Mann, dessen Namen er nie ausspricht, brachte ihm das Buch dazu. Ließ das Flusslager anzünden, um den Reiswucher der Familie Yun zu brechen – ohne Tote.",
+      "bogen": "",
+      "stufe": "",
+      "status": "lebendig",
+      "ort": "o-hacheon (Haus der Familie Yun)",
+      "beziehungen": [
+        {
+          "zu": "f-grau",
+          "art": "Auftraggeber der Schwarzen Laternen"
+        }
+      ],
+      "stimme": "Warmer, sonorer Bariton, ruhig und väterlich.",
+      "ersterAuftritt": 1
+    },
+    {
+      "id": "f-doyun",
+      "name": "Han Do-yun",
+      "alias": "",
+      "rolle": "Erster Schüler; verdient Geld als Begleitschutz für Händler",
+      "geschlecht": "m",
+      "alter": "25",
+      "aussehen": "Breit wie ein Türrahmen, eckiges Kinn, kurz geschnittenes Haar, riesige Hände; Schramme über der rechten Augenbraue.",
+      "persoenlichkeit": "Gutmütig, langsam und gründlich, lacht laut und ungeschickt.",
+      "sprechweise": "Bedächtig, einfach, unbeholfen freundlich.",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "Glockenohr (dritter Ton)",
+      "status": "lebendig",
+      "ort": "o-unmu",
+      "beziehungen": [
+        {
+          "zu": "f-minji",
+          "art": "verliebt (unausgesprochen)"
+        }
+      ],
+      "stimme": "Tiefer, gutmütiger Bass, bedächtig.",
+      "ersterAuftritt": 1
+    },
+    {
+      "id": "f-dal",
+      "name": "Dal",
+      "alias": "Dal yeonggam (der alte Dal)",
+      "rolle": "Koch und Hausmeister der Sekte; früher Glockengießer",
+      "geschlecht": "m",
+      "alter": "über 70",
+      "aussehen": "Reicht Mok Yeon kaum bis zur Schulter; Hände wie verbrannte Wurzeln, vernarbt bis über die Handgelenke.",
+      "persoenlichkeit": "Knurrig, wundert sich über nichts, summt Melodien ohne Anfang und Ende. Isst im Stehen.",
+      "sprechweise": "Knurrig, kurz angebunden.",
+      "wunde": "Schmolz vor dreißig Jahren im Hungerwinter auf Bitten des sechsten Meisters die Glocken Sturm und Schnee ein; nahm die Bronze heiß aus der Form – daher die Narben.",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "",
+      "status": "lebendig",
+      "ort": "o-unmu",
+      "beziehungen": [],
+      "stimme": "Brüchig, knurrig, langsam, alter Mann.",
+      "ersterAuftritt": 2
+    },
+    {
+      "id": "f-seol-a",
+      "name": "Yu Seol-a",
+      "alias": "",
+      "rolle": "Zweite Schülerin, die Begabteste der Sekte",
+      "geschlecht": "w",
+      "alter": "20",
+      "aussehen": "Groß, gerader Rücken, schwarzes Haar hoch gebunden mit weißer Schnur; schmales, helles Gesicht; Schwert mit abgegriffenem Griff und einst roter Quaste.",
+      "persoenlichkeit": "Kühl, stolz, ehrgeizig; übt nachts, wenn alle schlafen.",
+      "sprechweise": "Klar, kühl, präzise.",
+      "wunde": "Mit neun Jahren aus dem abgebrannten Lagerhaus ihres Vaters am Fluss gerettet – von Seo Hwa-ryeong.",
+      "ziel": "Gesehen werden. Größer werden, als die arme Sekte es zulässt.",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "Glockenohr (dritter Ton); schnellste Schwertkämpferin der Sekte",
+      "status": "lebendig",
+      "ort": "o-unmu",
+      "beziehungen": [],
+      "stimme": "Klar, kühl, präzise, junge Frau, mittlere Tonlage.",
+      "ersterAuftritt": 2
+    },
+    {
+      "id": "f-minji",
+      "name": "Min-ji",
+      "alias": "",
+      "rolle": "Tofu-Händlerin in Hacheon",
+      "geschlecht": "w",
+      "alter": "Anfang 20",
+      "aussehen": "Rundes Gesicht, Stupsnase, Kopftuch mit herausfallender Strähne, starke Unterarme vom Bohnenpressen.",
+      "persoenlichkeit": "Resolut, schlagfertig, sorgt sich und zeigt es mit Schimpfen.",
+      "sprechweise": "Trocken, frech, nennt Do-yun Idiot wie einen Kosenamen.",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "",
+      "status": "lebendig",
+      "ort": "o-hacheon",
+      "beziehungen": [],
+      "stimme": "Kräftige, warme junge Frauenstimme, schlagfertig.",
+      "ersterAuftritt": 3
+    },
+    {
+      "id": "f-pyo",
+      "name": "Pyo",
+      "alias": "",
+      "rolle": "Leiter der Begleitschutzagentur Grüner Strom",
+      "geschlecht": "m",
+      "alter": "",
+      "aussehen": "Feist, dünner Schnurrbart wie mit Tusche gemalt.",
+      "persoenlichkeit": "Jovial, betrügerisch.",
+      "sprechweise": "",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "",
+      "status": "lebendig",
+      "ort": "o-hacheon",
+      "beziehungen": [],
+      "stimme": "Ölig, jovial, mittleres Alter.",
+      "ersterAuftritt": 3
+    },
+    {
+      "id": "f-uijin",
+      "name": "Cheon Ui-jin",
+      "alias": "",
+      "rolle": "Sohn der Familie Cheon von Seoan",
+      "geschlecht": "m",
+      "alter": "21 oder 22",
+      "aussehen": "Schlank, hellblaues, schlichtes Gewand; offenes, freundliches Gesicht.",
+      "persoenlichkeit": "Kann nichts verbergen – sein Vater hat ihn von allem ferngehalten, was ihn lügen lehren könnte. Lächelt fast immer, sieht aus wie seine Mutter.",
+      "sprechweise": "",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "",
+      "status": "lebendig",
+      "ort": "o-hacheon",
+      "beziehungen": [
+        {
+          "zu": "f-seol-a",
+          "art": "bewundert sie; bietet ihr einen Platz als Gastschülerin in Seoan an"
+        },
+        {
+          "zu": "f-cheon",
+          "art": "Vater; liebt ihn und vertraut ihm völlig"
+        }
+      ],
+      "stimme": "Freundlicher, heller Tenor, junger Mann.",
+      "ersterAuftritt": 4
+    },
+    {
+      "id": "f-madam-ok",
+      "name": "Madam Ok",
+      "alias": "",
+      "rolle": "Pfandleiherin in Hacheon",
+      "geschlecht": "w",
+      "alter": "um die 50",
+      "aussehen": "Schmal und gerade, dunkelgrünes Seidengewand, an jedem der zehn Finger ein Jadering; kleine, schwarze, wache Vogelaugen.",
+      "persoenlichkeit": "Geschäftstüchtig, verschmitzt, riecht Lügen wie Regen; hat ein weiches Herz, das sie versteckt. Knackt ständig Sonnenblumenkerne (Knack – Ping).",
+      "sprechweise": "Gedehnt, trocken, amüsiert; wird plötzlich leise, wenn es ernst wird.",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "",
+      "status": "lebendig",
+      "ort": "o-pfandleihe",
+      "beziehungen": [],
+      "stimme": "Gedehnte, trockene Frauenstimme um die 50, amüsiert, etwas rauchig.",
+      "ersterAuftritt": 7
+    },
+    {
+      "id": "f-laternenmann-3",
+      "name": "Laternenmann",
+      "alias": "Dritte Laterne (drei Striche)",
+      "rolle": "Mörder der Schwarzen Laternen; legte das Feuer am Fluss",
+      "geschlecht": "m",
+      "alter": "etwa 30",
+      "aussehen": "Schmales, gewöhnliches Gesicht, schief zusammengewachsene Nase; atmet pfeifend durch die Nase; Messingschnalle, die beim Gehen tickt.",
+      "persoenlichkeit": "Sachlich, ausdruckslos; tötet wie ein Handwerker.",
+      "sprechweise": "",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "Zweitklasse, knapp darüber",
+      "status": "lebendig",
+      "ort": "o-hacheon",
+      "beziehungen": [],
+      "stimme": "Leise, sachlich, tonlos, Mann um 30.",
+      "ersterAuftritt": 8
+    },
+    {
+      "id": "f-grau",
+      "name": "Hwang Ryeom",
+      "alias": "Der Mann in Grau",
+      "rolle": "Haupt der Schwarzen Laternen",
+      "geschlecht": "m",
+      "alter": "um die 45",
+      "aussehen": "Schlank, glatt rasiertes, freundliches Gesicht wie ein Dorflehrer; Gewand in einem Grau, das bei Nacht nach gar nichts aussieht; Hände in den Ärmeln.",
+      "persoenlichkeit": "Höflich, sachlich, verbeugt sich wie ein Handwerker vor einem geschätzten Kunden. Kodex: tötet keine Kinder, legt kein Feuer an Tempeln, betritt Cheons Kammer nie.",
+      "sprechweise": "",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "",
+      "status": "lebendig",
+      "ort": "o-hacheon",
+      "beziehungen": [],
+      "stimme": "Leise, höflich, glatter Bariton.",
+      "ersterAuftritt": 8
+    }
+  ],
+  "orte": [
+    {
+      "id": "o-unmu",
+      "name": "Unmu-Berg · Tor der Neun Glocken",
+      "typ": "Berg und Sekte",
+      "lage": "Über dem Marktflecken Hacheon",
+      "beschreibung": "Fünf Gebäude um einen Hof aus gesprungenen Steinplatten, Moos und Löwenzahn in den Fugen. Die Haupthalle mit eingesunkenem First und zwei fehlenden Ziegeln. Ein zu hoher, schmaler Glockenturm mit neun Haken – acht davon leer.",
+      "sinneseindruecke": "Morgennebel, Holzrauch aus der Küche, Moosgeruch nach Regen, das Summen der Glocke Morgen."
+    },
+    {
+      "id": "o-bundeshalle",
+      "name": "Halle des Kampfkunstbunds",
+      "typ": "Halle",
+      "lage": "Mujang (im ersten Leben)",
+      "beschreibung": "Hundertacht Stufen unter geschwungenem Dach; die oberen glatt poliert, die unteren gesprungen.",
+      "sinneseindruecke": "Regen, der auf jeder Stufe anders klingt."
+    },
+    {
+      "id": "o-hacheon",
+      "name": "Hacheon",
+      "typ": "Marktflecken am Fluss",
+      "lage": "Am Fuß des Unmu-Bergs, am Fluss Cheongnyu",
+      "beschreibung": "Lauter Markt am braunen, breiten Cheongnyu; Boote mit geflickten Segeln, Weiden am Ufer, Teestuben, ein Hafen.",
+      "sinneseindruecke": "Fisch, nasses Holz, gebratene Teigtaschen; Würfelklappern, Hammer auf Blech, das Rauschen des Flusses."
+    },
+    {
+      "id": "o-weidenzweig",
+      "name": "Gasthaus Zum Weidenzweig",
+      "typ": "Gasthaus",
+      "lage": "Am Rand des Marktes von Hacheon",
+      "beschreibung": "Schäbig, schiefes Schild. Unter dem Dach hängt bei Tag eine schwarze Papierlaterne.",
+      "sinneseindruecke": "Getrocknete Paprika unter dem Dach."
+    },
+    {
+      "id": "o-gruener-strom",
+      "name": "Begleitschutzagentur Grüner Strom",
+      "typ": "Agentur",
+      "lage": "Hafen von Hacheon",
+      "beschreibung": "Zweistöckig, Banner mit Pfeil über Wellen; Hof mit Wagen und Säbelmännern.",
+      "sinneseindruecke": "Lampenöl und Mäuse im Lager."
+    },
+    {
+      "id": "o-seoan",
+      "name": "Seoan",
+      "typ": "Stadt",
+      "lage": "Zwei Tagesritte nördlich von Hacheon",
+      "beschreibung": "Sitz der Familie Cheon und ihrer Kampfkunsthalle.",
+      "sinneseindruecke": ""
+    },
+    {
+      "id": "o-pfandleihe",
+      "name": "Pfandleihe von Madam Ok",
+      "typ": "Laden mit Hinterhof",
+      "lage": "Hacheon, mit Hoftor zur Flussstraße",
+      "beschreibung": "Von der Decke hängen Schirme, Käfige, Schwerter, eine Laute, eine Wiege, ein ausgestopfter Fasan. Im ummauerten Hinterhof stehen unter einem Granatapfelbaum die Glocken Tau und Herd unter einer bemoosten Plane.",
+      "sinneseindruecke": "Leises Klingeln der hängenden Dinge im Luftzug; Knacken von Sonnenblumenkernen, das Ping der Schalen in der Messingschale."
+    },
+    {
+      "id": "o-flusslager",
+      "name": "Lagerreihe am Fluss",
+      "typ": "Lagerhäuser",
+      "lage": "Hacheon, bei den Holzstegen der Kornschiffe",
+      "beschreibung": "Vom Kornspeicher der Familie Yun bis zur Seilerei; hinter der Seilerei stehen Ölfässer. Madam Ok lagert hier große Pfänder.",
+      "sinneseindruecke": ""
+    }
+  ],
+  "fraktionen": [
+    {
+      "id": "fr-gujong",
+      "name": "Tor der Neun Glocken (Gujong-mun)",
+      "ausrichtung": "orthodox, klein und verarmt",
+      "beschreibung": "Gegründet von einem Weisen, der lehrte: Höre, bevor du schlägst. Von neun Glocken ist eine geblieben.",
+      "anfuehrer": "f-seo",
+      "sitz": "o-unmu"
+    },
+    {
+      "id": "fr-cheon",
+      "name": "Familie Cheon von Seoan",
+      "ausrichtung": "orthodox, mächtig, angesehen",
+      "beschreibung": "Banner aus weißer Seide mit einem blauen Schwert über einer Welle. Bereitet das Treffen im Flusspavillon vor.",
+      "anfuehrer": "f-cheon",
+      "sitz": "o-seoan"
+    },
+    {
+      "id": "fr-laternen",
+      "name": "Die Schwarzen Laternen",
+      "ausrichtung": "Mörder gegen Bezahlung",
+      "beschreibung": "Erkennungszeichen: schwarze Papierlaterne, bei Tag unangezündet aufgehängt. Mitglieder tragen Lackmarken mit Strichen für ihren Rang.",
+      "anfuehrer": "f-grau",
+      "sitz": "unbekannt"
+    }
+  ],
+  "gegenstaende": [
+    {
+      "id": "g-morgen",
+      "name": "Die Glocke Morgen",
+      "besitzer": "fr-gujong",
+      "ort": "o-unmu",
+      "beschreibung": "Grünliche Bronze, eine Schwertkerbe am Rand, die vier Zeichen des Gründers: Höre, bevor du schlägst. Ein heller Fleck, wo Schüler die Stirn anlehnen."
+    },
+    {
+      "id": "g-abend",
+      "name": "Die Glocke Abend",
+      "besitzer": "f-cheon",
+      "ort": "o-seoan",
+      "beschreibung": "Die sechste und tiefste Glocke der Sekte. Vor zehn Jahren von Cheon Mu-gyeong für viel zu viel Silber gekauft; hängt in der Ahnenhalle der Familie Cheon."
+    },
+    {
+      "id": "g-tau-herd",
+      "name": "Die Glocke Herd",
+      "besitzer": "f-madam-ok",
+      "ort": "o-hacheon",
+      "beschreibung": "Fünfte Glocke, breit und gedrungen wie ein Topf, mit dicker Schulter; brummt dumpf und verschlafen. Vor fünf Jahren mit Tau bei Madam Ok verpfändet; Frist bis Jahresende verlängert."
+    },
+    {
+      "id": "g-laternenmarke",
+      "name": "Laternenmarke mit drei Strichen",
+      "besitzer": "f-mok-yeon",
+      "ort": "o-unmu",
+      "beschreibung": "Daumengroßer Anhänger: eine Laterne aus schwarzem Lack an einer Seidenschnur, drei feine weiße Striche. Vom Gürtel des Laternenmanns gerissen."
+    },
+    {
+      "id": "g-karte",
+      "name": "Karte des Unmu",
+      "besitzer": "f-mok-yeon",
+      "ort": "o-unmu",
+      "beschreibung": "Saubere Tuschezeichnung der Sekte: Westmauer mit Kreuz, Ziegenpfad gestrichelt, beim Turm 'Glocke, eine', das Seitentor eingekreist mit dem Vermerk: Innen verriegelt. Riegel schwach. Warten."
+    },
+    {
+      "id": "g-tau",
+      "name": "Die Glocke Tau",
+      "besitzer": "fr-gujong",
+      "ort": "o-unmu",
+      "beschreibung": "Zweite Glocke, schlank, mit Rankenmuster am Rand; heller Ton wie Wasser, das von einem Blatt fällt. Seit dem 4. Tag des 7. Monats wieder im Turm, auf dem Haken neben Morgen."
+    }
+  ],
+  "techniken": [
+    {
+      "id": "t-glockenschlag",
+      "name": "Glockenschlag-Schwert",
+      "beschreibung": "Neun Schritte, einer für jede Glocke; jeder ein einziger, schwerer Hieb, in dem das eigene Qi mitschwingt. Gilt als altmodisch und langsam.",
+      "nutzer": "fr-gujong",
+      "stufe": "Grundkunst der Sekte",
+      "kosten": "Wer die Pausen herausschneidet, verliert die Schwingung – der Hieb wird hohl."
+    },
+    {
+      "id": "t-glockenatmung",
+      "name": "Glockenatmung (Neun und eins)",
+      "beschreibung": "Neun Atemzüge, jeder tiefer, der Herzschlag sinkt mit; dann ein zehnter, gehaltener Takt – der Atem steht wie eine angeschlagene Glocke, die noch nicht klingt.",
+      "nutzer": "f-mok-yeon",
+      "stufe": "Atemkunst des Gründers",
+      "kosten": "Nur zwei Seiten der Aufzeichnungen sind erhalten; außer Mok Yeon kennt niemand den zehnten Takt."
+    },
+    {
+      "id": "t-blechschlag",
+      "name": "Schlag in den Klangraum",
+      "beschreibung": "Mit gehaltenem zehnten Atemzug einen schwingenden Körper (Blech, Glocke) anschlagen, sodass der Klang in engem Raum das Qi eines unvorbereiteten Gegners kurz ins Stolpern bringt.",
+      "nutzer": "f-mok-yeon",
+      "stufe": "Improvisation aus dem zweiten Ton",
+      "kosten": "Schmerz wie Nadeln in den Ohren; Blut aus beiden Ohren."
+    }
+  ],
+  "zeitleiste": [
+    {
+      "id": "e-1-1",
+      "kapitel": 1,
+      "weltzeit": "Taehwa 53 (erstes Leben)",
+      "ort": "o-bundeshalle",
+      "figuren": [
+        "f-mok-yeon",
+        "f-cheon"
+      ],
+      "ereignis": "Mok Yeon stirbt nach einem gescheiterten Schlag gegen Cheon Mu-gyeong.",
+      "folgen": "Er erwacht 41 Jahre zuvor."
+    },
+    {
+      "id": "e-1-2",
+      "kapitel": 1,
+      "weltzeit": "Taehwa 12, 6. Monat, 15. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-mok-yeon",
+        "f-chil",
+        "f-seo"
+      ],
+      "ereignis": "Mok Yeon erwacht im Glockenturm und läutet die Morgenglocke falsch.",
+      "folgen": "Seo hält ihn für fiebrig; Chil für besessen."
+    },
+    {
+      "id": "e-2-1",
+      "kapitel": 2,
+      "weltzeit": "Taehwa 12, 6. Monat, 15. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-mok-yeon"
+      ],
+      "ereignis": "Mok Yeon entdeckt das Seitentor hinter der Küche mit lockerem Riegel.",
+      "folgen": "Verdacht, dass die Angreifer im ersten Leben dort eindrangen."
+    },
+    {
+      "id": "e-2-2",
+      "kapitel": 2,
+      "weltzeit": "Taehwa 12, 6. Monat, 15. Tag, Nacht",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-mok-yeon"
+      ],
+      "ereignis": "Mok Yeon erzwingt das Glockenohr; Blut aus dem linken Ohr.",
+      "folgen": "Ein hohes Ohrensausen bleibt."
+    },
+    {
+      "id": "e-2-3",
+      "kapitel": 2,
+      "weltzeit": "Taehwa 12, 6. Monat, 15. Tag, Nacht",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-mok-yeon"
+      ],
+      "ereignis": "Ein Fremder steht nachts am Ziegenpfad unter der Westmauer und geht wieder.",
+      "folgen": "Die Sekte wird offenbar schon beobachtet."
+    },
+    {
+      "id": "e-3-1",
+      "kapitel": 3,
+      "weltzeit": "Taehwa 12, 6. Monat, 16. Tag",
+      "ort": "o-gruener-strom",
+      "figuren": [
+        "f-mok-yeon",
+        "f-doyun",
+        "f-pyo"
+      ],
+      "ereignis": "Mok Yeon entlarvt Pyos Betrug; Do-yun erhält vollen Lohn und Bonus.",
+      "folgen": "Do-yun ahnt, dass Mok Yeon das Glockenohr hat."
+    },
+    {
+      "id": "e-3-2",
+      "kapitel": 3,
+      "weltzeit": "Taehwa 12, 6. Monat, 16. Tag",
+      "ort": "o-weidenzweig",
+      "figuren": [
+        "f-mok-yeon"
+      ],
+      "ereignis": "Mok Yeon entdeckt die schwarze Laterne am Gasthaus Zum Weidenzweig.",
+      "folgen": "Die Mörder sind bereits in Hacheon."
+    },
+    {
+      "id": "e-4-1",
+      "kapitel": 4,
+      "weltzeit": "Taehwa 12, 6. Monat, 16. Tag, Nacht",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seol-a",
+        "f-mok-yeon",
+        "f-doyun",
+        "f-seo"
+      ],
+      "ereignis": "Holzschwert-Duell zwischen Seol-a und Mok Yeon auf dem Übungsplatz.",
+      "folgen": "Seol-a erkennt die Lücke in ihrem vierten Schritt. Seo hat zugesehen."
+    },
+    {
+      "id": "e-5-1",
+      "kapitel": 5,
+      "weltzeit": "Taehwa 12, 6. Monat, 17. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Seo erkennt an Mok Yeon die Glockenatmung des Gründers und durchschaut seine Lüge.",
+      "folgen": "Sie unterrichtet ihn künftig selbst bei Sonnenaufgang."
+    },
+    {
+      "id": "e-5-2",
+      "kapitel": 5,
+      "weltzeit": "vor zehn Jahren",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-cheon"
+      ],
+      "ereignis": "Cheon Mu-gyeong kauft der Sekte die Glocke Abend ab; Ryu Gang stirbt im Winter danach.",
+      "folgen": "Die Glocke hängt in Seoan."
+    },
+    {
+      "id": "e-6-1",
+      "kapitel": 6,
+      "weltzeit": "Taehwa 12, 6. Monat, 20.–27. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-mok-yeon",
+        "f-chil",
+        "f-doyun"
+      ],
+      "ereignis": "Mok Yeon lehrt Chil den Spatzenschritt.",
+      "folgen": "Chil bewegt sich lautlos; die Meisterin verbietet es im Haus."
+    },
+    {
+      "id": "e-6-2",
+      "kapitel": 6,
+      "weltzeit": "Taehwa 12, 6. Monat, 27. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-dal",
+        "f-seo"
+      ],
+      "ereignis": "Dal singt das Glockenlied und gesteht das Einschmelzen von Sturm und Schnee; Seo nennt die Pfandfrist für Tau und Herd.",
+      "folgen": "Mok Yeon beschließt, die Glocken zu retten."
+    },
+    {
+      "id": "e-6-3",
+      "kapitel": 6,
+      "weltzeit": "vor dreißig Jahren",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-dal"
+      ],
+      "ereignis": "Dal schmilzt im Hungerwinter die Glocken Sturm und Schnee ein.",
+      "folgen": "Die Schüler überleben den Winter."
+    },
+    {
+      "id": "e-7-1",
+      "kapitel": 7,
+      "weltzeit": "Taehwa 12, 6. Monat, 28. Tag",
+      "ort": "o-pfandleihe",
+      "figuren": [
+        "f-mok-yeon",
+        "f-chil",
+        "f-madam-ok"
+      ],
+      "ereignis": "Mok Yeon schließt mit Madam Ok die Wette über das Feuer.",
+      "folgen": "Madam Ok räumt ihr Lager heimlich."
+    },
+    {
+      "id": "e-7-2",
+      "kapitel": 7,
+      "weltzeit": "Taehwa 12, 6. Monat, 28. Tag",
+      "ort": "o-hacheon",
+      "figuren": [
+        "f-uijin",
+        "f-seol-a"
+      ],
+      "ereignis": "Die Familie Cheon zieht in Hacheon ein; Seol-a übergibt Ui-jin ihre Antwort.",
+      "folgen": "Ui-jin wirkt überglücklich."
+    },
+    {
+      "id": "e-8-1",
+      "kapitel": 8,
+      "weltzeit": "Taehwa 12, 7. Monat, 3. Tag, Nacht",
+      "ort": "o-flusslager",
+      "figuren": [
+        "f-laternenmann-3"
+      ],
+      "ereignis": "Laternenmänner legen den Brand im Flusslager.",
+      "folgen": "Die Lagerreihe brennt nieder; Madam Oks Waren sind gerettet."
+    },
+    {
+      "id": "e-8-2",
+      "kapitel": 8,
+      "weltzeit": "Taehwa 12, 7. Monat, 3. Tag, Nacht",
+      "ort": "o-hacheon",
+      "figuren": [
+        "f-mok-yeon",
+        "f-laternenmann-3"
+      ],
+      "ereignis": "Kampf in der Gasse des Blechschmieds; Mok Yeon entwaffnet den Laternenmann.",
+      "folgen": "Er erbeutet Marke und Karte, blutet aus beiden Ohren."
+    },
+    {
+      "id": "e-8-3",
+      "kapitel": 8,
+      "weltzeit": "Taehwa 12, 7. Monat, 3. Tag, Nacht",
+      "ort": "o-hacheon",
+      "figuren": [
+        "f-grau",
+        "f-mok-yeon",
+        "f-doyun"
+      ],
+      "ereignis": "Der Mann in Grau grüßt Mok Yeon vom Boot aus.",
+      "folgen": "Die Laternen kennen nun Mok Yeons Gesicht."
+    },
+    {
+      "id": "e-9-1",
+      "kapitel": 9,
+      "weltzeit": "Taehwa 12, 7. Monat, 4. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Mok Yeon zeigt Seo die Karte und die Laternenmarke.",
+      "folgen": "Seo schweigt vorerst darüber."
+    },
+    {
+      "id": "e-9-2",
+      "kapitel": 9,
+      "weltzeit": "Taehwa 12, 7. Monat, 4. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-dal",
+        "f-mok-yeon",
+        "f-seo",
+        "f-doyun",
+        "f-chil",
+        "f-seol-a",
+        "f-minji"
+      ],
+      "ereignis": "Die Glocke Tau wird heimgeholt und neben Morgen aufgehängt; beide läuten zusammen.",
+      "folgen": "Der Klang trägt bis Hacheon und bis zur Straße von Seoan."
+    },
+    {
+      "id": "e-9-3",
+      "kapitel": 9,
+      "weltzeit": "Taehwa 12, 7. Monat, 4. Tag, Abend",
+      "ort": "o-seoan",
+      "figuren": [
+        "f-cheon",
+        "f-grau"
+      ],
+      "ereignis": "Cheon Mu-gyeong hört auf der Straße die zwei Glocken; der Mann in Grau folgt seiner Kutsche.",
+      "folgen": ""
+    },
+    {
+      "id": "e-10-1",
+      "kapitel": 10,
+      "weltzeit": "Taehwa 12, 7. Monat, 4. Tag, Nacht",
+      "ort": "o-hacheon",
+      "figuren": [
+        "f-cheon",
+        "f-uijin"
+      ],
+      "ereignis": "Ui-jin erzählt seinem Vater von Seol-as Zusage und von Mok Yeon.",
+      "folgen": ""
+    },
+    {
+      "id": "e-10-2",
+      "kapitel": 10,
+      "weltzeit": "Taehwa 12, 7. Monat, 4. Tag, Nacht",
+      "ort": "o-hacheon",
+      "figuren": [
+        "f-cheon",
+        "f-grau"
+      ],
+      "ereignis": "Hwang Ryeom berichtet Cheon vom Feuer, von Madam Oks leerem Lager und von Mok Yeon.",
+      "folgen": "Cheon befiehlt, alles über Mok Yeon herauszufinden; nach dem Treffen nicht mehr zu warten, falls Seo etwas hört."
+    },
+    {
+      "id": "e-10-3",
+      "kapitel": 10,
+      "weltzeit": "Taehwa 12, 7. Monat, 4. Tag, Nacht",
+      "ort": "o-hacheon",
+      "figuren": [
+        "f-cheon"
+      ],
+      "ereignis": "Cheon zieht einem gefangenen Banditen Qi ab.",
+      "folgen": "Sein Schmerz wird leiser."
+    }
+  ],
+  "faeden": [
+    {
+      "id": "fa-laternen",
+      "beschreibung": "Wer sind die Männer mit den schwarzen Laternen – und wer hat sie geschickt?",
+      "eingefuehrt": 1,
+      "status": "offen",
+      "aufloesung": ""
+    },
+    {
+      "id": "fa-schlag",
+      "beschreibung": "Warum blieb der Ton aus, als Mok Yeon Cheon Mu-gyeong traf?",
+      "eingefuehrt": 1,
+      "status": "offen",
+      "aufloesung": ""
+    },
+    {
+      "id": "fa-glocken",
+      "beschreibung": "Wo sind die acht verlorenen Glocken?",
+      "eingefuehrt": 1,
+      "status": "offen",
+      "aufloesung": ""
+    },
+    {
+      "id": "fa-tor",
+      "beschreibung": "Wer öffnete in jener Nacht das Seitentor bei der Küche?",
+      "eingefuehrt": 2,
+      "status": "offen",
+      "aufloesung": ""
+    },
+    {
+      "id": "fa-beobachter",
+      "beschreibung": "Wer beobachtet die Sekte nachts vom Ziegenpfad aus?",
+      "eingefuehrt": 2,
+      "status": "offen",
+      "aufloesung": ""
+    },
+    {
+      "id": "fa-abend",
+      "beschreibung": "Warum kaufte Cheon Mu-gyeong vor zehn Jahren die Glocke Abend – für viel zu viel Silber?",
+      "eingefuehrt": 5,
+      "status": "offen",
+      "aufloesung": ""
+    },
+    {
+      "id": "fa-feuer",
+      "beschreibung": "Warum brennen Mörder eine Reihe Lagerhäuser am Fluss nieder?",
+      "eingefuehrt": 8,
+      "status": "gelöst",
+      "aufloesung": "Cheon ließ die Lagerreihe anzünden, um den Reiswucher der Familie Yun zu brechen und den Reis den Flüchtlingen zu geben.",
+      "geloestIn": 10
+    },
+    {
+      "id": "fa-buch",
+      "beschreibung": "Wer gab Cheon Mu-gyeong das Buch der Kunst, die ihn am Leben hält?",
+      "eingefuehrt": 10,
+      "status": "offen",
+      "aufloesung": ""
+    }
+  ],
+  "fakten": [
+    {
+      "kapitel": 1,
+      "text": "Im ersten Leben griffen Männer mit schwarzen Papierlaternen in der Mittherbstnacht (Taehwa 12, 9. Monat, 15. Tag) die Sekte an. Mok Yeon überlebte als Einziger."
+    },
+    {
+      "kapitel": 1,
+      "text": "Mok Yeon erwachte am 15. Tag des 6. Monats, Taehwa 12 – neunzig Tage vor der Laternennacht."
+    },
+    {
+      "kapitel": 1,
+      "text": "Seo Hwa-ryeong beherrscht den vierten Ton."
+    },
+    {
+      "kapitel": 2,
+      "text": "Das Seitentor hinter der Küche hat einen Riegel, den ein Kind von außen mit einem Stöckchen heben könnte."
+    },
+    {
+      "kapitel": 2,
+      "text": "Die Westmauer ist eingestürzt und mit Dornengestrüpp geflickt; dahinter führt ein alter Ziegenpfad den Hang hinab."
+    },
+    {
+      "kapitel": 2,
+      "text": "Mok Yeons Körper trägt das Glockenohr noch nicht. Seit dem ersten Versuch hat er ein bleibendes Ohrensausen."
+    },
+    {
+      "kapitel": 2,
+      "text": "Seo zündet ihre Pfeife nur an, wenn sie sich sorgt."
+    },
+    {
+      "kapitel": 2,
+      "text": "Im ersten Leben verließ Yu Seol-a die Sekte im 8. Monat und ging nach Seoan."
+    },
+    {
+      "kapitel": 3,
+      "text": "Eine schwarze Laterne bei Tag ist das Zeichen der Laternen-Mörder: Wir sind hier, wir haben einen Auftrag angenommen. Mok Yeon erfuhr das im ersten Leben von einem Sterbenden in einem Gefängnis in Mujang."
+    },
+    {
+      "kapitel": 3,
+      "text": "Am 7. Tag des 7. Monats spricht Cheon Mu-gyeong im Flusspavillon von Hacheon über den Schutz der Flüchtlinge aus dem Norden."
+    },
+    {
+      "kapitel": 3,
+      "text": "Cheon Mu-gyeong hielt mit 25 Jahren allein dreißig Banditen auf, damit Flüchtlinge über einen Pass kamen; dabei rissen seine Meridiane. Er kämpfte sich zurück."
+    },
+    {
+      "kapitel": 3,
+      "text": "Han Do-yun kann nicht gut lesen. Er brauchte drei Jahre für das Glockenohr, Seol-a zwei."
+    },
+    {
+      "kapitel": 3,
+      "text": "Mok Yeon kann das Glockenohr nur tropfenweise nutzen – es kostet Nasenbluten."
+    },
+    {
+      "kapitel": 4,
+      "text": "Seol-a hat beim Glockenschlag-Schwert einen hohlen vierten Schritt: Sie verlagert das Gewicht, bevor das Qi ankommt. Sie hört es jetzt selbst."
+    },
+    {
+      "kapitel": 4,
+      "text": "Cheon Ui-jin bietet Seol-a schriftlich einen Platz als Gastschülerin in Seoan ab dem 8. Monat an. Sie hat es der Meisterin verschwiegen."
+    },
+    {
+      "kapitel": 4,
+      "text": "Im Frühling besiegte Seol-a auf dem Turnierplatz von Hacheon drei Schüler der Eisentor-Schule."
+    },
+    {
+      "kapitel": 4,
+      "text": "Do-yuns Silber reicht für Reis bis zum Herbst."
+    },
+    {
+      "kapitel": 5,
+      "text": "Seo hat Mok Yeon verboten, nachts allein mit Gewalt zu lauschen; ab jetzt übt er bei Sonnenaufgang mit ihr."
+    },
+    {
+      "kapitel": 5,
+      "text": "Seo nimmt Mok Yeon zum Treffen am 7. Tag des 7. Monats mit, wenn er bis dahin die Morgenglocke einmal richtig schlägt."
+    },
+    {
+      "kapitel": 5,
+      "text": "Seo weiß von Seol-as Brief und von Do-yuns Gefühlen für Min-ji."
+    },
+    {
+      "kapitel": 5,
+      "text": "Chil hat gehört, wie Mok Yeon mit der Glocke über einundvierzig Jahre sprach, und hält ihn für einen netten Glockengeist."
+    },
+    {
+      "kapitel": 6,
+      "text": "Die neun Glocken: Morgen, Tau, Strom, Stille, Herd, Abend, Sturm, Schnee – und die Neunte ohne Namen, die nie aufgehängt wurde und nur läutet, wenn sie gebraucht wird."
+    },
+    {
+      "kapitel": 6,
+      "text": "Der Gründer goss die Glocken in neun Jahren in einem Ofen hinter dem Turm, wo heute Brennnesseln wachsen. Eine Glocke ist ein Ton, neun Glocken sind eine Stimme."
+    },
+    {
+      "kapitel": 6,
+      "text": "Sturm und Schnee wurden vor dreißig Jahren von Dal eingeschmolzen. Wo die Neunte ist, weiß niemand."
+    },
+    {
+      "kapitel": 6,
+      "text": "Die Meisterin weigert sich, das Reis-Silber für die Glocken auszugeben: Wir essen keine Glocken."
+    },
+    {
+      "kapitel": 7,
+      "text": "Im ersten Leben stürzte Cheon Ui-jin mit siebenundzwanzig an einem klaren Tag von seinem vertrauten Pferd und brach sich das Genick."
+    },
+    {
+      "kapitel": 7,
+      "text": "Der Mann im oberen Stockwerk des Weidenzweigs ist höflich, grau gekleidet, zahlte drei Monate im Voraus in frisch geprägtem Silber aus Seoan und kommt nachts mit taunassen Stiefeln zurück."
+    },
+    {
+      "kapitel": 7,
+      "text": "Madam Ok lässt ihr Flusslager trotzdem räumen – ganz leise."
+    },
+    {
+      "kapitel": 7,
+      "text": "Seol-a hat Cheon Ui-jin auf dem Markt einen Antwortbrief übergeben. Er lächelte beim Lesen."
+    },
+    {
+      "kapitel": 8,
+      "text": "Am 3. Tag des 7. Monats legten zwei Laternenmänner mit Lampenöl aus den Fässern hinter der Seilerei das Feuer. Die Lagerreihe brannte vom Kornspeicher der Familie Yun bis zur Seilerei. Madam Oks Lager war leer."
+    },
+    {
+      "kapitel": 8,
+      "text": "Mit Glockenatmung und einem Schlag gegen dreißig hängende Bleche brachte Mok Yeon das Qi des Laternenmanns für einen Herzschlag ins Stolpern."
+    },
+    {
+      "kapitel": 8,
+      "text": "Mok Yeon hat sein Versprechen gebrochen und nachts allein gelauscht."
+    },
+    {
+      "kapitel": 8,
+      "text": "Der Mann in Grau hat Mok Yeon und Do-yun gesehen und höflich gegrüßt."
+    },
+    {
+      "kapitel": 9,
+      "text": "Seit dem 4. Tag des 7. Monats hängen zwei Glocken im Turm: Morgen und Tau. Zusammen erzeugen sie einen dritten Ton, der aus der Luft dazwischen kommt."
+    },
+    {
+      "kapitel": 9,
+      "text": "Herd bleibt bis Jahresende bei Madam Ok."
+    },
+    {
+      "kapitel": 9,
+      "text": "Der Ochse des Tofuhändlers weigert sich, Stufen zu steigen."
+    },
+    {
+      "kapitel": 9,
+      "text": "Cheon Mu-gyeong hat seit dreizehn Jahren einen Schmerz unter dem Brustbein, der ihn nachts nicht schlafen lässt. Als er die zwei Glocken hörte, wurde er kurz still."
+    },
+    {
+      "kapitel": 10,
+      "text": "Die Familie Yun kaufte im Frühjahr Reis billig von Flüchtlingen und wollte ihn zum vierfachen Preis verkaufen. Cheon bat dreimal vergeblich. Nach dem Brand ersetzt die Familie Cheon die 800 Sack – und gibt sie den Flüchtlingslagern."
+    },
+    {
+      "kapitel": 10,
+      "text": "Die Schwarzen Laternen beobachten im Auftrag Cheons jeden mit Klangkünsten, bevor er öffentlich spricht. Hört Seo beim Treffen etwas, warten sie nicht mehr."
+    },
+    {
+      "kapitel": 10,
+      "text": "Vor zehn Jahren sah Ryu Gang Cheon lange an, als er das Silber für die Glocke nahm. Cheon glaubte, er höre etwas."
+    },
+    {
+      "kapitel": 10,
+      "text": "Cheon will alles über Mok Yeon wissen."
+    }
+  ],
+  "kapitel": [
+    {
+      "nr": 1,
+      "titel": "Die Glocke, in der ich mich versteckte",
+      "weltzeit": "Taehwa 12, 6. Monat, 15. Tag",
+      "zusammenfassung": "Mok Yeon stirbt mit 57 im Regen auf den Stufen der Bundeshalle, nachdem sein Schlag gegen Cheon Mu-gyeong wirkungslos blieb. Er erinnert sich, wie er sich als Sechzehnjähriger in der Glocke Morgen versteckte, während die Männer mit den schwarzen Laternen seine Sekte auslöschten. Er erwacht im Glockenturm des Unmu-Bergs, sechzehn Jahre alt, schlägt die Morgenglocke falsch, umarmt den lebenden Bang Chil und wirft sich vor der Sektenmeisterin Seo Hwa-ryeong nieder. Es ist der 15. Tag des 6. Monats: neunzig Tage bis zur Laternennacht.",
+      "woerter": 2108
+    },
+    {
+      "nr": 2,
+      "titel": "Reis mit Salz",
+      "weltzeit": "Taehwa 12, 6. Monat, 15. Tag (Nacht)",
+      "zusammenfassung": "Beim Frühstück sieht Mok Yeon alle wieder: den Koch Dal, den gutmütigen ersten Schüler Han Do-yun, die kühle, begabte Yu Seol-a. Er isst Reis mit Salz wie als Einsiedler und weint über Do-yuns Lachen. Er erinnert sich: Seol-a verließ im ersten Leben im 8. Monat die Sekte, die Meisterin kam im 7. Monat bleich vom Treffen in Hacheon zurück, und hinter allem stand Cheon Mu-gyeong. Er findet das Seitentor mit lockerem Riegel und erinnert sich an ein Knarren in jener Nacht. Nachts erzwingt er das Glockenohr, hört alle Bewohner, und bezahlt mit Blut aus dem Ohr und bleibendem Ohrensausen. Dann hört er Schritte eines Fremden am Ziegenpfad unter der Westmauer.",
+      "woerter": 2082
+    },
+    {
+      "nr": 3,
+      "titel": "Das Glockenohr",
+      "weltzeit": "Taehwa 12, 6. Monat, 16. Tag",
+      "zusammenfassung": "Mok Yeon begleitet Do-yun nach Hacheon. Am Tofustand lernt er Min-ji kennen, in die Do-yun verliebt ist, und verspricht ihr, dass er nicht sterben wird. Agenturleiter Pyo will Do-yun den halben Lohn vorenthalten und behauptet, Banditen hätten einen Seidenballen geraubt. Mok Yeon hört mit einem Tropfen Glockenohr Pyos Lüge und das Quietschen von Do-yuns Wagenrad im Lager; der Ballen wird gefunden, Do-yun bekommt vollen Lohn. Auf dem Heimweg sehen sie den Anschlag für Cheon Mu-gyeongs Rede am 7. Tag des 7. Monats. Am Gasthaus Zum Weidenzweig hängt bei Tag eine schwarze Laterne – das Zeichen der Mörder.",
+      "woerter": 2161
+    },
+    {
+      "nr": 4,
+      "titel": "Dein vierter Schritt ist eine Lüge",
+      "weltzeit": "Taehwa 12, 6. Monat, 16. Tag (Nacht)",
+      "zusammenfassung": "Aus Seol-as Sicht: Sie trägt seit zwanzig Tagen einen Brief von Cheon Ui-jin, der ihr einen Platz als Gastschülerin in Seoan anbietet, und hat ihn verschwiegen. Sie hält Mok Yeon für einen Feigling, der vor einem Hund davonlief. Nachts beim Glockenschlag-Schwert sagt er ihr, ihr vierter Schritt sei hohl. Im Holzschwert-Duell ist sie ihm weit überlegen, trifft ihn mehrmals, doch bei jedem vierten Schritt liegt seine Spitze auf ihrem Handgelenk. Er bricht vor Erschöpfung zusammen, Do-yun trägt ihn fort. Allein hört Seol-a den hohlen Ton zum ersten Mal selbst. Die Meisterin hat heimlich zugesehen.",
+      "woerter": 1990
+    },
+    {
+      "nr": 5,
+      "titel": "Wenn du lügst, dann lüg besser",
+      "weltzeit": "Taehwa 12, 6. Monat, 17. Tag",
+      "zusammenfassung": "Mok Yeon legt der Glocke seinen Plan dar: Körper stärken, der Meisterin nichts sagen, das Seitentor klären, die Laternen beobachten, die Glocken zurückholen. Chil belauscht ihn und hält ihn nun für einen netten Glockengeist. Seo lässt ihn atmen und erkennt die verlorene Glockenatmung des Gründers. Seine Lüge, er habe sie geträumt, durchschaut sie, fragt aber nicht weiter. Sie verbietet ihm das nächtliche Lauschen und will ihn selbst unterrichten. Sie wird zu Cheons Rede gehen; Mok Yeon darf mit, wenn er die Morgenglocke einmal richtig schlägt. Zuletzt verrät sie: Cheon Mu-gyeong kaufte vor zehn Jahren die Glocke Abend.",
+      "woerter": 1950
+    },
+    {
+      "nr": 6,
+      "titel": "Spatzenschritt",
+      "weltzeit": "Taehwa 12, 6. Monat, 27. Tag",
+      "zusammenfassung": "Die Meisterin unterrichtet Mok Yeon jeden Morgen im Stehen; ab dem dritten Morgen steht Do-yun schweigend dabei. Chil bringt dem vermeintlichen Glockengeist Opfergaben, die Mok Yeon isst, und wird zutraulich. Mok Yeon bemerkt Chils lautlosen Gang und bringt ihm bei, über die klappernden Trittsteine zu laufen, ohne dass einer klappert: den Spatzenschritt. Die Morgenglocke wird jeden Tag weniger falsch. Der zweite Ton festigt sich in seinem Körper. An einem Regenabend singt Dal das Lied der neun Glocken und gesteht, dass er Sturm und Schnee eingeschmolzen hat. Seo verrät, dass Tau und Herd bei Madam Ok verpfändet sind und am 10. Tag des 7. Monats eingeschmolzen werden.",
+      "woerter": 2235
+    },
+    {
+      "nr": 7,
+      "titel": "Die Pfandleihe",
+      "weltzeit": "Taehwa 12, 6. Monat, 28. Tag",
+      "zusammenfassung": "Mit Chil besucht Mok Yeon Madam Oks Pfandleihe. Die Glocken Tau und Herd stehen grün und verwittert im Hinterhof und summen, als er sie anklopft. Ohne Geld wettet er: Am 3. Tag des 7. Monats brennt die Lagerreihe am Fluss, beginnend bei den Ölfässern hinter der Seilerei. Hat er recht, bekommt er Tau und Aufschub für Herd, sonst arbeitet er ein Jahr für sie. Madam Ok verrät, dass der höfliche Mann im Weidenzweig mit frischem Silber aus Seoan zahlt und nachts mit nassen Stiefeln heimkehrt. Auf dem Markt zieht die Familie Cheon ein; Cheon Ui-jin sammelt einer alten Frau Rettiche auf. Mok Yeon erinnert sich, dass Ui-jin im ersten Leben mit 27 tödlich vom Pferd stürzte. Seol-a übergibt Ui-jin einen Brief, und er strahlt.",
+      "woerter": 2298
+    },
+    {
+      "nr": 8,
+      "titel": "Feuer am Fluss",
+      "weltzeit": "Taehwa 12, 7. Monat, 3. Tag (Nacht)",
+      "zusammenfassung": "Mok Yeon schleicht nachts allein über den Ziegenpfad nach Hacheon. Zwei Laternenmänner legen mit Lampenöl das Feuer hinter der Seilerei; die ganze Lagerreihe brennt wie im ersten Leben. Er folgt einem von ihnen, wird in einer Gasse überfallen und an den Rippen geschnitten. Hinter der Werkstatt des Blechschmieds schlägt er mit gehaltenem Atem gegen dreißig hängende Bleche; der Klang bringt das Qi des Mörders ins Stolpern, Mok Yeon schlägt ihm das Messer aus der Hand. Der Mann flieht und verliert eine Laternenmarke mit drei Strichen und einen Beutel. Do-yun trägt den blutenden Mok Yeon heim. Vom Fluss grüßt ihn höflich ein Mann in Grau aus einem Boot. Im Beutel: eine Karte des Unmu, das Seitentor eingekreist – Innen verriegelt. Riegel schwach. Warten.",
+      "woerter": 2256
+    },
+    {
+      "nr": 9,
+      "titel": "Zwei Glocken",
+      "weltzeit": "Taehwa 12, 7. Monat, 4. Tag",
+      "zusammenfassung": "Aus Seos Sicht: Sie findet Mok Yeon blutend und erkennt Karte und Marke der Schwarzen Laternen. Er bittet sie, niemandem davon zu erzählen, weil die Laternen wissen wollen, wem man es sagt. Sie hört keine Lüge und willigt vorerst ein. Madam Ok schickt Nachricht: Die Wette ist gewonnen, Tau gehört der Sekte, Herd bleibt bis Jahresende. Mit dem Ochsenkarren des Tofuhändlers holen alle die Glocke; an den Stufen bauen sie einen Schlitten, Seol-a packt mit an, Leute aus Hacheon helfen. Dal hängt Tau neben Morgen. Mok Yeon und Dal läuten beide zusammen, und ein dritter Ton entsteht. Auf der Straße von Seoan hört Cheon Mu-gyeong die Glocken, und sein Schmerz unter dem Brustbein wird für einen Moment still.",
+      "woerter": 2405
+    },
+    {
+      "nr": 10,
+      "titel": "Die gerechte Klinge",
+      "weltzeit": "Taehwa 12, 7. Monat, 4. Tag (Nacht)",
+      "zusammenfassung": "Aus Cheon Mu-gyeongs Sicht: Er wohnt bei der Familie Yun, deren Reisvorrat verbrannte. Yun hatte Flüchtlingsreis gehortet; Cheon ließ den Brand legen, ohne Tote, und gibt den ersetzten Reis den Lagern. Ui-jin erzählt glücklich, dass Seol-a nach Seoan kommt, und von Mok Yeon. Hwang Ryeom, Haupt der Schwarzen Laternen, berichtet: Madam Oks Lager war leer, und ein Junge hat seinen dritten Mann mit Blech entwaffnet und die Karte des Unmu erbeutet. In einer verschlossenen Kammer zieht Cheon einem gefesselten Banditen Qi ab, um seinen Schmerz zu lindern. Er verrät: Die Laternen beobachten Seo, weil sie den vierten Ton hat. Hört sie beim Treffen etwas, sollen sie nicht mehr warten. Über Mok Yeon will er alles wissen.",
+      "woerter": 2203
+    }
+  ],
+  "stimmen": {
+    "erzaehler": {},
+    "figuren": {}
+  }
+}

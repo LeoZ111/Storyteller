@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 10. Monat, 8. Tag",
+  "zeit": "Taehwa 12, 10. Monat, 25. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -101,7 +101,7 @@
       "beduerfnis": "Die Last nicht mehr allein tragen. Sich selbst verzeihen, dass er sich versteckt hat.",
       "geheimnis": "",
       "bogen": "",
-      "stufe": "Glockenohr steht immer offen – hört eine Menge wie einen Wald, zählt Herzen; fand Strom unter Wasser durch Klang",
+      "stufe": "Unterton (vierter Ton) im Körper – erreicht ohne Gewalt beim Guss von Strom; hört die Bronze lügen",
       "status": "lebendig; das linke Ohr kehrt teilweise zurück – er hört die Welt dort wie durch ein Tuch, mit Summen",
       "ort": "o-unmu",
       "beziehungen": [
@@ -271,7 +271,7 @@
       "ziel": "Die gesprungene Glocke Strom aus sich selbst neu gießen – mit dem Ton, den er als Junge gehört hat.",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "",
+      "bogen": "Goss Strom aus ihren eigenen 43 Stücken neu, mit dem Ton, den er mit acht gehört hatte: Dreißig Jahre. Einmal hab ich was heil gemacht.",
       "stufe": "Hat das Ohr: hört, wenn die Bronze lügt; kann Glocken gießen und stimmen",
       "status": "lebendig; Verbrühungen am Unterarm",
       "ort": "o-unmu",
@@ -532,7 +532,7 @@
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "Zog selbst am Seil, als die Flussglocke gehoben wurde. Keine der drei dämonischen Sekten, die sie auflöste, hätte die halbe Stadt dazu gebracht.",
+      "bogen": "Wies die Anzeige zurück: Die Kunst ist nicht dämonisch. Empfahl, Mok Yeon als Zeugen im Auge zu behalten. Fragt beim Zweig Seoan weiter, wer um sie als Inspektorin gebeten hat – bisher ohne Antwort.",
       "stufe": "",
       "status": "lebendig",
       "ort": "o-hacheon",
@@ -821,8 +821,8 @@
       "id": "g-strom",
       "name": "Die Glocke Strom",
       "besitzer": "fr-gujong",
-      "ort": "o-hacheon",
-      "beschreibung": "Dritte Glocke, größer als Morgen, tiefes fast schwarzes Grün. Am 8. Tag des 10. Monats aus der Glockenkehre gehoben. Ein langer Riss vom Rand bis fast zur Schulter – sie scheppert zersplittert. Dal will sie aus sich selbst neu gießen."
+      "ort": "o-unmu",
+      "beschreibung": "Dritte Glocke, von Dal neu gegossen: goldene, rötliche Bronze (noch nicht grün), tiefer als Morgen, am Ende des Tons ein fließendes Ziehen wie ein Fluss um einen Felsen. Am Rand zum Hang eine daumennagelgroße Blase – ihre kleine Lüge. Hängt auf dem dritten Haken neben Tau."
     }
   ],
   "techniken": [
@@ -1678,6 +1678,47 @@
       ],
       "ereignis": "Die Glocke Strom wird aus dem Fluss gehoben; sie ist gesprungen.",
       "folgen": "Dal will sie neu gießen; die Inspektorin ist beeindruckt."
+    },
+    {
+      "id": "e-26-1",
+      "kapitel": 26,
+      "weltzeit": "Taehwa 12, 10. Monat, 10.–20. Tag",
+      "ort": "o-ofen",
+      "figuren": [
+        "f-dal",
+        "f-mok-yeon",
+        "f-doyun",
+        "f-seol-a",
+        "f-chil",
+        "f-seo"
+      ],
+      "ereignis": "Dal baut die Form und gießt Strom neu; Mok Yeon erreicht den vierten Ton.",
+      "folgen": ""
+    },
+    {
+      "id": "e-26-2",
+      "kapitel": 26,
+      "weltzeit": "Taehwa 12, 10. Monat, 24. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-dal",
+        "f-gong",
+        "f-chil"
+      ],
+      "ereignis": "Die neue Strom erklingt; der alte Gong erkennt ihren Ton.",
+      "folgen": ""
+    },
+    {
+      "id": "e-26-3",
+      "kapitel": 26,
+      "weltzeit": "Taehwa 12, 10. Monat, 25. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-baek"
+      ],
+      "ereignis": "Baek Ha-seons Bericht: Anzeige zurückgewiesen.",
+      "folgen": "Strom hängt als dritte Glocke im Turm."
     }
   ],
   "faeden": [
@@ -1747,8 +1788,9 @@
       "id": "fa-anzeige",
       "beschreibung": "Die Anzeige wegen dämonischer Kunst: Kann die Sekte beweisen, dass der Neun-Glocken-Gesang keine verbotene Kunst ist?",
       "eingefuehrt": 22,
-      "status": "offen",
-      "aufloesung": ""
+      "status": "gelöst",
+      "aufloesung": "Baek Ha-seon wies die Anzeige zurück.",
+      "geloestIn": 26
     }
   ],
   "fakten": [
@@ -2155,6 +2197,18 @@
     {
       "kapitel": 25,
       "text": "Seol-a tauchte und band das Seil durch die Krone der Glocke."
+    },
+    {
+      "kapitel": 26,
+      "text": "Die Anzeige wegen dämonischer Kunst ist zurückgewiesen: Die Kunst stört das Qi, aber raubt, vergiftet und zerstört es nicht."
+    },
+    {
+      "kapitel": 26,
+      "text": "Drei Glocken hängen im Turm: Morgen, Tau, Strom. Zusammen ergeben sie einen Akkord, bei dem in Hacheon die Hunde die Köpfe heben."
+    },
+    {
+      "kapitel": 26,
+      "text": "Eine Glocke wird in einer Lehmform um eine Spindel geformt; ein geschnitztes Brett gibt das Profil. Neue Bronze ist golden und wird erst mit den Jahren grün."
     }
   ],
   "kapitel": [
@@ -2332,6 +2386,13 @@
       "weltzeit": "Taehwa 12, 10. Monat, 8. Tag",
       "zusammenfassung": "Halb Hacheon kommt zur Glockenkehre, auch die Inspektorin. Do-yun hat ein Dreibein mit Flaschenzug gebaut; der Ochse legt sich hin, bis Chil ihn mit Rettichen lockt. Die Taucher finden nichts, Pyeon spottet. Mok Yeon steht brusttief im Wasser, Chil schlägt eine kleine Glocke an, und Mok Yeon spürt, wo Strom liegt: aufrecht, halb im Schlamm. Ein Ring erscheint auf dem Wasser. Seol-a taucht und knotet das Seil durch die Krone. Fünfzig Menschen ziehen, darunter Baek Ha-seon, Tak und ein Eisentor-Schüler. Strom kommt hoch, riesig und grün, aber mit einem langen Riss; ihr Ton scheppert. Der alte Gong weint: Sie ist nur verletzt. Dal will sie aus sich selbst neu gießen. Baek notiert: Kein Qi geraubt, die halbe Stadt hat geholfen, keine dämonische Sekte hätte das erreicht.",
       "woerter": 2464
+    },
+    {
+      "nr": 26,
+      "titel": "Bronze",
+      "weltzeit": "Taehwa 12, 10. Monat, 25. Tag",
+      "zusammenfassung": "Mok Yeon zerschlägt die gesprungene Strom, wo er die Bronze müde hört: 43 Stücke. Zehn Tage baut Dal hinter dem Turm eine Lehmform um eine Spindel und lehrt Mok Yeon, hohle Stellen im Lehm zu hören, wie eine Lüge in einem Satz. In der Nacht des Gusses singt die flüssige Bronze; während sie abkühlt, erreicht Mok Yeon ohne Gewalt den vierten Ton und hört Seol-as verborgene Traurigkeit. Er und Dal hören eine kleine Blase am Rand; Dal lässt sie: Sie darf eine kleine Lüge haben. Die neue Strom ist golden. Chil führt den blinden Gong herauf, der den alten Ton wiedererkennt. Dal weint: Einmal hab ich was heil gemacht. Baek Ha-seons Bericht weist die Anzeige zurück, empfiehlt, Mok Yeon als Zeugen im Auge zu behalten, und vermerkt, dass niemand sagt, wer um sie als Inspektorin gebeten hat. Drei Glocken im Turm klingen als Akkord.",
+      "woerter": 2829
     }
   ],
   "stimmen": {

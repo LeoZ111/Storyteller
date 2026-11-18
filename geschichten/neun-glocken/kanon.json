@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 9. Monat, 16. Tag (Morgen)",
+  "zeit": "Taehwa 12, 9. Monat, 16. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -102,7 +102,7 @@
       "geheimnis": "",
       "bogen": "",
       "stufe": "Glockenohr (dritter Ton) im Körper – drei Tage vor der Laternennacht ohne Blut erreicht",
-      "status": "lebendig; Handrücken rechts bis auf den Knochen geschnitten; links fast taub, ob es heilt, ist ungewiss",
+      "status": "lebendig; das linke Ohr kehrt teilweise zurück – er hört die Welt dort wie durch ein Tuch, mit Summen",
       "ort": "o-unmu",
       "beziehungen": [
         {
@@ -169,7 +169,7 @@
       "wunde": "Öffnete in der Laternennacht den Riegel des Seitentors von innen, weil er glaubte, einen Dieb zu fangen. (Im ersten Leben war er es auch – heimlich, zum Laternenfest.)",
       "ziel": "",
       "beduerfnis": "",
-      "geheimnis": "",
+      "geheimnis": "Kennt jetzt die ganze Wahrheit über Mok Yeon, Cheon und die Laternen.",
       "bogen": "Läutete in der Laternennacht Tau, während ein Mörder neben ihm stand. Teilt seine Schuld mit Mok Yeon: Zusammen ist sie nur halb so schwer.",
       "stufe": "Spatzenschritt: läuft lautlos, ohne dass die Trittsteine klappern",
       "status": "lebendig; Handflächen vom Glockenseil aufgerissen",
@@ -377,10 +377,10 @@
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "Kam in der Laternennacht auf den Unmu, sah die Schwarzen Laternen und hielt eine zerrissene in den Händen. Weiß nicht, was geschehen ist. Seol-a konnte es ihm nicht sagen.",
+      "bogen": "Spürt, dass man ihm nicht alles sagt (Warum kannten mich Banditen?). Ließ Kastanie auf dem Unmu: Er holt ihn, wenn Seol-a ihm alles erklärt. Will seinem Vater vom singenden Berg erzählen.",
       "stufe": "",
       "status": "lebendig",
-      "ort": "o-unmu",
+      "ort": "o-seoan",
       "beziehungen": [
         {
           "zu": "f-seol-a",
@@ -597,6 +597,14 @@
       "lage": "Seoan",
       "beschreibung": "Übungshalle mit schwarzem Ziegeldach und 24 roten Lacksäulen, Bibliothek mit 300 Schriftrollen, Ahnenhalle mit Hunderten Tafeln und ewiger Lampe. Hinter dem Stall führt eine Treppe zu einer Eisentür und einer Kellerkammer.",
       "sinneseindruecke": "Fliederbusch im zweiten Hof; die tiefe Glocke Abend im Bauch."
+    },
+    {
+      "id": "o-graeber",
+      "name": "Die Gräber hinter dem Ofen",
+      "typ": "Gräber",
+      "lage": "Hinter dem Gießofen auf dem Unmu",
+      "beschreibung": "Zwei flache Gräber ohne Steine und Namen für die zwei Laternenmänner der Laternennacht. Dal stellt Reis darauf.",
+      "sinneseindruecke": ""
     }
   ],
   "fraktionen": [
@@ -1427,6 +1435,51 @@
       ],
       "ereignis": "Mok Yeon erzählt Chil, dass er sich einmal in der Glocke versteckt hat; sie teilen die Schuld. Erste Morgenglocke danach.",
       "folgen": "Ende des ersten Bogens."
+    },
+    {
+      "id": "e-21-1",
+      "kapitel": 21,
+      "weltzeit": "Taehwa 12, 9. Monat, 16. Tag",
+      "ort": "o-graeber",
+      "figuren": [
+        "f-seo",
+        "f-doyun",
+        "f-mok-yeon",
+        "f-dal",
+        "f-seol-a"
+      ],
+      "ereignis": "Begräbnis der zwei Laternenmänner hinter dem Ofen.",
+      "folgen": ""
+    },
+    {
+      "id": "e-21-2",
+      "kapitel": 21,
+      "weltzeit": "Taehwa 12, 9. Monat, 16. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-uijin",
+        "f-seo",
+        "f-seol-a",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Ui-jin fragt nach den Laternen und reitet ohne Antwort und ohne Kastanie heim.",
+      "folgen": "Er wird seinem Vater davon erzählen."
+    },
+    {
+      "id": "e-21-3",
+      "kapitel": 21,
+      "weltzeit": "Taehwa 12, 9. Monat, 16. Tag, Nacht",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-doyun",
+        "f-seol-a",
+        "f-dal",
+        "f-chil",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Rat im Turm; Chil ist eingeweiht.",
+      "folgen": "Erwartung: Cheon kommt mit dem Gesetz."
     }
   ],
   "faeden": [
@@ -1833,6 +1886,18 @@
     {
       "kapitel": 20,
       "text": "Alle auf dem Unmu haben die Laternennacht überlebt."
+    },
+    {
+      "kapitel": 21,
+      "text": "Seo begräbt auch die Feinde, die auf ihrem Berg sterben."
+    },
+    {
+      "kapitel": 21,
+      "text": "Mok Yeon weiß ab jetzt nichts mehr über die Zukunft: Im ersten Leben kam nach der Laternennacht nichts mehr."
+    },
+    {
+      "kapitel": 21,
+      "text": "Seo und Mok Yeon erwarten, dass Cheon das nächste Mal bei Tag kommt – mit dem Gesetz."
     }
   ],
   "kapitel": [
@@ -1975,6 +2040,13 @@
       "weltzeit": "Taehwa 12, 9. Monat, 16. Tag (Morgen)",
       "zusammenfassung": "Hwang Ryeom bietet Mok Yeon an, mit Chil in die Glocke zu kriechen und zu überleben, wie im ersten Leben. Mok Yeon läutet. Hwang schneidet ihm die Hand bis auf den Knochen, doch er zieht weiter; Chil packt Taus Seil und läutet mit. Die beiden Glocken wecken alle 47 kleinen Glocken, der ganze Berg singt. Mok Yeon legt die zehnte Pause in den Ton: Alle Glocken setzen aus, und das Qi der zwanzig Angreifer stolpert, während die Verteidiger den Atem anhalten. Er blutet aus beiden Ohren. Seo kommt in den Turm, kämpft das Glockenschlag-Schwert ohne Lücke gegen Hwang und schleudert ihn schließlich mit einem Handschlag gegen Morgen aus dem Turm. Dabei verliert sie das rechte Gehör. Lichter aus Hacheon kommen den Berg herauf, und Ui-jin reitet in den Hof. Ein Laternenmann erkennt den Sohn, Hwang pfeift zum Rückzug. Zwei Angreifer sind tot. Ui-jin hält eine zerrissene schwarze Laterne und versteht nichts. Am Morgen teilen Chil und Mok Yeon ihre Schuld. Alle leben. Mok Yeon schlägt die Morgenglocke.",
       "woerter": 3079
+    },
+    {
+      "nr": 21,
+      "titel": "Morgen danach",
+      "weltzeit": "Taehwa 12, 9. Monat, 16. Tag",
+      "zusammenfassung": "Seo besteht darauf, die zwei toten Laternenmänner hinter dem Ofen zu begraben. Seol-a fragt, ob Töten leichter wird; Mok Yeon sagt: Nein, man wird nur besser darin, es zu tragen. Ui-jin fragt die Meisterin, warum Banditen ihn als den Sohn erkannten; Seo antwortet mit Wahrheiten, die nicht alles sind. Im Stall bittet er Seol-a um die Erklärung; sie schluckt die Wahrheit hinunter: Noch nicht. Er lässt Kastanie da, bis sie es ihm erklärt, und reitet heim, um seinem Vater vom singenden Berg zu erzählen. Chil wird eingeweiht. Im Turm sitzen alle zusammen: Cheon weiß jetzt, dass sie wussten. Mok Yeon kennt die Zukunft nicht mehr. Er erwartet, dass Cheon das nächste Mal bei Tag kommt, mit dem Gesetz.",
+      "woerter": 2098
     }
   ],
   "stimmen": {

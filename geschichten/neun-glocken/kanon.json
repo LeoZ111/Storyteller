@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 9. Monat, 16. Tag",
+  "zeit": "Taehwa 12, 9. Monat, 21. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -133,7 +133,7 @@
       "geschlecht": "w",
       "alter": "58",
       "aussehen": "Klein, aber stehend wie eine Große; eisengraues Haar im strengen Knoten mit Holznadel; geflicktes dunkelgraues Gewand; lange Bambuspfeife, oft unangezündet.",
-      "persoenlichkeit": "Scharfzüngig, stolz, geduldig auf eine Art, die nervös macht. Bittet niemanden mehr zu bleiben, seit sie elf Schüler gehen sah: Wer bleibt, soll bleiben, weil er will.",
+      "persoenlichkeit": "Scharfzüngig, stolz, geduldig. Lacht über ihr taubes Ohr. Dreht den Kopf wie eine Henne, wenn man von rechts spricht, und redet zu laut.",
       "sprechweise": "Knapp, spöttisch, trocken; wird leise, wenn es ernst ist.",
       "wunde": "Ihr Mann Ryu Gang, siebter Meister, starb vor zehn Jahren im Winter – obwohl sie für seine Medizin die Glocke Abend an Cheon Mu-gyeong verkaufte.",
       "ziel": "Seol-a holen – sie hat seit dem 19. Tag des 8. Monats nicht geschrieben.",
@@ -171,7 +171,7 @@
       "beduerfnis": "",
       "geheimnis": "Kennt jetzt die ganze Wahrheit über Mok Yeon, Cheon und die Laternen.",
       "bogen": "Läutete in der Laternennacht Tau, während ein Mörder neben ihm stand. Teilt seine Schuld mit Mok Yeon: Zusammen ist sie nur halb so schwer.",
-      "stufe": "Spatzenschritt: läuft lautlos, ohne dass die Trittsteine klappern",
+      "stufe": "Zweiter Ton (Atem und Qi schwingen gemeinsam) – gefunden an der Glockenkehre; Spatzenschritt",
       "status": "lebendig; Handflächen vom Glockenseil aufgerissen",
       "ort": "o-unmu",
       "beziehungen": [
@@ -491,6 +491,28 @@
       "beziehungen": [],
       "stimme": "Laute, grölende, tiefe Männerstimme.",
       "ersterAuftritt": 13
+    },
+    {
+      "id": "f-gong",
+      "name": "Alter Gong",
+      "alias": "",
+      "rolle": "Blinder Angler an der Glockenkehre",
+      "geschlecht": "m",
+      "alter": "sehr alt (über 80)",
+      "aussehen": "Haut wie Weidenrinde, dünn wie ein Halm; milchige Augen; Strohhut mit Loch; Angel ohne Haken, leerer Korb.",
+      "persoenlichkeit": "Geduldig; sitzt seit sechzig Jahren an der Kehre und wartet auf die Glocke.",
+      "sprechweise": "Brüchig, langsam, erzählend.",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "",
+      "status": "lebendig",
+      "ort": "o-glockenkehre",
+      "beziehungen": [],
+      "stimme": "Sehr alte, brüchige, leise Männerstimme.",
+      "ersterAuftritt": 22
     }
   ],
   "orte": [
@@ -605,6 +627,14 @@
       "lage": "Hinter dem Gießofen auf dem Unmu",
       "beschreibung": "Zwei flache Gräber ohne Steine und Namen für die zwei Laternenmänner der Laternennacht. Dal stellt Reis darauf.",
       "sinneseindruecke": ""
+    },
+    {
+      "id": "o-glockenkehre",
+      "name": "Glockenkehre",
+      "typ": "Flussbiegung",
+      "lage": "Eine Stunde flussabwärts von Hacheon, am Cheongnyu",
+      "beschreibung": "Der Fluss macht einen weiten Bogen um einen Felsvorsprung wie eine Nase; das Wasser ist tief, dunkel und langsam. Hier liegt die Glocke Strom auf dem Grund.",
+      "sinneseindruecke": "Weiden mit Zweigen im Wasser, Gurgeln am Felsen, ein warmer, glatter Stein."
     }
   ],
   "fraktionen": [
@@ -725,6 +755,13 @@
       "besitzer": "f-uijin",
       "ort": "o-unmu",
       "beschreibung": "Brauner Wallach mit weißer Blesse, Ui-jins Pferd seit seinem zehnten Lebensjahr, der Schnellste im Stall. Mag keine Peitsche – man muss mit ihm sprechen. Seol-a ritt auf ihm zum Unmu."
+    },
+    {
+      "id": "g-strom",
+      "name": "Die Glocke Strom",
+      "besitzer": "fr-gujong",
+      "ort": "o-glockenkehre",
+      "beschreibung": "Dritte Glocke. Vor sechzig Jahren vom fünften Meister nach einer Flut verkauft; fiel an der Glockenkehre von einem Kahn betrunkener Bootsleute. Liegt auf dem Flussgrund und antwortet den Glocken des Unmu mit einem gedämpften Summen."
     }
   ],
   "techniken": [
@@ -1480,6 +1517,31 @@
       ],
       "ereignis": "Rat im Turm; Chil ist eingeweiht.",
       "folgen": "Erwartung: Cheon kommt mit dem Gesetz."
+    },
+    {
+      "id": "e-22-1",
+      "kapitel": 22,
+      "weltzeit": "Taehwa 12, 9. Monat, 20. Tag, Nacht",
+      "ort": "o-glockenkehre",
+      "figuren": [
+        "f-chil",
+        "f-gong",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Die Glocke Strom antwortet unter Wasser auf Morgen und Tau; Chil findet den zweiten Ton.",
+      "folgen": "Die dritte Glocke ist gefunden."
+    },
+    {
+      "id": "e-22-2",
+      "kapitel": 22,
+      "weltzeit": "Taehwa 12, 9. Monat, 21. Tag",
+      "ort": "o-hacheon",
+      "figuren": [
+        "f-chil",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Anschlag des Kampfkunstbunds: Ermittlung wegen dämonischer Kunst.",
+      "folgen": "Inspektorin Baek Ha-seon kommt am 1. Tag des 10. Monats."
     }
   ],
   "faeden": [
@@ -1542,6 +1604,13 @@
       "id": "fa-buch",
       "beschreibung": "Wer gab Cheon Mu-gyeong das Buch der Kunst, die ihn am Leben hält?",
       "eingefuehrt": 10,
+      "status": "offen",
+      "aufloesung": ""
+    },
+    {
+      "id": "fa-anzeige",
+      "beschreibung": "Die Anzeige wegen dämonischer Kunst: Kann die Sekte beweisen, dass der Neun-Glocken-Gesang keine verbotene Kunst ist?",
+      "eingefuehrt": 22,
       "status": "offen",
       "aufloesung": ""
     }
@@ -1898,6 +1967,18 @@
     {
       "kapitel": 21,
       "text": "Seo und Mok Yeon erwarten, dass Cheon das nächste Mal bei Tag kommt – mit dem Gesetz."
+    },
+    {
+      "kapitel": 22,
+      "text": "Die Glocke Strom lebt: Sie antwortete um Mitternacht unter Wasser, als Do-yun und Seol-a Morgen und Tau läuteten. Ringe bildeten sich auf dem Fluss."
+    },
+    {
+      "kapitel": 22,
+      "text": "Auf Anzeige der Eisentor-Schule und weiterer Häuser ermittelt der Kampfkunstbund gegen das Tor der Neun Glocken wegen einer dämonischen Kunst, die das Qi anderer stört. Inspektorin Baek Ha-seon kommt am 1. Tag des 10. Monats."
+    },
+    {
+      "kapitel": 22,
+      "text": "Das Siegel des Kampfkunstbunds: zwei gekreuzte Schwerter in einem Kreis."
     }
   ],
   "kapitel": [
@@ -2047,6 +2128,13 @@
       "weltzeit": "Taehwa 12, 9. Monat, 16. Tag",
       "zusammenfassung": "Seo besteht darauf, die zwei toten Laternenmänner hinter dem Ofen zu begraben. Seol-a fragt, ob Töten leichter wird; Mok Yeon sagt: Nein, man wird nur besser darin, es zu tragen. Ui-jin fragt die Meisterin, warum Banditen ihn als den Sohn erkannten; Seo antwortet mit Wahrheiten, die nicht alles sind. Im Stall bittet er Seol-a um die Erklärung; sie schluckt die Wahrheit hinunter: Noch nicht. Er lässt Kastanie da, bis sie es ihm erklärt, und reitet heim, um seinem Vater vom singenden Berg zu erzählen. Chil wird eingeweiht. Im Turm sitzen alle zusammen: Cheon weiß jetzt, dass sie wussten. Mok Yeon kennt die Zukunft nicht mehr. Er erwartet, dass Cheon das nächste Mal bei Tag kommt, mit dem Gesetz.",
       "woerter": 2098
+    },
+    {
+      "nr": 22,
+      "titel": "Die Glocke im Fluss",
+      "weltzeit": "Taehwa 12, 9. Monat, 21. Tag",
+      "zusammenfassung": "Aus Chils Sicht: Er meidet das Seitentor, und dass niemand ihn beschuldigt, ist das Schlimmste. Er sagt Mok Yeon offen, dass er die versunkene Glocke Strom suchen will. An der Glockenkehre erzählt der blinde alte Gong, wie Strom vor sechzig Jahren von einem Kahn fiel und dass der Fluss in der Laternennacht geantwortet hat. Chil hört nichts. Mok Yeon kommt und sagt ihm, anders als alle anderen: Ja, auch wegen dir. Aber du hast mir tausend Geräusche gegeben. Um Mitternacht läuten Do-yun und Seol-a wie verabredet; der Stein zittert, Ringe erscheinen auf dem Wasser, und Strom summt unter dem Fluss. Dabei findet Chil den zweiten Ton. Am Morgen hängt in Hacheon ein Anschlag des Kampfkunstbunds: Ermittlung gegen die Sekte wegen dämonischer Kunst, Inspektorin Baek Ha-seon kommt. Mok Yeon: Er hat ein Wort gefunden.",
+      "woerter": 2263
     }
   ],
   "stimmen": {

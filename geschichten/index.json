@@ -13,7 +13,7 @@
       "de": "Er versteckte sich in einer Glocke, während seine Sekte starb. Einundvierzig Jahre später erwacht er neunzig Tage vor jener Nacht.",
       "en": "He hid inside a bell while his sect died. Forty-one years later, he wakes ninety days before that night."
     },
-    "kapitel": 21,
+    "kapitel": 22,
     "kapiteltitel": {
       "de": [
         "Die Glocke, in der ich mich versteckte",
@@ -36,7 +36,8 @@
         "Frost in Seoan",
         "Laternennacht",
         "Die Glocke, die ich schlug",
-        "Morgen danach"
+        "Morgen danach",
+        "Die Glocke im Fluss"
       ],
       "en": [
         "The Bell I Hid In",
@@ -59,7 +60,8 @@
         "Frost in Seoan",
         "Lantern Night",
         "The Bell I Rang",
-        "The Morning After"
+        "The Morning After",
+        "The Bell in the River"
       ]
     }
   }

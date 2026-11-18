@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 7. Monat, 7. Tag (Nacht)",
+  "zeit": "Taehwa 12, 7. Monat, 10. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -160,7 +160,7 @@
       "id": "f-chil",
       "name": "Bang Chil",
       "alias": "",
-      "rolle": "Jüngster Schüler",
+      "rolle": "Jüngster Schüler; Späher auf der Mauer am Haupttor",
       "geschlecht": "m",
       "alter": "13",
       "aussehen": "Rund wie ein Reisknödel, Kutte zu kurz, Muttermal unter dem linken Auge, meistens etwas Essbares in der Hand.",
@@ -178,6 +178,10 @@
         {
           "zu": "f-mok-yeon",
           "art": "hält ihn für einen netten Glockengeist; bringt ihm Opfergaben; lernt von ihm den Spatzenschritt"
+        },
+        {
+          "zu": "f-uijin",
+          "art": "hat beschlossen, ihn nicht zu mögen"
         }
       ],
       "stimme": "Heller Junge im Stimmbruch, schnell und lebhaft.",
@@ -416,7 +420,7 @@
       "rolle": "Haupt der Schwarzen Laternen",
       "geschlecht": "m",
       "alter": "um die 45",
-      "aussehen": "Schlank, glatt rasiertes, freundliches Gesicht wie ein Dorflehrer; Gewand in einem Grau, das bei Nacht nach gar nichts aussieht; Hände in den Ärmeln.",
+      "aussehen": "Schlank, glatt rasiertes, freundliches Gesicht wie ein Dorflehrer; Hände in den Ärmeln; riecht nach Tinte. Trat auf dem Unmu als Hausverwalter der Familie Cheon auf (dunkelgrau, blaues Band am Ärmel). Seine Schritte sind nicht zu hören.",
       "persoenlichkeit": "Höflich, sachlich, verbeugt sich wie ein Handwerker vor einem geschätzten Kunden. Kodex: tötet keine Kinder, legt kein Feuer an Tempeln, betritt Cheons Kammer nie.",
       "sprechweise": "",
       "wunde": "",
@@ -427,7 +431,12 @@
       "stufe": "",
       "status": "lebendig",
       "ort": "o-hacheon",
-      "beziehungen": [],
+      "beziehungen": [
+        {
+          "zu": "f-mok-yeon",
+          "art": "weiß, dass Mok Yeon die Laternenmarke hat: Behalt es. Als Andenken."
+        }
+      ],
       "stimme": "Leise, höflich, glatter Bariton.",
       "ersterAuftritt": 8
     },
@@ -619,6 +628,13 @@
       "besitzer": "Wolgok-Tempel",
       "ort": "o-wolgok",
       "beschreibung": "Vierte Glocke. Tiefer, stiller Ton mit sehr langem Nachklang, als lausche die Glocke ihrem eigenen Ton nach. Wie sie in den Tempel kam, ist unbekannt."
+    },
+    {
+      "id": "g-balken",
+      "name": "Der Balken der Glocke Abend",
+      "besitzer": "fr-gujong",
+      "ort": "o-unmu",
+      "beschreibung": "Schwerer, dunkler Kampferbalken mit eisernem Haken, an dem Abend zehn Jahre lang in der Ahnenhalle der Cheons hing. Von Cheon als Versprechen geschickt; lehnt an der Hofmauer."
     }
   ],
   "techniken": [
@@ -1039,6 +1055,36 @@
       ],
       "ereignis": "Mok Yeon erzählt Seo von seinem ersten Leben; sie glaubt ihm.",
       "folgen": "Sie planen gemeinsam die Verteidigung des Berges."
+    },
+    {
+      "id": "e-15-1",
+      "kapitel": 15,
+      "weltzeit": "Taehwa 12, 7. Monat, 10. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-uijin",
+        "f-grau",
+        "f-seo",
+        "f-mok-yeon",
+        "f-chil",
+        "f-doyun",
+        "f-dal",
+        "f-seol-a"
+      ],
+      "ereignis": "Besuch der Familie Cheon: Schutzauftrag und Balken der Glocke Abend als Geschenk.",
+      "folgen": "Seo nimmt an und verschiebt die Lieferung der Glocke; Hwang durchschaut die Ausrede mit den Balken."
+    },
+    {
+      "id": "e-15-2",
+      "kapitel": 15,
+      "weltzeit": "Taehwa 12, 7. Monat, 10. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-grau",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Hwang Ryeom gibt Mok Yeon zu verstehen, dass er von der Marke weiß.",
+      "folgen": "Beide Seiten wissen, dass die andere etwas weiß."
     }
   ],
   "faeden": [
@@ -1333,6 +1379,26 @@
     {
       "kapitel": 14,
       "text": "Am Abend des 7. Tags des 7. Monats sind es noch 68 Tage bis zur Laternennacht."
+    },
+    {
+      "kapitel": 15,
+      "text": "Die Familie Cheon zahlt dem Tor der Neun Glocken 20 Nyang im Monat plus Reis: Zwei Schüler schützen jeden zweiten Tag bis Jahresende die Straße zwischen Hacheon und dem Westlager."
+    },
+    {
+      "kapitel": 15,
+      "text": "Cheon will die Glocke Abend der Sekte schenken. Seo nahm an, verschob die Lieferung aber auf nach dem Mittherbstfest – angeblich wegen morscher Turmbalken."
+    },
+    {
+      "kapitel": 15,
+      "text": "Hwang Ryeom erkannte, dass die Balken nicht morsch sind, und dass die Westmauer noch eingestürzt ist. Chil hat es mit dem Spatzenschritt belauscht."
+    },
+    {
+      "kapitel": 15,
+      "text": "Mok Yeon hat Chil verboten, dem grauen Mann je nahe zu kommen."
+    },
+    {
+      "kapitel": 15,
+      "text": "Seo lässt Mok Yeon zur Tarnung jeden Morgen die Latrine schrubben."
     }
   ],
   "kapitel": [
@@ -1433,6 +1499,13 @@
       "weltzeit": "Taehwa 12, 7. Monat, 7. Tag (Nacht)",
       "zusammenfassung": "Im Turm beschreibt Seo, was sie gehört hat: Cheons Stimme ist wahr, aber unter seinem Lächeln schreien leise viele Menschen wie hinter einer dicken Tür. Sie erzählt von der verbotenen Blutmark-Kunst. Als sie ihn zur Rede stellen will, erzählt Mok Yeon ihr alles: die Laternennacht, die Glocke, die 41 Jahre, den Tod im Regen, das Erwachen. Sie hört keine Lüge. Statt ihn zu verurteilen, sagt sie: Gut, du hast dich versteckt, weil ich es dir gesagt habe. Nur der Gründer erreichte je den achten Ton. Gemeinsam planen sie: nicht fliehen, nicht anklagen, so tun, als hätte Seo nichts gehört, den Berg vorbereiten, Glocken als Alarmnetz nutzen, Do-yun bald einweihen. Seol-a lassen sie gehen, aber nicht blind. Noch 68 Tage. Diesmal versteckst du dich nicht, sagt Seo. Und diesmal rufe ich nicht.",
       "woerter": 2181
+    },
+    {
+      "nr": 15,
+      "titel": "Ein Geschenk aus Seoan",
+      "weltzeit": "Taehwa 12, 7. Monat, 10. Tag",
+      "zusammenfassung": "Cheon Ui-jin kommt auf den Unmu, begleitet von Hwang Ryeom, verkleidet als Hausverwalter. Seo spielt die beschämte Meisterin und lässt Mok Yeon sich tief verbeugen. Die Familie Cheon bietet einen gut bezahlten Schutzauftrag für die Straße zum Westlager und schickt den Balken der Glocke Abend: Die Glocke soll als Geschenk zurückkommen. Mok Yeon erkennt, dass es eine Prüfung ist. Seo nimmt gerührt an, verschiebt die Lieferung aber auf nach dem Mittherbstfest, angeblich wegen morscher Turmbalken. Chil belauscht Hwang mit dem Spatzenschritt: Die Balken sind nicht morsch, die Westmauer ist noch eingestürzt. Mok Yeon verbietet Chil, dem grauen Mann nahezukommen. Ui-jin möchte von Mok Yeon lernen. Beim Gehen flüstert Hwang: Sein Mann lasse grüßen, Mok Yeon solle die Marke behalten – als Andenken.",
+      "woerter": 2146
     }
   ],
   "stimmen": {

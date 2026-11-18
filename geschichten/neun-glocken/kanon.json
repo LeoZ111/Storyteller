@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 10. Monat, 1. Tag",
+  "zeit": "Taehwa 12, 10. Monat, 8. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -101,7 +101,7 @@
       "beduerfnis": "Die Last nicht mehr allein tragen. Sich selbst verzeihen, dass er sich versteckt hat.",
       "geheimnis": "",
       "bogen": "",
-      "stufe": "Glockenohr (dritter Ton) im Körper – drei Tage vor der Laternennacht ohne Blut erreicht",
+      "stufe": "Glockenohr steht immer offen – hört eine Menge wie einen Wald, zählt Herzen; fand Strom unter Wasser durch Klang",
       "status": "lebendig; das linke Ohr kehrt teilweise zurück – er hört die Welt dort wie durch ein Tuch, mit Summen",
       "ort": "o-unmu",
       "beziehungen": [
@@ -268,7 +268,7 @@
       "persoenlichkeit": "Knurrig, wundert sich über nichts, summt Melodien ohne Anfang und Ende. Isst im Stehen.",
       "sprechweise": "Knurrig, kurz angebunden.",
       "wunde": "Schmolz vor dreißig Jahren im Hungerwinter auf Bitten des sechsten Meisters die Glocken Sturm und Schnee ein; nahm die Bronze heiß aus der Form – daher die Narben.",
-      "ziel": "",
+      "ziel": "Die gesprungene Glocke Strom aus sich selbst neu gießen – mit dem Ton, den er als Junge gehört hat.",
       "beduerfnis": "",
       "geheimnis": "",
       "bogen": "",
@@ -510,7 +510,7 @@
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "",
+      "bogen": "Nach sechzig Jahren ist Strom gehoben. Er angelt nicht mehr – er hört nur noch zu.",
       "stufe": "",
       "status": "lebendig",
       "ort": "o-glockenkehre",
@@ -532,7 +532,7 @@
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "",
+      "bogen": "Zog selbst am Seil, als die Flussglocke gehoben wurde. Keine der drei dämonischen Sekten, die sie auflöste, hätte die halbe Stadt dazu gebracht.",
       "stufe": "",
       "status": "lebendig",
       "ort": "o-hacheon",
@@ -821,8 +821,8 @@
       "id": "g-strom",
       "name": "Die Glocke Strom",
       "besitzer": "fr-gujong",
-      "ort": "o-glockenkehre",
-      "beschreibung": "Dritte Glocke. Vor sechzig Jahren vom fünften Meister nach einer Flut verkauft; fiel an der Glockenkehre von einem Kahn betrunkener Bootsleute. Liegt auf dem Flussgrund und antwortet den Glocken des Unmu mit einem gedämpften Summen."
+      "ort": "o-hacheon",
+      "beschreibung": "Dritte Glocke, größer als Morgen, tiefes fast schwarzes Grün. Am 8. Tag des 10. Monats aus der Glockenkehre gehoben. Ein langer Riss vom Rand bis fast zur Schulter – sie scheppert zersplittert. Dal will sie aus sich selbst neu gießen."
     }
   ],
   "techniken": [
@@ -1657,6 +1657,27 @@
       ],
       "ereignis": "Inspektion durch Baek Ha-seon; Prüfung des Glockenklangs an Wachmann Tak.",
       "folgen": "Kein dämonischer Befund bisher; Untersuchung läuft weiter."
+    },
+    {
+      "id": "e-25-1",
+      "kapitel": 25,
+      "weltzeit": "Taehwa 12, 10. Monat, 8. Tag",
+      "ort": "o-glockenkehre",
+      "figuren": [
+        "f-mok-yeon",
+        "f-chil",
+        "f-seol-a",
+        "f-doyun",
+        "f-baek",
+        "f-tak",
+        "f-gong",
+        "f-minji",
+        "f-dal",
+        "f-seo",
+        "f-pyeon"
+      ],
+      "ereignis": "Die Glocke Strom wird aus dem Fluss gehoben; sie ist gesprungen.",
+      "folgen": "Dal will sie neu gießen; die Inspektorin ist beeindruckt."
     }
   ],
   "faeden": [
@@ -2126,6 +2147,14 @@
     {
       "kapitel": 24,
       "text": "Baek Ha-seon ahnt, dass jemand die Anzeige gelenkt und um sie als Inspektorin gebeten hat."
+    },
+    {
+      "kapitel": 25,
+      "text": "Etwa zweihundert Menschen aus Hacheon halfen, Strom zu heben – auch die Inspektorin, ihr Schreiber, Wachmann Tak und ein Schüler der Eisentor-Schule. Chil brachte den Ochsen mit Rettichen zum Ziehen."
+    },
+    {
+      "kapitel": 25,
+      "text": "Seol-a tauchte und band das Seil durch die Krone der Glocke."
     }
   ],
   "kapitel": [
@@ -2296,6 +2325,13 @@
       "weltzeit": "Taehwa 12, 10. Monat, 1. Tag",
       "zusammenfassung": "Inspektorin Baek Ha-seon kommt mit Schreiber, Wachmann Tak und Meister Pyeon auf den Unmu. Mok Yeon kennt sie: Im ersten Leben verhaftete sie ihn mit 39 in Mujang, hörte ihn die ganze Nacht an und ließ ihn frei. Sie verhört alle; Chil gibt ehrlich zu, das Tor geöffnet zu haben. Mok Yeon gesteht, den Berg zum Klingen gebracht zu haben, und erklärt die Kunst ehrlich. Baek zitiert den vollständigen Artikel 9: Dämonisch ist eine Kunst nur, wenn sie das Qi raubt, vergiftet oder zerstört; beschlossen nach den Blutmark-Prozessen. Im Turm zeigen Mok Yeon und Seol-a den Klang an Wachmann Tak; sein Qi bleibt vollständig. Ein Schild ist nicht dämonisch, sagt Baek, und Pyeons Schüler seien schlechte Reiter. Auf die Frage, wer angegriffen hat, sagt Mok Yeon: Das darf ich nicht sagen. Er lügt nie, aber er verbirgt alles, stellt sie fest. Sie bleibt, will beim Heben der Flussglocke dabei sein und ahnt, dass jemand sie benutzt.",
       "woerter": 2322
+    },
+    {
+      "nr": 25,
+      "titel": "Die Flussglocke",
+      "weltzeit": "Taehwa 12, 10. Monat, 8. Tag",
+      "zusammenfassung": "Halb Hacheon kommt zur Glockenkehre, auch die Inspektorin. Do-yun hat ein Dreibein mit Flaschenzug gebaut; der Ochse legt sich hin, bis Chil ihn mit Rettichen lockt. Die Taucher finden nichts, Pyeon spottet. Mok Yeon steht brusttief im Wasser, Chil schlägt eine kleine Glocke an, und Mok Yeon spürt, wo Strom liegt: aufrecht, halb im Schlamm. Ein Ring erscheint auf dem Wasser. Seol-a taucht und knotet das Seil durch die Krone. Fünfzig Menschen ziehen, darunter Baek Ha-seon, Tak und ein Eisentor-Schüler. Strom kommt hoch, riesig und grün, aber mit einem langen Riss; ihr Ton scheppert. Der alte Gong weint: Sie ist nur verletzt. Dal will sie aus sich selbst neu gießen. Baek notiert: Kein Qi geraubt, die halbe Stadt hat geholfen, keine dämonische Sekte hätte das erreicht.",
+      "woerter": 2464
     }
   ],
   "stimmen": {

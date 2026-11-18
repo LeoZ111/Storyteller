@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 7. Monat, 7. Tag",
+  "zeit": "Taehwa 12, 7. Monat, 7. Tag (Nacht)",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -98,7 +98,7 @@
       "sprechweise": "Kurze Sätze, langsam, wie ein alter Mann. Sagt genau, was er meint.",
       "wunde": "Versteckte sich in der Nacht des Massakers in der Glocke Morgen und hörte alle sterben.",
       "ziel": "Die Laternennacht überleben – alle zusammen. Zuerst: den Körper stärken, die Meisterin vom Treffen mit Cheon fernhalten, das Seitentor klären, die Glocken zurückholen.",
-      "beduerfnis": "",
+      "beduerfnis": "Die Last nicht mehr allein tragen. Sich selbst verzeihen, dass er sich versteckt hat.",
       "geheimnis": "",
       "bogen": "",
       "stufe": "Zweiter Ton im Körper gefestigt; Verständnis weit darüber",
@@ -116,6 +116,10 @@
         {
           "zu": "f-madam-ok",
           "art": "Wette: Brennt das Flusslager am 3. Tag des 7. Monats, bekommt er Tau und Aufschub für Herd; sonst arbeitet er ein Jahr für sie"
+        },
+        {
+          "zu": "f-seo",
+          "art": "Verbündete: Sie kennt die Wahrheit über sein erstes Leben und glaubt ihm"
         }
       ],
       "stimme": "Junge Stimme, aber tief gesetzt und langsam, wie ein alter Mann; ruhig, karg.",
@@ -132,9 +136,9 @@
       "persoenlichkeit": "Scharfzüngig, stolz, geduldig auf eine Art, die nervös macht. Bittet niemanden mehr zu bleiben, seit sie elf Schüler gehen sah: Wer bleibt, soll bleiben, weil er will.",
       "sprechweise": "Knapp, spöttisch, trocken; wird leise, wenn es ernst ist.",
       "wunde": "Ihr Mann Ryu Gang, siebter Meister, starb vor zehn Jahren im Winter – obwohl sie für seine Medizin die Glocke Abend an Cheon Mu-gyeong verkaufte.",
-      "ziel": "Die Sekte am Leben halten; beim Treffen von Hacheon Schutzaufträge gewinnen.",
+      "ziel": "So tun, als hätte sie nichts gehört; den Berg vorbereiten; Seol-a gehen lassen, aber nicht blind.",
       "beduerfnis": "",
-      "geheimnis": "Kennt jetzt die Karte und die Laternenmarke; hat versprochen, niemandem davon zu erzählen – vorerst.",
+      "geheimnis": "Kennt jetzt Mok Yeons ganzes erstes Leben und weiß, dass sie in der Laternennacht sterben würde. Hat Cheons falsche Note gehört: wie viele Menschen, die hinter einer dicken Tür schreien.",
       "bogen": "",
       "stufe": "Vierter Ton (Unterton)",
       "status": "lebendig",
@@ -641,6 +645,14 @@
       "nutzer": "f-mok-yeon",
       "stufe": "Improvisation aus dem zweiten Ton",
       "kosten": "Schmerz wie Nadeln in den Ohren; Blut aus beiden Ohren."
+    },
+    {
+      "id": "t-blutmark",
+      "name": "Blutmark",
+      "beschreibung": "Uralte, verbotene Kunst: Man legt die Hand auf einen Menschen und trinkt sein Qi aus wie einen Brunnen. Wer sie übt, trägt die anderen in sich – ihre Herzschläge, ihre Stimmen.",
+      "nutzer": "unbekannt (Verdacht: f-cheon)",
+      "stufe": "verboten",
+      "kosten": "Vom Kampfkunstbund vor hundert Jahren verboten; wer sie übt, wird ohne Prozess hingerichtet."
     }
   ],
   "zeitleiste": [
@@ -1015,6 +1027,18 @@
       ],
       "ereignis": "Mok Yeon gießt absichtlich Tee über Cheon, um Seo aufzuhalten.",
       "folgen": "Seo spricht Cheon nicht unter vier Augen; die Sekte wird verlacht; Cheon kennt nun Mok Yeons Gesicht und Namen."
+    },
+    {
+      "id": "e-14-1",
+      "kapitel": 14,
+      "weltzeit": "Taehwa 12, 7. Monat, 7. Tag, Nacht",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Mok Yeon erzählt Seo von seinem ersten Leben; sie glaubt ihm.",
+      "folgen": "Sie planen gemeinsam die Verteidigung des Berges."
     }
   ],
   "faeden": [
@@ -1029,8 +1053,9 @@
       "id": "fa-schlag",
       "beschreibung": "Warum blieb der Ton aus, als Mok Yeon Cheon Mu-gyeong traf?",
       "eingefuehrt": 1,
-      "status": "offen",
-      "aufloesung": ""
+      "status": "gelöst",
+      "aufloesung": "Cheon trägt durch die Blutmark-Kunst fremde Herzschläge in sich; ein einzelner Schlag erreichte die falsche Note nicht.",
+      "geloestIn": 14
     },
     {
       "id": "fa-glocken",
@@ -1296,6 +1321,18 @@
     {
       "kapitel": 13,
       "text": "Mok Yeon konnte Cheons falsche Note auch im ersten Leben nie selbst hören – er wusste sie nur."
+    },
+    {
+      "kapitel": 14,
+      "text": "In 140 Jahren hat nur ein Meister des Tors der Neun Glocken den achten Ton erreicht: der Gründer. Mok Yeon erreichte ihn im ersten Leben allein."
+    },
+    {
+      "kapitel": 14,
+      "text": "Plan von Seo und Mok Yeon: nicht fliehen, nicht anklagen; so tun, als hätte Seo nichts gehört; Westmauer, Seitentor und Ziegenpfad sichern; Glocken als Klangnetz nutzen; Do-yun bald einweihen; Seol-a gehen lassen und mit ihr in Verbindung bleiben."
+    },
+    {
+      "kapitel": 14,
+      "text": "Am Abend des 7. Tags des 7. Monats sind es noch 68 Tage bis zur Laternennacht."
     }
   ],
   "kapitel": [
@@ -1389,6 +1426,13 @@
       "weltzeit": "Taehwa 12, 7. Monat, 7. Tag",
       "zusammenfassung": "Im Flusspavillon versammeln sich die Meister der Region; das Tor der Neun Glocken sitzt ganz hinten, Meister Pyeon von der Eisentor-Schule spottet. Cheon Mu-gyeong hält eine ehrliche, bewegende Rede über die Flüchtlinge und kündigt an, die 800 Sack Reis im Namen der Familie Yun an die Lager zu geben. Während er lächelt, stockt Seos Atem: Sie hat seine falsche Note gehört. Als Cheon vor ihr steht und sie ihn um ein Gespräch bitten will, tritt Mok Yeon das Teetablett um und gießt Tee über Cheons Brust. Die Sekte wird ausgelacht. Cheon hilft ihm freundlich auf, kennt seinen Namen, und Mok Yeon hört unter Cheons Herzschlag einen zweiten Schlag. Seo zerrt ihn hinaus. Am Ufer will sie zurück, er hält sie fest: Gehen Sie nicht zu ihm. Sie: Du hast es auch gehört.",
       "woerter": 2391
+    },
+    {
+      "nr": 14,
+      "titel": "Ich war schon einmal hier",
+      "weltzeit": "Taehwa 12, 7. Monat, 7. Tag (Nacht)",
+      "zusammenfassung": "Im Turm beschreibt Seo, was sie gehört hat: Cheons Stimme ist wahr, aber unter seinem Lächeln schreien leise viele Menschen wie hinter einer dicken Tür. Sie erzählt von der verbotenen Blutmark-Kunst. Als sie ihn zur Rede stellen will, erzählt Mok Yeon ihr alles: die Laternennacht, die Glocke, die 41 Jahre, den Tod im Regen, das Erwachen. Sie hört keine Lüge. Statt ihn zu verurteilen, sagt sie: Gut, du hast dich versteckt, weil ich es dir gesagt habe. Nur der Gründer erreichte je den achten Ton. Gemeinsam planen sie: nicht fliehen, nicht anklagen, so tun, als hätte Seo nichts gehört, den Berg vorbereiten, Glocken als Alarmnetz nutzen, Do-yun bald einweihen. Seol-a lassen sie gehen, aber nicht blind. Noch 68 Tage. Diesmal versteckst du dich nicht, sagt Seo. Und diesmal rufe ich nicht.",
+      "woerter": 2181
     }
   ],
   "stimmen": {

@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 9. Monat, 15. Tag (Nacht)",
+  "zeit": "Taehwa 12, 9. Monat, 16. Tag (Morgen)",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -96,13 +96,13 @@
       "aussehen": "Schmal, blass, zu glatte Hände; schwarzes, ungekämmtes Haar; dunkle Augen, die oft ins Leere hören statt zu sehen.",
       "persoenlichkeit": "Wortkarg, trocken, wörtlich, unfähig zu höflichen Lügen. Weint plötzlich über Kleinigkeiten, weil alle noch leben.",
       "sprechweise": "Kurze Sätze, langsam, wie ein alter Mann. Sagt genau, was er meint.",
-      "wunde": "Versteckte sich in der Nacht des Massakers in der Glocke Morgen und hörte alle sterben.",
+      "wunde": "Versteckte sich im ersten Leben in der Glocke. In der Laternennacht dieses Lebens versteckte er sich nicht.",
       "ziel": "Die Laternennacht überleben – alle zusammen. Zuerst: den Körper stärken, die Meisterin vom Treffen mit Cheon fernhalten, das Seitentor klären, die Glocken zurückholen.",
       "beduerfnis": "Die Last nicht mehr allein tragen. Sich selbst verzeihen, dass er sich versteckt hat.",
       "geheimnis": "",
       "bogen": "",
       "stufe": "Glockenohr (dritter Ton) im Körper – drei Tage vor der Laternennacht ohne Blut erreicht",
-      "status": "lebendig; Schnitt über den Rippen, Blut aus beiden Ohren nach dem Blechschlag",
+      "status": "lebendig; Handrücken rechts bis auf den Knochen geschnitten; links fast taub, ob es heilt, ist ungewiss",
       "ort": "o-unmu",
       "beziehungen": [
         {
@@ -140,8 +140,8 @@
       "beduerfnis": "",
       "geheimnis": "Kennt jetzt Mok Yeons ganzes erstes Leben und weiß, dass sie in der Laternennacht sterben würde. Hat Cheons falsche Note gehört: wie viele Menschen, die hinter einer dicken Tür schreien.",
       "bogen": "",
-      "stufe": "Vierter Ton (Unterton)",
-      "status": "lebendig",
+      "stufe": "Unterton und Widerhall (fünfter Ton, den sie nie jemandem gezeigt hatte); Glockenschlag-Schwert ohne hohle Schritte",
+      "status": "lebendig; auf dem rechten Ohr taub; Schnitte an Arm, Seite und über der Hüfte",
       "ort": "o-unmu",
       "beziehungen": [
         {
@@ -170,9 +170,9 @@
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "",
+      "bogen": "Läutete in der Laternennacht Tau, während ein Mörder neben ihm stand. Teilt seine Schuld mit Mok Yeon: Zusammen ist sie nur halb so schwer.",
       "stufe": "Spatzenschritt: läuft lautlos, ohne dass die Trittsteine klappern",
-      "status": "lebendig",
+      "status": "lebendig; Handflächen vom Glockenseil aufgerissen",
       "ort": "o-unmu",
       "beziehungen": [
         {
@@ -182,6 +182,10 @@
         {
           "zu": "f-uijin",
           "art": "hat beschlossen, ihn nicht zu mögen"
+        },
+        {
+          "zu": "f-mok-yeon",
+          "art": "teilen die Schuld an zwei Laternennächten; Mok Yeon erzählte ihm vom Verstecken in der Glocke"
         }
       ],
       "stimme": "Heller Junge im Stimmbruch, schnell und lebhaft.",
@@ -230,7 +234,7 @@
       "geheimnis": "Kennt jetzt die Wahrheit über Mok Yeons erstes Leben: Er selbst starb damals am Tor. Antwort: Dann halte ich es diesmal besser.",
       "bogen": "",
       "stufe": "Glockenohr (dritter Ton) und Widerhall (fünfter Ton) – den vierten hat er nicht; er wächst die Töne wie ein Baum",
-      "status": "lebendig",
+      "status": "lebendig; verwundet, hielt das Haupttor die ganze Nacht",
       "ort": "o-unmu",
       "beziehungen": [
         {
@@ -265,7 +269,7 @@
       "geheimnis": "",
       "bogen": "",
       "stufe": "Hat das Ohr: hört, wenn die Bronze lügt; kann Glocken gießen und stimmen",
-      "status": "lebendig",
+      "status": "lebendig; Verbrühungen am Unterarm",
       "ort": "o-unmu",
       "beziehungen": [],
       "stimme": "Brüchig, knurrig, langsam, alter Mann.",
@@ -281,7 +285,7 @@
       "aussehen": "Groß, gerader Rücken, schwarzes Haar hoch gebunden mit weißer Schnur; schmales, helles Gesicht. Ihr Schwert hat keine Quaste mehr – die hat sie in Seoan verpfändet. Um den Hals die kleine Glocke aus Sturm.",
       "persoenlichkeit": "Kühl, stolz, ehrgeizig; übt nachts, wenn alle schlafen.",
       "sprechweise": "Klar, kühl, präzise.",
-      "wunde": "Mit neun Jahren aus dem abgebrannten Lagerhaus ihres Vaters am Fluss gerettet – von Seo Hwa-ryeong.",
+      "wunde": "Mit neun aus dem brennenden Lagerhaus ihres Vaters gerettet. In der Laternennacht tötete sie an der Westmauer zum ersten Mal einen Menschen.",
       "ziel": "Am 3. Tag des 8. Monats als Gastschülerin nach Seoan gehen. Nicht alt werden und eine Glocke schlagen, die niemand hört.",
       "beduerfnis": "",
       "geheimnis": "Hat Cheons Schreie unter seinem Lachen gehört, die Kammer unter dem Stall gefunden und belauscht, wie Cheon den Angriff auf den 15. Tag des 9. Monats festlegte.",
@@ -373,10 +377,10 @@
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "Ließ Seol-a nachts aus Seoan fliehen, ohne zu verstehen warum, und gab ihr sein Pferd Kastanie. Will nachkommen und eine Erklärung.",
+      "bogen": "Kam in der Laternennacht auf den Unmu, sah die Schwarzen Laternen und hielt eine zerrissene in den Händen. Weiß nicht, was geschehen ist. Seol-a konnte es ihm nicht sagen.",
       "stufe": "",
       "status": "lebendig",
-      "ort": "o-hacheon",
+      "ort": "o-unmu",
       "beziehungen": [
         {
           "zu": "f-seol-a",
@@ -455,7 +459,7 @@
       "geheimnis": "",
       "bogen": "",
       "stufe": "",
-      "status": "lebendig",
+      "status": "lebendig; von Seos Glockenschlag aus dem Turm geschleudert, verletzt an der Brust; floh",
       "ort": "o-hacheon",
       "beziehungen": [
         {
@@ -747,6 +751,14 @@
       "nutzer": "unbekannt (Verdacht: f-cheon)",
       "stufe": "verboten",
       "kosten": "Vom Kampfkunstbund vor hundert Jahren verboten; wer sie übt, wird ohne Prozess hingerichtet."
+    },
+    {
+      "id": "t-berg-singt",
+      "name": "Der Berg singt",
+      "beschreibung": "Mok Yeon bringt Morgen und Tau so zum Schwingen, dass alle 47 kleinen Glocken mitklingen, und legt dann die zehnte Pause in den Ton: Alle Glocken setzen einen Herzschlag lang aus. Das Qi aller Unvorbereiteten stolpert. Wer die Pause kennt und den Atem anhält, behält den Takt.",
+      "nutzer": "f-mok-yeon",
+      "stufe": "Vorgriff auf den Glockenschlag (siebter Ton) mit Hilfe des Klangnetzes",
+      "kosten": "Blut aus beiden Ohren; das linke Gehör fast verloren."
     }
   ],
   "zeitleiste": [
@@ -1361,6 +1373,60 @@
       ],
       "ereignis": "Angriff der Schwarzen Laternen; Chil öffnet das Seitentor von innen.",
       "folgen": "Kampf an Tor, Mauer und Küche; Hwang Ryeom erreicht den Turm."
+    },
+    {
+      "id": "e-20-1",
+      "kapitel": 20,
+      "weltzeit": "Taehwa 12, 9. Monat, 15./16. Tag, Nacht",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-mok-yeon",
+        "f-chil",
+        "f-grau"
+      ],
+      "ereignis": "Mok Yeon und Chil läuten; der ganze Berg singt; das Qi der Angreifer stolpert.",
+      "folgen": "Hacheon hört die Glocken."
+    },
+    {
+      "id": "e-20-2",
+      "kapitel": 20,
+      "weltzeit": "Taehwa 12, 9. Monat, 16. Tag, Nacht",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-grau"
+      ],
+      "ereignis": "Seo schleudert Hwang Ryeom mit einem Glockenschlag aus dem Turm.",
+      "folgen": "Seo ist auf dem rechten Ohr taub."
+    },
+    {
+      "id": "e-20-3",
+      "kapitel": 20,
+      "weltzeit": "Taehwa 12, 9. Monat, 16. Tag, Nacht",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-uijin",
+        "f-laternenmann-3",
+        "f-grau",
+        "f-madam-ok",
+        "f-minji",
+        "f-doyun",
+        "f-seol-a"
+      ],
+      "ereignis": "Ui-jin reitet in den Hof; die Laternen ziehen sich zurück; Madam Ok, Stadtwache und Min-ji kommen.",
+      "folgen": "Zwei Angreifer tot; alle Verteidiger leben."
+    },
+    {
+      "id": "e-20-4",
+      "kapitel": 20,
+      "weltzeit": "Taehwa 12, 9. Monat, 16. Tag, Morgen",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-mok-yeon",
+        "f-chil"
+      ],
+      "ereignis": "Mok Yeon erzählt Chil, dass er sich einmal in der Glocke versteckt hat; sie teilen die Schuld. Erste Morgenglocke danach.",
+      "folgen": "Ende des ersten Bogens."
     }
   ],
   "faeden": [
@@ -1368,8 +1434,9 @@
       "id": "fa-laternen",
       "beschreibung": "Wer sind die Männer mit den schwarzen Laternen – und wer hat sie geschickt?",
       "eingefuehrt": 1,
-      "status": "offen",
-      "aufloesung": ""
+      "status": "gelöst",
+      "aufloesung": "Die Schwarzen Laternen unter Hwang Ryeom, geschickt von Cheon Mu-gyeong.",
+      "geloestIn": 18
     },
     {
       "id": "fa-schlag",
@@ -1742,6 +1809,30 @@
     {
       "kapitel": 19,
       "text": "Das Knarren, das Mok Yeon einundvierzig Jahre lang nicht einordnen konnte, war das Seitentor, von Chil von innen geöffnet."
+    },
+    {
+      "kapitel": 20,
+      "text": "Hwang Ryeom bot Mok Yeon an, mit Chil in die Glocke zu kriechen und bis zum Morgen zu bleiben – genau wie im ersten Leben. Mok Yeon läutete stattdessen."
+    },
+    {
+      "kapitel": 20,
+      "text": "Seo schlug mit der flachen Hand und der Wange an der Bronze gegen Morgen; die Klangwelle schleuderte Hwang Ryeom aus dem Turm. Sie verlor das Gehör auf dem rechten Ohr."
+    },
+    {
+      "kapitel": 20,
+      "text": "Als der Laternenmann Cheon Ui-jin erkannte (Der Sohn) und Madam Oks Leute mit der Stadtwache kamen, pfiff Hwang Ryeom zum Rückzug."
+    },
+    {
+      "kapitel": 20,
+      "text": "Zwei Laternenmänner starben: einer an der Westmauer durch Seol-a, einer stürzte von der Mauer."
+    },
+    {
+      "kapitel": 20,
+      "text": "Seo sagte der Stadtwache: Banditen mit schwarzen Laternen; wer sie geschickt hat, wisse sie nicht."
+    },
+    {
+      "kapitel": 20,
+      "text": "Alle auf dem Unmu haben die Laternennacht überlebt."
     }
   ],
   "kapitel": [
@@ -1877,6 +1968,13 @@
       "weltzeit": "Taehwa 12, 9. Monat, 15. Tag (Nacht)",
       "zusammenfassung": "Seol-a erfährt Mok Yeons Geschichte: Diesmal nicht. Sie fliehen nicht. Der Plan ist durchzuhalten und so laut zu läuten, dass Madam Ok Träger und Stadtwache hinaufschickt. Chil wird gegen seinen Willen zu Madam Ok gebracht. Mok Yeon erreicht drei Tage vorher das Glockenohr ohne Blut. In der Mittherbstnacht meldet das Klangnetz acht Männer auf dem Ziegenpfad und vierzehn am Hauptweg. Dann klingt die Glocke am Seitentor, und Mok Yeon hört Chils Herz im Holzstapel: Er ist heimlich zurückgekommen. Glaubend, er fange einen Dieb, öffnet Chil den Riegel von innen. Es ist dasselbe Knarren wie im ersten Leben; es war immer Chil. Der Laternenmann mit der gebrochenen Nase lässt Chil laufen: Wir töten keine Kinder. Do-yun brüllt am Tor, und diesmal hört das Brüllen nicht auf. Seol-a kämpft an der Mauer, Dal in der Küche, Seo dirigiert. Chil flieht zu Mok Yeon in den Turm. Lautlos steigt Hwang Ryeom die Leiter herauf. Mok Yeon stellt sich vor Chil und packt das Seil.",
       "woerter": 2694
+    },
+    {
+      "nr": 20,
+      "titel": "Die Glocke, die ich schlug",
+      "weltzeit": "Taehwa 12, 9. Monat, 16. Tag (Morgen)",
+      "zusammenfassung": "Hwang Ryeom bietet Mok Yeon an, mit Chil in die Glocke zu kriechen und zu überleben, wie im ersten Leben. Mok Yeon läutet. Hwang schneidet ihm die Hand bis auf den Knochen, doch er zieht weiter; Chil packt Taus Seil und läutet mit. Die beiden Glocken wecken alle 47 kleinen Glocken, der ganze Berg singt. Mok Yeon legt die zehnte Pause in den Ton: Alle Glocken setzen aus, und das Qi der zwanzig Angreifer stolpert, während die Verteidiger den Atem anhalten. Er blutet aus beiden Ohren. Seo kommt in den Turm, kämpft das Glockenschlag-Schwert ohne Lücke gegen Hwang und schleudert ihn schließlich mit einem Handschlag gegen Morgen aus dem Turm. Dabei verliert sie das rechte Gehör. Lichter aus Hacheon kommen den Berg herauf, und Ui-jin reitet in den Hof. Ein Laternenmann erkennt den Sohn, Hwang pfeift zum Rückzug. Zwei Angreifer sind tot. Ui-jin hält eine zerrissene schwarze Laterne und versteht nichts. Am Morgen teilen Chil und Mok Yeon ihre Schuld. Alle leben. Mok Yeon schlägt die Morgenglocke.",
+      "woerter": 3079
     }
   ],
   "stimmen": {

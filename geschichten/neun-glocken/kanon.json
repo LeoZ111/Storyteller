@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 8. Monat, 29. Tag",
+  "zeit": "Taehwa 12, 8. Monat, 29. Tag (Morgen)",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -200,7 +200,7 @@
       "wunde": "Mit 25 rissen seine Meridiane, als er dreißig Banditen aufhielt, damit zweihundert Flüchtlinge über einen Pass kamen. Seitdem ein Schmerz unter dem Brustbein; schläft nie länger als zwei Stunden.",
       "ziel": "",
       "beduerfnis": "",
-      "geheimnis": "Zieht gefangenen Mördern mit der Hand auf der Brust ihr Qi ab (rötlicher Dunst), um zu überleben. Ein Mann, dessen Namen er nie ausspricht, brachte ihm das Buch dazu. Ließ das Flusslager anzünden, um den Reiswucher der Familie Yun zu brechen – ohne Tote.",
+      "geheimnis": "Zieht gefangenen Mördern in einer Kammer unter seinem Stall in Seoan das Qi ab (rötlicher Dunst, 'Danke'). Schläft seit zehn Jahren neben der Glocke Abend, weil nur sie ihn ruhig macht. Hat den Angriff auf die Sekte für die Mittherbstnacht befohlen – ohne Feuer am Turm.",
       "bogen": "",
       "stufe": "",
       "status": "lebendig",
@@ -278,17 +278,17 @@
       "rolle": "Zweite Schülerin, die Begabteste der Sekte",
       "geschlecht": "w",
       "alter": "20",
-      "aussehen": "Groß, gerader Rücken, schwarzes Haar hoch gebunden mit weißer Schnur; schmales, helles Gesicht; Schwert mit abgegriffenem Griff und einst roter Quaste.",
+      "aussehen": "Groß, gerader Rücken, schwarzes Haar hoch gebunden mit weißer Schnur; schmales, helles Gesicht. Ihr Schwert hat keine Quaste mehr – die hat sie in Seoan verpfändet. Um den Hals die kleine Glocke aus Sturm.",
       "persoenlichkeit": "Kühl, stolz, ehrgeizig; übt nachts, wenn alle schlafen.",
       "sprechweise": "Klar, kühl, präzise.",
       "wunde": "Mit neun Jahren aus dem abgebrannten Lagerhaus ihres Vaters am Fluss gerettet – von Seo Hwa-ryeong.",
       "ziel": "Am 3. Tag des 8. Monats als Gastschülerin nach Seoan gehen. Nicht alt werden und eine Glocke schlagen, die niemand hört.",
       "beduerfnis": "",
-      "geheimnis": "",
+      "geheimnis": "Hat Cheons Schreie unter seinem Lachen gehört, die Kammer unter dem Stall gefunden und belauscht, wie Cheon den Angriff auf den 15. Tag des 9. Monats festlegte.",
       "bogen": "",
-      "stufe": "Glockenohr; durch die Glockenatmung an der Tür zum Unterton",
+      "stufe": "Unterton (vierter Ton) – erreicht in Seoan durch die Glockenatmung",
       "status": "lebendig",
-      "ort": "o-seoan",
+      "ort": "o-unmu",
       "beziehungen": [
         {
           "zu": "f-seo",
@@ -301,6 +301,10 @@
         {
           "zu": "f-mok-yeon",
           "art": "hat von ihm die Glockenatmung gelernt; weiß von einem 'alten Mann', der sie ihm beibrachte"
+        },
+        {
+          "zu": "f-uijin",
+          "art": "kann ihm nichts sagen, weil er nichts verbergen kann; er ließ sie fliehen"
         }
       ],
       "stimme": "Klar, kühl, präzise, junge Frau, mittlere Tonlage.",
@@ -369,7 +373,7 @@
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "",
+      "bogen": "Ließ Seol-a nachts aus Seoan fliehen, ohne zu verstehen warum, und gab ihr sein Pferd Kastanie. Will nachkommen und eine Erklärung.",
       "stufe": "",
       "status": "lebendig",
       "ort": "o-hacheon",
@@ -438,7 +442,7 @@
       "geschlecht": "m",
       "alter": "um die 45",
       "aussehen": "Schlank, glatt rasiertes, freundliches Gesicht wie ein Dorflehrer; Hände in den Ärmeln; riecht nach Tinte. Trat auf dem Unmu als Hausverwalter der Familie Cheon auf (dunkelgrau, blaues Band am Ärmel). Seine Schritte sind nicht zu hören.",
-      "persoenlichkeit": "Höflich, sachlich, verbeugt sich wie ein Handwerker vor einem geschätzten Kunden. Kodex: tötet keine Kinder, legt kein Feuer an Tempeln, betritt Cheons Kammer nie.",
+      "persoenlichkeit": "Höflich, sachlich; unter seiner Stimme ist nichts – keine Lüge, keine Wahrheit, eine glatte graue Fläche. Kodex: tötet keine Kinder, legt kein Feuer an Tempeln, betritt Cheons Kammer nie.",
       "sprechweise": "",
       "wunde": "",
       "ziel": "",
@@ -576,6 +580,14 @@
       "lage": "Hinter dem Glockenturm, halb in den Hang gegraben",
       "beschreibung": "Lehm und Ziegel, Schornstein wie ein krummer Finger. Hier goss der Gründer die neun Glocken. Neunzig Jahre kalt, unter Brennnesseln; jetzt wieder in Betrieb.",
       "sinneseindruecke": "Holzkohle, heißer Lehm, scharfer Metallgeruch; Dals Gießlied im Takt des Blasebalgs."
+    },
+    {
+      "id": "o-cheon-anwesen",
+      "name": "Anwesen der Familie Cheon",
+      "typ": "Anwesen mit drei Höfen",
+      "lage": "Seoan",
+      "beschreibung": "Übungshalle mit schwarzem Ziegeldach und 24 roten Lacksäulen, Bibliothek mit 300 Schriftrollen, Ahnenhalle mit Hunderten Tafeln und ewiger Lampe. Hinter dem Stall führt eine Treppe zu einer Eisentür und einer Kellerkammer.",
+      "sinneseindruecke": "Fliederbusch im zweiten Hof; die tiefe Glocke Abend im Bauch."
     }
   ],
   "fraktionen": [
@@ -689,6 +701,20 @@
       "besitzer": "fr-gujong",
       "ort": "o-unmu",
       "beschreibung": "Fingerdickes Eisen in einem eisernen Schuh, von Do-yun geschmiedet. Lässt sich nur von innen öffnen: erst drehen, dann ziehen."
+    },
+    {
+      "id": "g-kastanie",
+      "name": "Kastanie",
+      "besitzer": "f-uijin",
+      "ort": "o-unmu",
+      "beschreibung": "Brauner Wallach mit weißer Blesse, Ui-jins Pferd seit seinem zehnten Lebensjahr, der Schnellste im Stall. Mag keine Peitsche – man muss mit ihm sprechen. Seol-a ritt auf ihm zum Unmu."
+    },
+    {
+      "id": "g-abend",
+      "name": "Die Glocke Abend",
+      "besitzer": "f-cheon",
+      "ort": "o-seoan",
+      "beschreibung": "Die sechste und tiefste Glocke, dunkelgrün, fast schwarz, Schulter breit wie ein Tisch. Steht in der Ahnenhalle der Cheons auf einem Holzgestell, seit ihr Balken auf den Unmu geschickt wurde. Cheon schläft daneben."
     }
   ],
   "techniken": [
@@ -1229,6 +1255,71 @@
       ],
       "ereignis": "Seo will nach Seoan, weil Seol-a nicht mehr schreibt; ein Pferd galoppiert den Berg herauf.",
       "folgen": ""
+    },
+    {
+      "id": "e-18-1",
+      "kapitel": 18,
+      "weltzeit": "Taehwa 12, 8. Monat, 20. Tag",
+      "ort": "o-cheon-anwesen",
+      "figuren": [
+        "f-seol-a",
+        "f-cheon",
+        "f-uijin"
+      ],
+      "ereignis": "Seol-a erreicht den Unterton und hört unter Cheons Lachen Menschen schreien.",
+      "folgen": ""
+    },
+    {
+      "id": "e-18-2",
+      "kapitel": 18,
+      "weltzeit": "Taehwa 12, 8. Monat, 22. Tag, Nacht",
+      "ort": "o-cheon-anwesen",
+      "figuren": [
+        "f-seol-a",
+        "f-cheon"
+      ],
+      "ereignis": "Seol-a belauscht Cheon an der Kellerkammer hinter dem Stall.",
+      "folgen": ""
+    },
+    {
+      "id": "e-18-3",
+      "kapitel": 18,
+      "weltzeit": "Taehwa 12, 8. Monat, 24. Tag",
+      "ort": "o-seoan",
+      "figuren": [
+        "f-seol-a",
+        "f-grau"
+      ],
+      "ereignis": "Seol-a begegnet Hwang Ryeom im Pfandhaus am Nordmarkt und gibt ihren Brief nicht ab.",
+      "folgen": "Keine Briefe mehr."
+    },
+    {
+      "id": "e-18-4",
+      "kapitel": 18,
+      "weltzeit": "Taehwa 12, 8. Monat, 27. Tag, Nacht",
+      "ort": "o-cheon-anwesen",
+      "figuren": [
+        "f-cheon",
+        "f-grau",
+        "f-seol-a"
+      ],
+      "ereignis": "Cheon legt in der Ahnenhalle den Angriff auf die Mittherbstnacht fest; Seol-a hört es.",
+      "folgen": "Sie flieht auf Ui-jins Pferd."
+    },
+    {
+      "id": "e-18-5",
+      "kapitel": 18,
+      "weltzeit": "Taehwa 12, 8. Monat, 29. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seol-a",
+        "f-seo",
+        "f-mok-yeon",
+        "f-doyun",
+        "f-dal"
+      ],
+      "ereignis": "Seol-a kehrt zum Unmu zurück und warnt vor dem fünfzehnten.",
+      "folgen": "Sie erkennt, dass Mok Yeon es wusste."
     }
   ],
   "faeden": [
@@ -1272,8 +1363,9 @@
       "id": "fa-abend",
       "beschreibung": "Warum kaufte Cheon Mu-gyeong vor zehn Jahren die Glocke Abend – für viel zu viel Silber?",
       "eingefuehrt": 5,
-      "status": "offen",
-      "aufloesung": ""
+      "status": "gelöst",
+      "aufloesung": "Der tiefe Ton der Glocke Abend ist das Einzige, was Cheons Schmerz beruhigt. Er schläft seit zehn Jahren neben ihr.",
+      "geloestIn": 18
     },
     {
       "id": "fa-feuer",
@@ -1575,6 +1667,22 @@
     {
       "kapitel": 17,
       "text": "Am 29. Tag des 8. Monats wollte Seo nach Seoan aufbrechen – da galoppierte ein einzelnes Pferd den Berg herauf. Noch 16 Tage bis zur Laternennacht."
+    },
+    {
+      "kapitel": 18,
+      "text": "Cheon hat den Angriff auf den 15. Tag des 9. Monats festgelegt – die Mittherbstnacht, wenn ganz Hacheon am Fluss ist. Kein Feuer am Turm, die Glocken holt er danach. Seol-a sollte in Seoan bleiben."
+    },
+    {
+      "kapitel": 18,
+      "text": "Die Laternen wissen vom Klangnetz: Ein Laternenmann lief in der vierten Nacht durch einen Faden."
+    },
+    {
+      "kapitel": 18,
+      "text": "Seol-as vierter Brief wurde nie abgeschickt: Hwang Ryeom saß im Pfandhaus am Nordmarkt. Sie verbrannte ihn."
+    },
+    {
+      "kapitel": 18,
+      "text": "Seol-a kam am Morgen des 29. Tags des 8. Monats auf Ui-jins Pferd zum Unmu zurück."
     }
   ],
   "kapitel": [
@@ -1696,6 +1804,13 @@
       "weltzeit": "Taehwa 12, 8. Monat, 29. Tag",
       "zusammenfassung": "Seo und Mok Yeon weihen Do-yun ein. Er fragt nur, wie er starb, und sagt: Dann halte ich es diesmal besser. Er baut die Westmauer neu, als gewöhnliche Reparatur getarnt. Mok Yeon bittet Dal, kleine Glocken zu gießen. Sie legen den Ofen des Gründers frei, und Dal gießt aus Madam Oks Kochtöpfen 47 einzeln gestimmte Glocken. Nachts spannen sie die Glocken als Klangnetz über Pfad, Mauer, Hauptweg und Seitentor. Chil hilft, im Glauben, es gehe gegen Diebe, und hängt die tiefste ans Seitentor. Do-yun schmiedet einen Riegel, der nur von innen aufgeht. Er fragt Min-ji schon jetzt, nicht erst in der Mittherbstnacht; sie sagt Idiot. Seol-as Briefe kommen, im dritten steht, dass Cheon unter Abend in der Ahnenhalle schläft. Dann bleiben die Briefe aus. Als Seo nach Seoan aufbrechen will, melden die Glocken ein galoppierendes Pferd.",
       "woerter": 2416
+    },
+    {
+      "nr": 18,
+      "titel": "Frost in Seoan",
+      "weltzeit": "Taehwa 12, 8. Monat, 29. Tag (Morgen)",
+      "zusammenfassung": "Aus Seol-as Sicht: In Seoan wird sie herzlich aufgenommen und mag den Patriarchen. Durch die Glockenatmung erreicht sie den Unterton und hört plötzlich alle kleinen Lügen. Beim Familienessen hört sie unter Cheons Lachen Menschen schreien. Nachts folgt sie ihm zu einer Eisentür hinter dem Stall und hört, wie er einem Gefangenen Qi abzieht und Danke sagt. Ihren vierten Brief gibt sie nicht ab, weil Hwang Ryeom im Pfandhaus sitzt; sie verpfändet stattdessen ihre Schwertquaste und verbrennt den Brief. Ui-jin kann sie nichts sagen. In der Ahnenhalle belauscht sie Cheon und Hwang: Angriff am 15., kein Feuer am Turm, das Mädchen bleibt in Seoan. Sie flieht nachts, Ui-jin ertappt sie im Stall, fragt nicht weiter und gibt ihr sein Pferd Kastanie. Nach einem Tag und einer Nacht erreicht sie den Unmu und ruft: Der fünfzehnte. Mok Yeon ist nicht überrascht.",
+      "woerter": 3027
     }
   ],
   "stimmen": {

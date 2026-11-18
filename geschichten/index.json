@@ -13,7 +13,7 @@
       "de": "Er versteckte sich in einer Glocke, während seine Sekte starb. Einundvierzig Jahre später erwacht er neunzig Tage vor jener Nacht.",
       "en": "He hid inside a bell while his sect died. Forty-one years later, he wakes ninety days before that night."
     },
-    "kapitel": 17,
+    "kapitel": 18,
     "kapiteltitel": {
       "de": [
         "Die Glocke, in der ich mich versteckte",
@@ -32,7 +32,8 @@
         "Ich war schon einmal hier",
         "Ein Geschenk aus Seoan",
         "Abschied",
-        "Das Klangnetz"
+        "Das Klangnetz",
+        "Frost in Seoan"
       ],
       "en": [
         "The Bell I Hid In",
@@ -51,7 +52,8 @@
         "I've Been Here Before",
         "A Gift from Seoan",
         "Farewell",
-        "The Sound Net"
+        "The Sound Net",
+        "Frost in Seoan"
       ]
     }
   }

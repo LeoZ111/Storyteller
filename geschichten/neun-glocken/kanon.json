@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 7. Monat, 10. Tag",
+  "zeit": "Taehwa 12, 8. Monat, 3. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -101,7 +101,7 @@
       "beduerfnis": "Die Last nicht mehr allein tragen. Sich selbst verzeihen, dass er sich versteckt hat.",
       "geheimnis": "",
       "bogen": "",
-      "stufe": "Zweiter Ton im Körper gefestigt; Verständnis weit darüber",
+      "stufe": "Zweiter Ton gefestigt; das Glockenohr öffnet sich an guten Morgen von selbst einen Spalt",
       "status": "lebendig; Schnitt über den Rippen, Blut aus beiden Ohren nach dem Blechschlag",
       "ort": "o-unmu",
       "beziehungen": [
@@ -282,13 +282,21 @@
       "beduerfnis": "",
       "geheimnis": "",
       "bogen": "",
-      "stufe": "Glockenohr, kurz vor dem vierten Ton (Unterton)",
+      "stufe": "Glockenohr; durch die Glockenatmung an der Tür zum Unterton",
       "status": "lebendig",
-      "ort": "o-unmu",
+      "ort": "o-seoan",
       "beziehungen": [
         {
           "zu": "f-seo",
           "art": "verletzt, weil die Meisterin sie ohne Widerspruch gehen lässt"
+        },
+        {
+          "zu": "f-dal",
+          "art": "trägt seine kleine Glocke aus Sturm um den Hals"
+        },
+        {
+          "zu": "f-mok-yeon",
+          "art": "hat von ihm die Glockenatmung gelernt; weiß von einem 'alten Mann', der sie ihm beibrachte"
         }
       ],
       "stimme": "Klar, kühl, präzise, junge Frau, mittlere Tonlage.",
@@ -543,6 +551,14 @@
       "lage": "Über dem Cheongnyu, über eine Brücke vom Ufer erreichbar",
       "beschreibung": "Geschwungene Traufen, für das Treffen mit weißen Bannern der Familie Cheon und gelben Lampions geschmückt; Strohmatten nach Rang.",
       "sinneseindruecke": "Wind vom Fluss, Banner wie Segel, Trommeln."
+    },
+    {
+      "id": "o-westlager",
+      "name": "Westlager",
+      "typ": "Flüchtlingslager",
+      "lage": "Vor dem Westtor von Hacheon, eine Stunde Fußweg",
+      "beschreibung": "Etwa dreitausend Menschen auf einem festgetretenen ehemaligen Hirsefeld; Zelte aus geflickten Planen, Hütten aus Schilf und Lehm.",
+      "sinneseindruecke": "Rauch, Holzkohle, Latrinen, gekochte Gerste; barfüßige Kinder, die mit Steinen spielen."
     }
   ],
   "fraktionen": [
@@ -635,6 +651,13 @@
       "besitzer": "fr-gujong",
       "ort": "o-unmu",
       "beschreibung": "Schwerer, dunkler Kampferbalken mit eisernem Haken, an dem Abend zehn Jahre lang in der Ahnenhalle der Cheons hing. Von Cheon als Versprechen geschickt; lehnt an der Hofmauer."
+    },
+    {
+      "id": "g-sturmglocke",
+      "name": "Die kleine Glocke aus Sturm",
+      "besitzer": "f-seol-a",
+      "ort": "o-seoan",
+      "beschreibung": "Walnussgroß, fast schwarze Bronze mit einer rauen Stelle, an roter Seidenschnur. Gegossen von Dal aus einem Splitter der Glocke Sturm, den er dreißig Jahre unter dem Herd aufbewahrte. Summt mit, wenn die Glocken des Unmu klingen."
     }
   ],
   "techniken": [
@@ -1085,6 +1108,46 @@
       ],
       "ereignis": "Hwang Ryeom gibt Mok Yeon zu verstehen, dass er von der Marke weiß.",
       "folgen": "Beide Seiten wissen, dass die andere etwas weiß."
+    },
+    {
+      "id": "e-16-1",
+      "kapitel": 16,
+      "weltzeit": "Taehwa 12, 7. Monat, Mitte",
+      "ort": "o-westlager",
+      "figuren": [
+        "f-mok-yeon",
+        "f-seol-a"
+      ],
+      "ereignis": "Schutzdienst im Westlager; ein Junge schenkt Seol-a einen Grashalm.",
+      "folgen": ""
+    },
+    {
+      "id": "e-16-2",
+      "kapitel": 16,
+      "weltzeit": "Taehwa 12, 8. Monat, 2. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-dal",
+        "f-seol-a",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Dal schenkt Seol-a die kleine Glocke aus Sturm; Mok Yeon lehrt sie die Glockenatmung.",
+      "folgen": "Seol-a steht an der Tür zum Unterton."
+    },
+    {
+      "id": "e-16-3",
+      "kapitel": 16,
+      "weltzeit": "Taehwa 12, 8. Monat, 3. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seol-a",
+        "f-uijin",
+        "f-seo",
+        "f-chil",
+        "f-doyun"
+      ],
+      "ereignis": "Seol-a reist mit Ui-jin nach Seoan.",
+      "folgen": "Sie soll wöchentlich schreiben."
     }
   ],
   "faeden": [
@@ -1399,6 +1462,18 @@
     {
       "kapitel": 15,
       "text": "Seo lässt Mok Yeon zur Tarnung jeden Morgen die Latrine schrubben."
+    },
+    {
+      "kapitel": 16,
+      "text": "Seol-a ist am 3. Tag des 8. Monats mit Ui-jin nach Seoan gefahren. Sie soll jede Woche über Madam Oks Boten schreiben (Pfandhaus am Nordmarkt von Seoan, Bote alle fünf Tage). Schreibt sie eine Woche nicht, holt Seo sie."
+    },
+    {
+      "kapitel": 16,
+      "text": "Seo zu Seol-a: Das Tor ist offen – nicht weil ich dich bitte, weil es offen ist. Bei Tag oder bei Nacht."
+    },
+    {
+      "kapitel": 16,
+      "text": "Am 3. Tag des 8. Monats sind es noch 42 Tage bis zur Laternennacht."
     }
   ],
   "kapitel": [
@@ -1506,6 +1581,13 @@
       "weltzeit": "Taehwa 12, 7. Monat, 10. Tag",
       "zusammenfassung": "Cheon Ui-jin kommt auf den Unmu, begleitet von Hwang Ryeom, verkleidet als Hausverwalter. Seo spielt die beschämte Meisterin und lässt Mok Yeon sich tief verbeugen. Die Familie Cheon bietet einen gut bezahlten Schutzauftrag für die Straße zum Westlager und schickt den Balken der Glocke Abend: Die Glocke soll als Geschenk zurückkommen. Mok Yeon erkennt, dass es eine Prüfung ist. Seo nimmt gerührt an, verschiebt die Lieferung aber auf nach dem Mittherbstfest, angeblich wegen morscher Turmbalken. Chil belauscht Hwang mit dem Spatzenschritt: Die Balken sind nicht morsch, die Westmauer ist noch eingestürzt. Mok Yeon verbietet Chil, dem grauen Mann nahezukommen. Ui-jin möchte von Mok Yeon lernen. Beim Gehen flüstert Hwang: Sein Mann lasse grüßen, Mok Yeon solle die Marke behalten – als Andenken.",
       "woerter": 2146
+    },
+    {
+      "nr": 16,
+      "titel": "Abschied",
+      "weltzeit": "Taehwa 12, 8. Monat, 3. Tag",
+      "zusammenfassung": "Beim Schutzdienst im Westlager schenkt der Junge aus Cheons Rede Seol-a einen Grashalm. Mok Yeon begreift, dass Cheons Güte und seine Verbrechen beide wahr sind; Seol-a verteidigt die Cheons. Die Wochen vergehen mit Training, Latrine und Straßendienst. Am letzten Abend schenkt Dal Seol-a eine walnussgroße Glocke, gegossen aus einem Splitter von Sturm, den er dreißig Jahre aufbewahrt hat. Nachts lehrt Mok Yeon sie die Glockenatmung; sie hört zum ersten Mal unter Dals Schlafgemurmel. Er sagt ihr, ein alter Mann habe es ihn gelehrt, der es gern ihr beigebracht hätte. Am Morgen fährt sie mit Ui-jin nach Seoan. Seo verlangt wöchentliche Briefe und sagt: Das Tor ist offen. Chil gibt der Kutsche einen Reisball mit. Mok Yeon läutet die Glocken, und an Seol-as Hals summt die kleine Glocke mit. Noch 42 Tage.",
+      "woerter": 2169
     }
   ],
   "stimmen": {

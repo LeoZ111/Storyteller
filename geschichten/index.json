@@ -13,7 +13,7 @@
       "de": "Er versteckte sich in einer Glocke, während seine Sekte starb. Einundvierzig Jahre später erwacht er neunzig Tage vor jener Nacht.",
       "en": "He hid inside a bell while his sect died. Forty-one years later, he wakes ninety days before that night."
     },
-    "kapitel": 15,
+    "kapitel": 16,
     "kapiteltitel": {
       "de": [
         "Die Glocke, in der ich mich versteckte",
@@ -30,7 +30,8 @@
         "Risse",
         "Das Treffen von Hacheon",
         "Ich war schon einmal hier",
-        "Ein Geschenk aus Seoan"
+        "Ein Geschenk aus Seoan",
+        "Abschied"
       ],
       "en": [
         "The Bell I Hid In",
@@ -47,7 +48,8 @@
         "Cracks",
         "The Hacheon Gathering",
         "I've Been Here Before",
-        "A Gift from Seoan"
+        "A Gift from Seoan",
+        "Farewell"
       ]
     }
   }

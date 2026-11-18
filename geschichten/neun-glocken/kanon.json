@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 9. Monat, 21. Tag",
+  "zeit": "Taehwa 12, 9. Monat, 19. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -202,7 +202,7 @@
       "persoenlichkeit": "Warm, väterlich, pflichtbewusst. Glaubt, dass Tausende leben, weil er lebt – und rechtfertigt damit alles. Glaubt daran. Meistens.",
       "sprechweise": "Spricht ohne Notizen, nicht laut und doch weit hörbar; ohne Pathos, mit Zahlen, die nicht wie Zahlen klingen. Kennt jeden Namen.",
       "wunde": "Mit 25 rissen seine Meridiane, als er dreißig Banditen aufhielt, damit zweihundert Flüchtlinge über einen Pass kamen. Seitdem ein Schmerz unter dem Brustbein; schläft nie länger als zwei Stunden.",
-      "ziel": "",
+      "ziel": "Keine Laternen mehr: Die Sekte soll durch den Kampfkunstbund fallen – durch eine ehrliche Inspektorin, die die Klangkunst als dämonisch verbietet. Will wissen, wer Mok Yeon wirklich ist.",
       "beduerfnis": "",
       "geheimnis": "Zieht gefangenen Mördern in einer Kammer unter seinem Stall in Seoan das Qi ab (rötlicher Dunst, 'Danke'). Schläft seit zehn Jahren neben der Glocke Abend, weil nur sie ihn ruhig macht. Hat den Angriff auf die Sekte für die Mittherbstnacht befohlen – ohne Feuer am Turm.",
       "bogen": "",
@@ -424,7 +424,7 @@
     {
       "id": "f-laternenmann-3",
       "name": "Laternenmann",
-      "alias": "Dritte Laterne (drei Striche)",
+      "alias": "Seok, die Dritte Laterne (drei Striche)",
       "rolle": "Mörder der Schwarzen Laternen; legte das Feuer am Fluss",
       "geschlecht": "m",
       "alter": "etwa 30",
@@ -435,7 +435,7 @@
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "",
+      "bogen": "Hat Chil zweimal laufen lassen. Fragt nach zwölf Jahren zum ersten Mal, warum der Kodex keine Kinder erlaubt.",
       "stufe": "Zweitklasse, knapp darüber",
       "status": "lebendig",
       "ort": "o-hacheon",
@@ -453,14 +453,14 @@
       "aussehen": "Schlank, glatt rasiertes, freundliches Gesicht wie ein Dorflehrer; Hände in den Ärmeln; riecht nach Tinte. Trat auf dem Unmu als Hausverwalter der Familie Cheon auf (dunkelgrau, blaues Band am Ärmel). Seine Schritte sind nicht zu hören.",
       "persoenlichkeit": "Höflich, sachlich; unter seiner Stimme ist nichts – keine Lüge, keine Wahrheit, eine glatte graue Fläche. Kodex: tötet keine Kinder, legt kein Feuer an Tempeln, betritt Cheons Kammer nie.",
       "sprechweise": "",
-      "wunde": "",
+      "wunde": "Mit neun überlebte er den Überfall auf sein Dorf im Norden unter Wasser in einem Ochsentrog, mit einem Strohhalm im Mund. Ein junger Bandit sah ihn und ließ ihn leben. Daher der Kodex: keine Kinder.",
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
-      "bogen": "",
+      "bogen": "Erfährt, dass Seo seine Männer Kim und Byeon begraben hat und Dal Reis auf ihre Gräber stellt. Hängt für den Unmu eine unangezündete Laterne auf: Begraben.",
       "stufe": "",
-      "status": "lebendig; von Seos Glockenschlag aus dem Turm geschleudert, verletzt an der Brust; floh",
-      "ort": "o-hacheon",
+      "status": "lebendig; drei gebrochene Rippen, Riss im Brustbein",
+      "ort": "o-faerberei",
       "beziehungen": [
         {
           "zu": "f-mok-yeon",
@@ -480,7 +480,7 @@
       "aussehen": "Breit, schwarzer Bart, als hätte er sich die Haare vom Kopf ins Gesicht gekämmt.",
       "persoenlichkeit": "Laut, spöttisch; sein Schüler verlor im Frühling gegen Seol-a.",
       "sprechweise": "",
-      "wunde": "",
+      "wunde": "Hasst Seo seit zwanzig Jahren, weil Ryu Gang ihn einmal vor allen Leuten geschlagen hat.",
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
@@ -635,6 +635,14 @@
       "lage": "Eine Stunde flussabwärts von Hacheon, am Cheongnyu",
       "beschreibung": "Der Fluss macht einen weiten Bogen um einen Felsvorsprung wie eine Nase; das Wasser ist tief, dunkel und langsam. Hier liegt die Glocke Strom auf dem Grund.",
       "sinneseindruecke": "Weiden mit Zweigen im Wasser, Gurgeln am Felsen, ein warmer, glatter Stein."
+    },
+    {
+      "id": "o-faerberei",
+      "name": "Die alte Färberei",
+      "typ": "Versteck der Schwarzen Laternen",
+      "lage": "Gerberviertel von Seoan, am stinkenden Flussarm",
+      "beschreibung": "Langes, niedriges Gebäude mit alten Färbebottichen. Unter dem Dach hängen an Leinen Dutzende unangezündete schwarze Laternen – eine für jeden Auftrag, mit einem Zettel: Name, Ort, Datum.",
+      "sinneseindruecke": "Blau, rot und gelb gefärbtes Abwasser; Lichtstreifen durch Dachritzen."
     }
   ],
   "fraktionen": [
@@ -1542,6 +1550,41 @@
       ],
       "ereignis": "Anschlag des Kampfkunstbunds: Ermittlung wegen dämonischer Kunst.",
       "folgen": "Inspektorin Baek Ha-seon kommt am 1. Tag des 10. Monats."
+    },
+    {
+      "id": "e-23-1",
+      "kapitel": 23,
+      "weltzeit": "Taehwa 12, 9. Monat, 19. Tag",
+      "ort": "o-faerberei",
+      "figuren": [
+        "f-grau",
+        "f-laternenmann-3"
+      ],
+      "ereignis": "Hwang erzählt Seok, warum der Kodex keine Kinder erlaubt.",
+      "folgen": ""
+    },
+    {
+      "id": "e-23-2",
+      "kapitel": 23,
+      "weltzeit": "Taehwa 12, 9. Monat, 19. Tag, Abend",
+      "ort": "o-cheon-anwesen",
+      "figuren": [
+        "f-grau",
+        "f-cheon"
+      ],
+      "ereignis": "Hwang berichtet Cheon; Cheon beendet die Laternen-Angriffe und setzt auf die Anzeige beim Kampfkunstbund.",
+      "folgen": "Cheon will wissen, wer Mok Yeon ist."
+    },
+    {
+      "id": "e-23-3",
+      "kapitel": 23,
+      "weltzeit": "Taehwa 12, 9. Monat, 17. Tag",
+      "ort": "o-seoan",
+      "figuren": [
+        "f-pyeon"
+      ],
+      "ereignis": "Meister Pyeon erstattet Anzeige wegen dämonischer Kunst.",
+      "folgen": "Ermittlung durch Baek Ha-seon."
     }
   ],
   "faeden": [
@@ -1979,6 +2022,22 @@
     {
       "kapitel": 22,
       "text": "Das Siegel des Kampfkunstbunds: zwei gekreuzte Schwerter in einem Kreis."
+    },
+    {
+      "kapitel": 23,
+      "text": "Meister Pyeon hat beim Zweig des Kampfkunstbunds in Seoan Anzeige erstattet – angestoßen durch einen Brief Cheons, der ihn scheinbar davon abhalten wollte. Drei Eisentor-Schüler fielen vom Pferd, als der Berg sang."
+    },
+    {
+      "kapitel": 23,
+      "text": "Cheon hat dafür gesorgt, dass die unbestechliche Baek Ha-seon die Inspektion leitet: Ihr Urteil soll glaubwürdig sein."
+    },
+    {
+      "kapitel": 23,
+      "text": "Ui-jin bat seinen Vater, die Banditen vom Unmu zu jagen. Cheon versprach es."
+    },
+    {
+      "kapitel": 23,
+      "text": "Die getöteten Laternenmänner hießen Kim (mit Zopf, aus dem Norden) und Byeon."
     }
   ],
   "kapitel": [
@@ -2135,6 +2194,13 @@
       "weltzeit": "Taehwa 12, 9. Monat, 21. Tag",
       "zusammenfassung": "Aus Chils Sicht: Er meidet das Seitentor, und dass niemand ihn beschuldigt, ist das Schlimmste. Er sagt Mok Yeon offen, dass er die versunkene Glocke Strom suchen will. An der Glockenkehre erzählt der blinde alte Gong, wie Strom vor sechzig Jahren von einem Kahn fiel und dass der Fluss in der Laternennacht geantwortet hat. Chil hört nichts. Mok Yeon kommt und sagt ihm, anders als alle anderen: Ja, auch wegen dir. Aber du hast mir tausend Geräusche gegeben. Um Mitternacht läuten Do-yun und Seol-a wie verabredet; der Stein zittert, Ringe erscheinen auf dem Wasser, und Strom summt unter dem Fluss. Dabei findet Chil den zweiten Ton. Am Morgen hängt in Hacheon ein Anschlag des Kampfkunstbunds: Ermittlung gegen die Sekte wegen dämonischer Kunst, Inspektorin Baek Ha-seon kommt. Mok Yeon: Er hat ein Wort gefunden.",
       "woerter": 2263
+    },
+    {
+      "nr": 23,
+      "titel": "Der Kodex der Laternen",
+      "weltzeit": "Taehwa 12, 9. Monat, 19. Tag",
+      "zusammenfassung": "Aus Hwang Ryeoms Sicht: Mit gebrochenen Rippen reitet er nach Seoan zur alten Färberei, wo für jeden Auftrag eine schwarze Laterne hängt. Für den Unmu gibt es keine. Seok, der Mann mit der gebrochenen Nase, fragt, warum sie keine Kinder töten. Hwang erzählt, wie er mit neun unter Wasser überlebte, weil ein junger Bandit ihn leben ließ. Cheon berichtet, dass Ui-jin weinend heimgekehrt ist und ihn gebeten hat, die Banditen zu jagen. Keine Laternen mehr: Über einen Brief hat Cheon Meister Pyeon dazu gebracht, Anzeige wegen dämonischer Kunst zu erstatten, und er sorgt dafür, dass die unbestechliche Baek Ha-seon prüft. Ihr ehrliches Urteil soll die Sekte zerstören. Hwang erzählt von Mok Yeons Satz: Das habe ich schon einmal getan. Cheon will wissen, wer der Junge ist. Nachts erfährt Hwang, dass Seo seine Toten begraben hat, und hängt für sie eine Laterne auf: Begraben.",
+      "woerter": 2059
     }
   ],
   "stimmen": {

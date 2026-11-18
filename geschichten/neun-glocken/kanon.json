@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 8. Monat, 29. Tag (Morgen)",
+  "zeit": "Taehwa 12, 9. Monat, 15. Tag (Nacht)",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -101,7 +101,7 @@
       "beduerfnis": "Die Last nicht mehr allein tragen. Sich selbst verzeihen, dass er sich versteckt hat.",
       "geheimnis": "",
       "bogen": "",
-      "stufe": "Zweiter Ton gefestigt; das Glockenohr öffnet sich an guten Morgen von selbst einen Spalt",
+      "stufe": "Glockenohr (dritter Ton) im Körper – drei Tage vor der Laternennacht ohne Blut erreicht",
       "status": "lebendig; Schnitt über den Rippen, Blut aus beiden Ohren nach dem Blechschlag",
       "ort": "o-unmu",
       "beziehungen": [
@@ -166,7 +166,7 @@
       "aussehen": "Rund wie ein Reisknödel, Kutte zu kurz, Muttermal unter dem linken Auge, meistens etwas Essbares in der Hand.",
       "persoenlichkeit": "Fröhlich, verfressen, ängstlich vor Geistern, großzügig.",
       "sprechweise": "Schnell, empört, übertreibt; Stimme kippt im Stimmbruch.",
-      "wunde": "",
+      "wunde": "Öffnete in der Laternennacht den Riegel des Seitentors von innen, weil er glaubte, einen Dieb zu fangen. (Im ersten Leben war er es auch – heimlich, zum Laternenfest.)",
       "ziel": "",
       "beduerfnis": "",
       "geheimnis": "",
@@ -408,7 +408,12 @@
       "stufe": "",
       "status": "lebendig",
       "ort": "o-pfandleihe",
-      "beziehungen": [],
+      "beziehungen": [
+        {
+          "zu": "f-mok-yeon",
+          "art": "versprach: Wenn die Glocken schreien, kommen zwanzig Träger und die Stadtwache"
+        }
+      ],
       "stimme": "Gedehnte, trockene Frauenstimme um die 50, amüsiert, etwas rauchig.",
       "ersterAuftritt": 7
     },
@@ -420,7 +425,7 @@
       "geschlecht": "m",
       "alter": "etwa 30",
       "aussehen": "Schmales, gewöhnliches Gesicht, schief zusammengewachsene Nase; atmet pfeifend durch die Nase; Messingschnalle, die beim Gehen tickt.",
-      "persoenlichkeit": "Sachlich, ausdruckslos; tötet wie ein Handwerker.",
+      "persoenlichkeit": "Sachlich, ausdruckslos, müde. Hält sich an den Kodex: ließ Chil laufen – Wir töten keine Kinder.",
       "sprechweise": "",
       "wunde": "",
       "ziel": "",
@@ -637,7 +642,7 @@
       "name": "Die Glocke Abend",
       "besitzer": "f-cheon",
       "ort": "o-seoan",
-      "beschreibung": "Die sechste und tiefste Glocke der Sekte. Vor zehn Jahren von Cheon Mu-gyeong für viel zu viel Silber gekauft; hängt in der Ahnenhalle der Familie Cheon."
+      "beschreibung": "Die sechste und tiefste Glocke, dunkelgrün, fast schwarz, Schulter breit wie ein Tisch. Steht in der Ahnenhalle der Cheons auf einem Holzgestell, seit ihr Balken auf den Unmu geschickt wurde. Cheon schläft daneben."
     },
     {
       "id": "g-tau-herd",
@@ -708,13 +713,6 @@
       "besitzer": "f-uijin",
       "ort": "o-unmu",
       "beschreibung": "Brauner Wallach mit weißer Blesse, Ui-jins Pferd seit seinem zehnten Lebensjahr, der Schnellste im Stall. Mag keine Peitsche – man muss mit ihm sprechen. Seol-a ritt auf ihm zum Unmu."
-    },
-    {
-      "id": "g-abend",
-      "name": "Die Glocke Abend",
-      "besitzer": "f-cheon",
-      "ort": "o-seoan",
-      "beschreibung": "Die sechste und tiefste Glocke, dunkelgrün, fast schwarz, Schulter breit wie ein Tisch. Steht in der Ahnenhalle der Cheons auf einem Holzgestell, seit ihr Balken auf den Unmu geschickt wurde. Cheon schläft daneben."
     }
   ],
   "techniken": [
@@ -1320,6 +1318,49 @@
       ],
       "ereignis": "Seol-a kehrt zum Unmu zurück und warnt vor dem fünfzehnten.",
       "folgen": "Sie erkennt, dass Mok Yeon es wusste."
+    },
+    {
+      "id": "e-19-1",
+      "kapitel": 19,
+      "weltzeit": "Taehwa 12, 9. Monat, 1. Tag",
+      "ort": "o-pfandleihe",
+      "figuren": [
+        "f-mok-yeon",
+        "f-madam-ok"
+      ],
+      "ereignis": "Madam Ok verspricht Hilfe, wenn die Glocken schreien.",
+      "folgen": ""
+    },
+    {
+      "id": "e-19-2",
+      "kapitel": 19,
+      "weltzeit": "Taehwa 12, 9. Monat, 15. Tag, Nachmittag",
+      "ort": "o-hacheon",
+      "figuren": [
+        "f-doyun",
+        "f-chil",
+        "f-minji"
+      ],
+      "ereignis": "Do-yun bringt Chil zu Madam Ok; Min-ji ohrfeigt und küsst Do-yun.",
+      "folgen": "Chil schleicht heimlich zurück."
+    },
+    {
+      "id": "e-19-3",
+      "kapitel": 19,
+      "weltzeit": "Taehwa 12, 9. Monat, 15. Tag, nach Mitternacht",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-chil",
+        "f-laternenmann-3",
+        "f-doyun",
+        "f-seo",
+        "f-seol-a",
+        "f-dal",
+        "f-mok-yeon",
+        "f-grau"
+      ],
+      "ereignis": "Angriff der Schwarzen Laternen; Chil öffnet das Seitentor von innen.",
+      "folgen": "Kampf an Tor, Mauer und Küche; Hwang Ryeom erreicht den Turm."
     }
   ],
   "faeden": [
@@ -1349,15 +1390,17 @@
       "id": "fa-tor",
       "beschreibung": "Wer öffnete in jener Nacht das Seitentor bei der Küche?",
       "eingefuehrt": 2,
-      "status": "offen",
-      "aufloesung": ""
+      "status": "gelöst",
+      "aufloesung": "Chil öffnete das Seitentor von innen – im ersten Leben, um zum Laternenfest zu schleichen; diesmal, um einen vermeintlichen Dieb zu fangen.",
+      "geloestIn": 19
     },
     {
       "id": "fa-beobachter",
       "beschreibung": "Wer beobachtet die Sekte nachts vom Ziegenpfad aus?",
       "eingefuehrt": 2,
-      "status": "offen",
-      "aufloesung": ""
+      "status": "gelöst",
+      "aufloesung": "Die Schwarzen Laternen unter Hwang Ryeom, im Auftrag Cheon Mu-gyeongs.",
+      "geloestIn": 10
     },
     {
       "id": "fa-abend",
@@ -1683,6 +1726,22 @@
     {
       "kapitel": 18,
       "text": "Seol-a kam am Morgen des 29. Tags des 8. Monats auf Ui-jins Pferd zum Unmu zurück."
+    },
+    {
+      "kapitel": 19,
+      "text": "Plan für die Laternennacht: Durchhalten und läuten – Morgen und Tau abwechselnd, schnell –, damit Madam Ok Träger und Stadtwache hinaufschickt. Zeichen: Morgen einmal = Haupttor, Tau zweimal = Westmauer."
+    },
+    {
+      "kapitel": 19,
+      "text": "Aufstellung: Seo und Do-yun am Haupttor, Seol-a an der Westmauer, Dal in der Küche beim Seitentor, Mok Yeon im Turm. Chil sollte bei Madam Ok sein – er schlich mit dem Spatzenschritt zurück und versteckte sich im Holzstapel."
+    },
+    {
+      "kapitel": 19,
+      "text": "Angreifer: acht über den Ziegenpfad zur Westmauer, etwa vierzehn über den Hauptweg, drei durch das Seitentor."
+    },
+    {
+      "kapitel": 19,
+      "text": "Das Knarren, das Mok Yeon einundvierzig Jahre lang nicht einordnen konnte, war das Seitentor, von Chil von innen geöffnet."
     }
   ],
   "kapitel": [
@@ -1811,6 +1870,13 @@
       "weltzeit": "Taehwa 12, 8. Monat, 29. Tag (Morgen)",
       "zusammenfassung": "Aus Seol-as Sicht: In Seoan wird sie herzlich aufgenommen und mag den Patriarchen. Durch die Glockenatmung erreicht sie den Unterton und hört plötzlich alle kleinen Lügen. Beim Familienessen hört sie unter Cheons Lachen Menschen schreien. Nachts folgt sie ihm zu einer Eisentür hinter dem Stall und hört, wie er einem Gefangenen Qi abzieht und Danke sagt. Ihren vierten Brief gibt sie nicht ab, weil Hwang Ryeom im Pfandhaus sitzt; sie verpfändet stattdessen ihre Schwertquaste und verbrennt den Brief. Ui-jin kann sie nichts sagen. In der Ahnenhalle belauscht sie Cheon und Hwang: Angriff am 15., kein Feuer am Turm, das Mädchen bleibt in Seoan. Sie flieht nachts, Ui-jin ertappt sie im Stall, fragt nicht weiter und gibt ihr sein Pferd Kastanie. Nach einem Tag und einer Nacht erreicht sie den Unmu und ruft: Der fünfzehnte. Mok Yeon ist nicht überrascht.",
       "woerter": 3027
+    },
+    {
+      "nr": 19,
+      "titel": "Laternennacht",
+      "weltzeit": "Taehwa 12, 9. Monat, 15. Tag (Nacht)",
+      "zusammenfassung": "Seol-a erfährt Mok Yeons Geschichte: Diesmal nicht. Sie fliehen nicht. Der Plan ist durchzuhalten und so laut zu läuten, dass Madam Ok Träger und Stadtwache hinaufschickt. Chil wird gegen seinen Willen zu Madam Ok gebracht. Mok Yeon erreicht drei Tage vorher das Glockenohr ohne Blut. In der Mittherbstnacht meldet das Klangnetz acht Männer auf dem Ziegenpfad und vierzehn am Hauptweg. Dann klingt die Glocke am Seitentor, und Mok Yeon hört Chils Herz im Holzstapel: Er ist heimlich zurückgekommen. Glaubend, er fange einen Dieb, öffnet Chil den Riegel von innen. Es ist dasselbe Knarren wie im ersten Leben; es war immer Chil. Der Laternenmann mit der gebrochenen Nase lässt Chil laufen: Wir töten keine Kinder. Do-yun brüllt am Tor, und diesmal hört das Brüllen nicht auf. Seol-a kämpft an der Mauer, Dal in der Küche, Seo dirigiert. Chil flieht zu Mok Yeon in den Turm. Lautlos steigt Hwang Ryeom die Leiter herauf. Mok Yeon stellt sich vor Chil und packt das Seil.",
+      "woerter": 2694
     }
   ],
   "stimmen": {

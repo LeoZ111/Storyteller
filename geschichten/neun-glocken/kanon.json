@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 10. Monat, 25. Tag",
+  "zeit": "Taehwa 12, 11. Monat, 1. Tag (Nacht)",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -100,7 +100,7 @@
       "ziel": "Die Laternennacht überleben – alle zusammen. Zuerst: den Körper stärken, die Meisterin vom Treffen mit Cheon fernhalten, das Seitentor klären, die Glocken zurückholen.",
       "beduerfnis": "Die Last nicht mehr allein tragen. Sich selbst verzeihen, dass er sich versteckt hat.",
       "geheimnis": "",
-      "bogen": "",
+      "bogen": "Lernt zu lehren: Er weiß alles über Glocken und nichts über Schüler. Jetzt ist er die Hand.",
       "stufe": "Unterton (vierter Ton) im Körper – erreicht ohne Gewalt beim Guss von Strom; hört die Bronze lügen",
       "status": "lebendig; das linke Ohr kehrt teilweise zurück – er hört die Welt dort wie durch ein Tuch, mit Summen",
       "ort": "o-unmu",
@@ -143,7 +143,7 @@
       "ziel": "Seol-a holen – sie hat seit dem 19. Tag des 8. Monats nicht geschrieben.",
       "beduerfnis": "",
       "geheimnis": "Kennt jetzt Mok Yeons ganzes erstes Leben und weiß, dass sie in der Laternennacht sterben würde. Hat Cheons falsche Note gehört: wie viele Menschen, die hinter einer dicken Tür schreien.",
-      "bogen": "",
+      "bogen": "Lernt mit halbem Gehör zu unterrichten – mit der Hand auf dem Rücken, wie auf einer Glocke. Bringt Mok Yeon bei, Lehrer zu sein: Die Leute lernen nicht von Worten, sie lernen von Händen. Spricht jeden Abend mit Ryu Gangs Ahnentafel.",
       "stufe": "Unterton und Widerhall (fünfter Ton, den sie nie jemandem gezeigt hatte); Glockenschlag-Schwert ohne hohle Schritte",
       "status": "lebendig; auf dem rechten Ohr taub; Schnitte an Arm, Seite und über der Hüfte",
       "ort": "o-unmu",
@@ -237,7 +237,7 @@
       "beduerfnis": "",
       "geheimnis": "Kennt jetzt die Wahrheit über Mok Yeons erstes Leben: Er selbst starb damals am Tor. Antwort: Dann halte ich es diesmal besser.",
       "bogen": "",
-      "stufe": "Glockenohr (dritter Ton) und Widerhall (fünfter Ton) – den vierten hat er nicht; er wächst die Töne wie ein Baum",
+      "stufe": "Glockenohr und Widerhall; findet mit Hilfe einer Hand die zehnte Pause der Glockenatmung",
       "status": "lebendig; verwundet, hielt das Haupttor die ganze Nacht",
       "ort": "o-unmu",
       "beziehungen": [
@@ -290,7 +290,7 @@
       "persoenlichkeit": "Kühl, stolz, ehrgeizig; übt nachts, wenn alle schlafen.",
       "sprechweise": "Klar, kühl, präzise.",
       "wunde": "Mit neun aus dem brennenden Lagerhaus ihres Vaters gerettet. In der Laternennacht tötete sie an der Westmauer zum ersten Mal einen Menschen.",
-      "ziel": "Am 3. Tag des 8. Monats als Gastschülerin nach Seoan gehen. Nicht alt werden und eine Glocke schlagen, die niemand hört.",
+      "ziel": "Ui-jin die Wahrheit sagen – bei der Hochzeit. Ob er es von jemandem erfährt, der ihn liebt.",
       "beduerfnis": "",
       "geheimnis": "Hat Cheons Schreie unter seinem Lachen gehört, die Kammer unter dem Stall gefunden und belauscht, wie Cheon den Angriff auf den 15. Tag des 9. Monats festlegte.",
       "bogen": "",
@@ -1719,6 +1719,33 @@
       ],
       "ereignis": "Baek Ha-seons Bericht: Anzeige zurückgewiesen.",
       "folgen": "Strom hängt als dritte Glocke im Turm."
+    },
+    {
+      "id": "e-27-1",
+      "kapitel": 27,
+      "weltzeit": "Taehwa 12, 10. Monat, Ende",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-mok-yeon",
+        "f-doyun",
+        "f-chil",
+        "f-seol-a"
+      ],
+      "ereignis": "Seo lehrt Mok Yeon, mit der Hand zu unterrichten.",
+      "folgen": "Do-yun findet die Pause."
+    },
+    {
+      "id": "e-27-2",
+      "kapitel": 27,
+      "weltzeit": "Taehwa 12, 11. Monat, 1. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-seol-a"
+      ],
+      "ereignis": "Seo bestärkt Seol-a, Ui-jin die Wahrheit zu sagen; Ui-jins Brief kommt.",
+      "folgen": "Ui-jin kommt zur Hochzeit."
     }
   ],
   "faeden": [
@@ -2209,6 +2236,18 @@
     {
       "kapitel": 26,
       "text": "Eine Glocke wird in einer Lehmform um eine Spindel geformt; ein geschnitztes Brett gibt das Profil. Neue Bronze ist golden und wird erst mit den Jahren grün."
+    },
+    {
+      "kapitel": 27,
+      "text": "Seo hört rechts nicht Stille, sondern ein Rauschen wie einen Fluss hinter einer Wand."
+    },
+    {
+      "kapitel": 27,
+      "text": "Die Hochzeit von Do-yun und Min-ji findet am 2. Tag des 11. Monats auf dem Unmu statt. Madam Ok schickte rote Seide, bezahlt durch eine verlorene Wette."
+    },
+    {
+      "kapitel": 27,
+      "text": "Ui-jin kommt zur Hochzeit, obwohl sein Vater ihn sehr freundlich gebeten hat, es nicht zu tun."
     }
   ],
   "kapitel": [
@@ -2393,6 +2432,13 @@
       "weltzeit": "Taehwa 12, 10. Monat, 25. Tag",
       "zusammenfassung": "Mok Yeon zerschlägt die gesprungene Strom, wo er die Bronze müde hört: 43 Stücke. Zehn Tage baut Dal hinter dem Turm eine Lehmform um eine Spindel und lehrt Mok Yeon, hohle Stellen im Lehm zu hören, wie eine Lüge in einem Satz. In der Nacht des Gusses singt die flüssige Bronze; während sie abkühlt, erreicht Mok Yeon ohne Gewalt den vierten Ton und hört Seol-as verborgene Traurigkeit. Er und Dal hören eine kleine Blase am Rand; Dal lässt sie: Sie darf eine kleine Lüge haben. Die neue Strom ist golden. Chil führt den blinden Gong herauf, der den alten Ton wiedererkennt. Dal weint: Einmal hab ich was heil gemacht. Baek Ha-seons Bericht weist die Anzeige zurück, empfiehlt, Mok Yeon als Zeugen im Auge zu behalten, und vermerkt, dass niemand sagt, wer um sie als Inspektorin gebeten hat. Drei Glocken im Turm klingen als Akkord.",
       "woerter": 2829
+    },
+    {
+      "nr": 27,
+      "titel": "Halbe Stille",
+      "weltzeit": "Taehwa 12, 11. Monat, 1. Tag (Nacht)",
+      "zusammenfassung": "Aus Seos Sicht: Rechts hört sie nur noch Rauschen. Sie fürchtet nicht die Stille, sondern die Hälfte: Sie hört nur noch die Hälfte ihrer Schüler. Abends spricht sie mit Ryu Gangs Ahnentafel. Sie lässt Mok Yeon die Glockenatmung lehren, und er scheitert mit Erklärungen. Seo zeigt ihm, wie man mit der Hand auf dem Rücken mitatmet, bis der andere die Pause findet: Die Leute lernen von Händen, jetzt bist du die Hand. Die Hochzeit von Do-yun und Min-ji wird vorbereitet. Im Stall gesteht Seol-a, dass sie Ui-jin die Wahrheit sagen will und keinen dritten Weg sieht. Seo: Er hat seinen Vater schon verloren; die Frage ist, ob er es von jemandem erfährt, der ihn liebt. Nachts kommt Ui-jins Brief: Sein Vater bat ihn freundlich, nicht zu kommen. Er kommt trotzdem.",
+      "woerter": 2031
     }
   ],
   "stimmen": {

@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 11. Monat, 1. Tag (Nacht)",
+  "zeit": "Taehwa 12, 11. Monat, 2. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -238,7 +238,7 @@
       "geheimnis": "Kennt jetzt die Wahrheit über Mok Yeons erstes Leben: Er selbst starb damals am Tor. Antwort: Dann halte ich es diesmal besser.",
       "bogen": "",
       "stufe": "Glockenohr und Widerhall; findet mit Hilfe einer Hand die zehnte Pause der Glockenatmung",
-      "status": "lebendig; verwundet, hielt das Haupttor die ganze Nacht",
+      "status": "lebendig; verheiratet mit Min-ji seit dem 2. Tag des 11. Monats",
       "ort": "o-unmu",
       "beziehungen": [
         {
@@ -252,6 +252,10 @@
         {
           "zu": "f-minji",
           "art": "verlobt"
+        },
+        {
+          "zu": "f-minji",
+          "art": "verheiratet (sie sagte Idiot)"
         }
       ],
       "stimme": "Tiefer, gutmütiger Bass, bedächtig.",
@@ -322,7 +326,7 @@
       "id": "f-minji",
       "name": "Min-ji",
       "alias": "",
-      "rolle": "Tofu-Händlerin in Hacheon",
+      "rolle": "Tofu-Händlerin aus Hacheon; seit dem 2. Tag des 11. Monats mit Han Do-yun verheiratet",
       "geschlecht": "w",
       "alter": "Anfang 20",
       "aussehen": "Rundes Gesicht, Stupsnase, Kopftuch mit herausfallender Strähne, starke Unterarme vom Bohnenpressen.",
@@ -380,8 +384,8 @@
       "wunde": "",
       "ziel": "",
       "beduerfnis": "",
-      "geheimnis": "",
-      "bogen": "Spürt, dass man ihm nicht alles sagt (Warum kannten mich Banditen?). Ließ Kastanie auf dem Unmu: Er holt ihn, wenn Seol-a ihm alles erklärt. Will seinem Vater vom singenden Berg erzählen.",
+      "geheimnis": "Kennt jetzt Seol-as Bericht über Lachen, Keller, Ahnenhalle und den 15. Tag des 9. Monats. Weiß, dass der Hausverwalter in Grau im Pfandhaus nach Briefen fragte.",
+      "bogen": "Belog seinen Vater zum ersten Mal, um zur Hochzeit zu kommen. Brachte Seol-a ihre verpfändete Quaste zurück und erfuhr die Wahrheit über den Keller. Glaubt es nicht – doch er war seit seinem zwölften Lebensjahr nicht mehr dort, weil sein Vater sagte, die Tür klemme.",
       "stufe": "",
       "status": "lebendig",
       "ort": "o-seoan",
@@ -1746,6 +1750,39 @@
       ],
       "ereignis": "Seo bestärkt Seol-a, Ui-jin die Wahrheit zu sagen; Ui-jins Brief kommt.",
       "folgen": "Ui-jin kommt zur Hochzeit."
+    },
+    {
+      "id": "e-28-1",
+      "kapitel": 28,
+      "weltzeit": "Taehwa 12, 11. Monat, 2. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-doyun",
+        "f-minji",
+        "f-seo",
+        "f-baek",
+        "f-madam-ok",
+        "f-gong",
+        "f-chil",
+        "f-mok-yeon",
+        "f-seol-a",
+        "f-dal"
+      ],
+      "ereignis": "Hochzeit von Do-yun und Min-ji auf dem Unmu.",
+      "folgen": ""
+    },
+    {
+      "id": "e-28-2",
+      "kapitel": 28,
+      "weltzeit": "Taehwa 12, 11. Monat, 2. Tag, Abend",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seol-a",
+        "f-uijin",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Seol-a erzählt Ui-jin die Wahrheit über seinen Vater.",
+      "folgen": "Er glaubt es nicht, zweifelt aber; geht zu Fuß nach Seoan."
     }
   ],
   "faeden": [
@@ -2248,6 +2285,18 @@
     {
       "kapitel": 27,
       "text": "Ui-jin kommt zur Hochzeit, obwohl sein Vater ihn sehr freundlich gebeten hat, es nicht zu tun."
+    },
+    {
+      "kapitel": 28,
+      "text": "Das Hochzeitsläuten des Tors der Neun Glocken: Morgen zweimal, Tau einmal, Strom lang, dann alle drei – und von vorn, jedes Mal schneller."
+    },
+    {
+      "kapitel": 28,
+      "text": "Baek Ha-seon schenkte Do-yun einen Pinsel aus Wieselhaar: Damit Ihr Eure Briefe selbst schreiben könnt. Übt."
+    },
+    {
+      "kapitel": 28,
+      "text": "Ui-jin ging ohne Kastanie zu Fuß nach Seoan: Ich hole ihn, wenn du mir erklärst, wie du dich so irren kannst. Seol-a rief ihm nach: Geh in den Keller."
     }
   ],
   "kapitel": [
@@ -2439,6 +2488,13 @@
       "weltzeit": "Taehwa 12, 11. Monat, 1. Tag (Nacht)",
       "zusammenfassung": "Aus Seos Sicht: Rechts hört sie nur noch Rauschen. Sie fürchtet nicht die Stille, sondern die Hälfte: Sie hört nur noch die Hälfte ihrer Schüler. Abends spricht sie mit Ryu Gangs Ahnentafel. Sie lässt Mok Yeon die Glockenatmung lehren, und er scheitert mit Erklärungen. Seo zeigt ihm, wie man mit der Hand auf dem Rücken mitatmet, bis der andere die Pause findet: Die Leute lernen von Händen, jetzt bist du die Hand. Die Hochzeit von Do-yun und Min-ji wird vorbereitet. Im Stall gesteht Seol-a, dass sie Ui-jin die Wahrheit sagen will und keinen dritten Weg sieht. Seo: Er hat seinen Vater schon verloren; die Frage ist, ob er es von jemandem erfährt, der ihn liebt. Nachts kommt Ui-jins Brief: Sein Vater bat ihn freundlich, nicht zu kommen. Er kommt trotzdem.",
       "woerter": 2031
+    },
+    {
+      "nr": 28,
+      "titel": "Hochzeit",
+      "weltzeit": "Taehwa 12, 11. Monat, 2. Tag",
+      "zusammenfassung": "Do-yun kann am Hochzeitsmorgen seinen Gürtel nicht binden. Halb Hacheon kommt; Baek Ha-seon schenkt ihm einen Pinsel zum Schreibenüben. Als Min-ji in Rot kommt, findet Do-yun die zehnte Pause ohne Hand. Seo traut sie mit dem Bild der zwei Glocken und des dritten Tons; Min-ji sagt Idiot. Das Hochzeitsläuten erklingt zum ersten Mal seit zwanzig Jahren. Ui-jin kommt zu Fuß, bringt Seol-as verpfändete Quaste zurück und weiß inzwischen, dass der graue Hausverwalter im Pfandhaus nach Briefen fragte. Er hat seinen Vater zum ersten Mal belogen, um zu kommen. Unter der Kiefer erzählt Seol-a ihm alles. Er glaubt ihr nicht, gesteht aber, dass er seit seinem zwölften Jahr nicht mehr im Keller war, weil die Tür angeblich klemmt. Mok Yeon bestätigt, dass er es wusste. Ui-jin nennt sie alle verrückt und geht ohne Kastanie. Seol-a ruft: Geh in den Keller. Auf der 23. Stufe setzt sein Herz aus.",
+      "woerter": 2417
     }
   ],
   "stimmen": {

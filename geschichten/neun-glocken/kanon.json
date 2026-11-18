@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 8. Monat, 3. Tag",
+  "zeit": "Taehwa 12, 8. Monat, 29. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -136,7 +136,7 @@
       "persoenlichkeit": "Scharfzüngig, stolz, geduldig auf eine Art, die nervös macht. Bittet niemanden mehr zu bleiben, seit sie elf Schüler gehen sah: Wer bleibt, soll bleiben, weil er will.",
       "sprechweise": "Knapp, spöttisch, trocken; wird leise, wenn es ernst ist.",
       "wunde": "Ihr Mann Ryu Gang, siebter Meister, starb vor zehn Jahren im Winter – obwohl sie für seine Medizin die Glocke Abend an Cheon Mu-gyeong verkaufte.",
-      "ziel": "So tun, als hätte sie nichts gehört; den Berg vorbereiten; Seol-a gehen lassen, aber nicht blind.",
+      "ziel": "Seol-a holen – sie hat seit dem 19. Tag des 8. Monats nicht geschrieben.",
       "beduerfnis": "",
       "geheimnis": "Kennt jetzt Mok Yeons ganzes erstes Leben und weiß, dass sie in der Laternennacht sterben würde. Hat Cheons falsche Note gehört: wie viele Menschen, die hinter einer dicken Tür schreien.",
       "bogen": "",
@@ -225,9 +225,9 @@
       "persoenlichkeit": "Gutmütig, langsam und gründlich, lacht laut und ungeschickt.",
       "sprechweise": "Bedächtig, einfach, unbeholfen freundlich.",
       "wunde": "Brauchte drei Jahre für den ersten Ton und hält sich für kein Talent – nur für den Ochsen.",
-      "ziel": "Min-ji in der Mittherbstnacht am Fluss fragen.",
+      "ziel": "Das Tor halten. Hat Min-ji nicht bis zur Mittherbstnacht warten lassen, sondern am 12. Tag des 8. Monats gefragt – sie sagte Idiot (Ja).",
       "beduerfnis": "",
-      "geheimnis": "",
+      "geheimnis": "Kennt jetzt die Wahrheit über Mok Yeons erstes Leben: Er selbst starb damals am Tor. Antwort: Dann halte ich es diesmal besser.",
       "bogen": "",
       "stufe": "Glockenohr (dritter Ton) und Widerhall (fünfter Ton) – den vierten hat er nicht; er wächst die Töne wie ein Baum",
       "status": "lebendig",
@@ -240,6 +240,10 @@
         {
           "zu": "f-mok-yeon",
           "art": "fragt ihn, wer er ist – und akzeptiert 'dein jüngerer Bruder'"
+        },
+        {
+          "zu": "f-minji",
+          "art": "verlobt"
         }
       ],
       "stimme": "Tiefer, gutmütiger Bass, bedächtig.",
@@ -260,7 +264,7 @@
       "beduerfnis": "",
       "geheimnis": "",
       "bogen": "",
-      "stufe": "",
+      "stufe": "Hat das Ohr: hört, wenn die Bronze lügt; kann Glocken gießen und stimmen",
       "status": "lebendig",
       "ort": "o-unmu",
       "beziehungen": [],
@@ -320,7 +324,12 @@
       "stufe": "",
       "status": "lebendig",
       "ort": "o-hacheon",
-      "beziehungen": [],
+      "beziehungen": [
+        {
+          "zu": "f-doyun",
+          "art": "verlobt (sie sagte Idiot)"
+        }
+      ],
       "stimme": "Kräftige, warme junge Frauenstimme, schlagfertig.",
       "ersterAuftritt": 3
     },
@@ -559,6 +568,14 @@
       "lage": "Vor dem Westtor von Hacheon, eine Stunde Fußweg",
       "beschreibung": "Etwa dreitausend Menschen auf einem festgetretenen ehemaligen Hirsefeld; Zelte aus geflickten Planen, Hütten aus Schilf und Lehm.",
       "sinneseindruecke": "Rauch, Holzkohle, Latrinen, gekochte Gerste; barfüßige Kinder, die mit Steinen spielen."
+    },
+    {
+      "id": "o-ofen",
+      "name": "Der Gießofen hinter dem Turm",
+      "typ": "Gießofen",
+      "lage": "Hinter dem Glockenturm, halb in den Hang gegraben",
+      "beschreibung": "Lehm und Ziegel, Schornstein wie ein krummer Finger. Hier goss der Gründer die neun Glocken. Neunzig Jahre kalt, unter Brennnesseln; jetzt wieder in Betrieb.",
+      "sinneseindruecke": "Holzkohle, heißer Lehm, scharfer Metallgeruch; Dals Gießlied im Takt des Blasebalgs."
     }
   ],
   "fraktionen": [
@@ -658,6 +675,20 @@
       "besitzer": "f-seol-a",
       "ort": "o-seoan",
       "beschreibung": "Walnussgroß, fast schwarze Bronze mit einer rauen Stelle, an roter Seidenschnur. Gegossen von Dal aus einem Splitter der Glocke Sturm, den er dreißig Jahre unter dem Herd aufbewahrte. Summt mit, wenn die Glocken des Unmu klingen."
+    },
+    {
+      "id": "g-klangnetz",
+      "name": "Das Klangnetz (47 kleine Glocken)",
+      "besitzer": "fr-gujong",
+      "ort": "o-unmu",
+      "beschreibung": "Siebenundvierzig kleine Glocken, von Dal aus Madam Oks verpfändeten Kochtöpfen gegossen und einzeln gestimmt. Mit schwarzen Fäden knöchelhoch über Ziegenpfad, Westmauer, Hauptweg und Seitentor gespannt. Aus dem Turm hört man, welche klingt – und wo. Die tiefste hängt am Seitentor."
+    },
+    {
+      "id": "g-riegel",
+      "name": "Der neue Riegel am Seitentor",
+      "besitzer": "fr-gujong",
+      "ort": "o-unmu",
+      "beschreibung": "Fingerdickes Eisen in einem eisernen Schuh, von Do-yun geschmiedet. Lässt sich nur von innen öffnen: erst drehen, dann ziehen."
     }
   ],
   "techniken": [
@@ -1148,6 +1179,56 @@
       ],
       "ereignis": "Seol-a reist mit Ui-jin nach Seoan.",
       "folgen": "Sie soll wöchentlich schreiben."
+    },
+    {
+      "id": "e-17-1",
+      "kapitel": 17,
+      "weltzeit": "Taehwa 12, 8. Monat, 5. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo",
+        "f-mok-yeon",
+        "f-doyun"
+      ],
+      "ereignis": "Do-yun erfährt die Wahrheit.",
+      "folgen": "Er baut die Westmauer neu."
+    },
+    {
+      "id": "e-17-2",
+      "kapitel": 17,
+      "weltzeit": "Taehwa 12, 8. Monat, Mitte",
+      "ort": "o-ofen",
+      "figuren": [
+        "f-dal",
+        "f-mok-yeon",
+        "f-doyun",
+        "f-chil"
+      ],
+      "ereignis": "Der Ofen des Gründers brennt wieder; Dal gießt 47 kleine Glocken; das Klangnetz wird gespannt.",
+      "folgen": "Vom Turm aus lässt sich jeder Schritt am Berg hören."
+    },
+    {
+      "id": "e-17-3",
+      "kapitel": 17,
+      "weltzeit": "Taehwa 12, 8. Monat, 12. Tag",
+      "ort": "o-hacheon",
+      "figuren": [
+        "f-doyun",
+        "f-minji"
+      ],
+      "ereignis": "Do-yun fragt Min-ji; sie sagt Idiot.",
+      "folgen": "Verlobung."
+    },
+    {
+      "id": "e-17-4",
+      "kapitel": 17,
+      "weltzeit": "Taehwa 12, 8. Monat, 29. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-seo"
+      ],
+      "ereignis": "Seo will nach Seoan, weil Seol-a nicht mehr schreibt; ein Pferd galoppiert den Berg herauf.",
+      "folgen": ""
     }
   ],
   "faeden": [
@@ -1474,6 +1555,26 @@
     {
       "kapitel": 16,
       "text": "Am 3. Tag des 8. Monats sind es noch 42 Tage bis zur Laternennacht."
+    },
+    {
+      "kapitel": 17,
+      "text": "Do-yun hat die eingestürzte Westmauer mit Feldsteinen aus dem Bachbett neu gesetzt – zur Tarnung als gewöhnliche Reparatur mit dem Silber der Cheons."
+    },
+    {
+      "kapitel": 17,
+      "text": "Chil glaubt, das Klangnetz sei gegen Diebe. Er durfte die tiefste kleine Glocke ans Seitentor hängen. Ihm wurde die Wahrheit nicht gesagt."
+    },
+    {
+      "kapitel": 17,
+      "text": "Dals Melodie ohne Anfang und Ende ist ein Gießlied: der Takt des Blasebalgs."
+    },
+    {
+      "kapitel": 17,
+      "text": "Seol-a schrieb am 9., 14. und 19. Tag des 8. Monats. Im dritten Brief: Cheon schläft nachts in der Ahnenhalle unter Abend. Der vierte Brief kam nicht."
+    },
+    {
+      "kapitel": 17,
+      "text": "Am 29. Tag des 8. Monats wollte Seo nach Seoan aufbrechen – da galoppierte ein einzelnes Pferd den Berg herauf. Noch 16 Tage bis zur Laternennacht."
     }
   ],
   "kapitel": [
@@ -1588,6 +1689,13 @@
       "weltzeit": "Taehwa 12, 8. Monat, 3. Tag",
       "zusammenfassung": "Beim Schutzdienst im Westlager schenkt der Junge aus Cheons Rede Seol-a einen Grashalm. Mok Yeon begreift, dass Cheons Güte und seine Verbrechen beide wahr sind; Seol-a verteidigt die Cheons. Die Wochen vergehen mit Training, Latrine und Straßendienst. Am letzten Abend schenkt Dal Seol-a eine walnussgroße Glocke, gegossen aus einem Splitter von Sturm, den er dreißig Jahre aufbewahrt hat. Nachts lehrt Mok Yeon sie die Glockenatmung; sie hört zum ersten Mal unter Dals Schlafgemurmel. Er sagt ihr, ein alter Mann habe es ihn gelehrt, der es gern ihr beigebracht hätte. Am Morgen fährt sie mit Ui-jin nach Seoan. Seo verlangt wöchentliche Briefe und sagt: Das Tor ist offen. Chil gibt der Kutsche einen Reisball mit. Mok Yeon läutet die Glocken, und an Seol-as Hals summt die kleine Glocke mit. Noch 42 Tage.",
       "woerter": 2169
+    },
+    {
+      "nr": 17,
+      "titel": "Das Klangnetz",
+      "weltzeit": "Taehwa 12, 8. Monat, 29. Tag",
+      "zusammenfassung": "Seo und Mok Yeon weihen Do-yun ein. Er fragt nur, wie er starb, und sagt: Dann halte ich es diesmal besser. Er baut die Westmauer neu, als gewöhnliche Reparatur getarnt. Mok Yeon bittet Dal, kleine Glocken zu gießen. Sie legen den Ofen des Gründers frei, und Dal gießt aus Madam Oks Kochtöpfen 47 einzeln gestimmte Glocken. Nachts spannen sie die Glocken als Klangnetz über Pfad, Mauer, Hauptweg und Seitentor. Chil hilft, im Glauben, es gehe gegen Diebe, und hängt die tiefste ans Seitentor. Do-yun schmiedet einen Riegel, der nur von innen aufgeht. Er fragt Min-ji schon jetzt, nicht erst in der Mittherbstnacht; sie sagt Idiot. Seol-as Briefe kommen, im dritten steht, dass Cheon unter Abend in der Ahnenhalle schläft. Dann bleiben die Briefe aus. Als Seo nach Seoan aufbrechen will, melden die Glocken ein galoppierendes Pferd.",
+      "woerter": 2416
     }
   ],
   "stimmen": {

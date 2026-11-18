@@ -289,8 +289,64 @@ export class Player {
     this.segmente = segmente;
     this.titel = titel;
     this.i = 0;
+    this.datei = null;
+  }
+  // Fertige Hoerbuch-Datei (MP3) mit Zeitmarken je Abschnitt – funktioniert auf jedem Geraet.
+  ladeDatei(url, zeiten) {
+    this.datei = { url, zeiten };
+    if (!this.audio) {
+      this.audio = new Audio();
+      this.audio.preload = 'metadata';
+      this.audio.addEventListener('timeupdate', () => {
+        if (!this.datei) return;
+        const t = this.audio.currentTime + 0.05;
+        const z = this.datei.zeiten;
+        let i = 0;
+        while (i + 1 < z.length && z[i + 1] <= t) i++;
+        if (i !== this.i) {
+          this.i = i;
+          this.onSegment?.(i, this.segmente[i]);
+        }
+      });
+      this.audio.addEventListener('ended', () => {
+        if (!this.datei) return;
+        this.laeuft = false;
+        this.onSegment?.(-1);
+        this.onEnde?.();
+      });
+    }
+    this.audio.src = url;
+  }
+  // Springt erst, wenn die Datei ihre Laenge kennt – sonst setzt der Browser die Zeit stillschweigend auf 0.
+  async zuZeit(t) {
+    if (this.audio.readyState < 1) {
+      await new Promise((res) => this.audio.addEventListener('loadedmetadata', res, { once: true }));
+    }
+    this.audio.currentTime = t;
+  }
+  setzeTempo(t) {
+    if (this.audio) this.audio.playbackRate = t;
   }
   async spiele(ab = this.i) {
+    if (this.datei) {
+      const z = this.datei.zeiten;
+      const imAbschnitt = this.audio.currentTime >= (z[ab] || 0) && this.audio.currentTime < (z[ab + 1] ?? Infinity) && this.audio.currentTime > 0;
+      this.i = ab;
+      this.audio.playbackRate = einstellungen().tempo || 1;
+      this.laeuft = true;
+      this.mediaSession();
+      this.onSegment?.(ab, this.segmente[ab]);
+      try {
+        const spielt = this.audio.play();
+        if (!imAbschnitt) await this.zuZeit(z[ab] || 0);
+        this.i = ab;
+        await spielt;
+      } catch (e) {
+        this.laeuft = false;
+        this.onStatus?.('Abspielen nicht möglich: ' + e.message);
+      }
+      return;
+    }
     this.stopp();
     this.i = ab;
     this.laeuft = true;
@@ -320,6 +376,7 @@ export class Player {
     }
   }
   stopp() {
+    if (this.audio) this.audio.pause();
     this.abbruch.stop = true;
     this.abbruch.abbrechen?.();
     this._engine?.stop();
@@ -331,6 +388,12 @@ export class Player {
   }
   springe(d) {
     const ziel = Math.max(0, Math.min(this.segmente.length - 1, this.i + d));
+    if (this.datei) {
+      this.i = ziel;
+      this.zuZeit(this.datei.zeiten[ziel] || 0);
+      this.onSegment?.(ziel, this.segmente[ziel], !this.laeuft);
+      return;
+    }
     if (this.laeuft) this.spiele(ziel);
     else {
       this.i = ziel;

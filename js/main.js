@@ -73,7 +73,10 @@ $('#pl-play').onclick = () => (player.laeuft ? player.pause() : player.spiele())
 $('#pl-vor').onclick = () => player.springe(1);
 $('#pl-zurueck').onclick = () => player.springe(-1);
 $('#pl-tempo').value = String(einstellungen().tempo || 1);
-$('#pl-tempo').onchange = (e) => speichereEinstellungen({ tempo: +e.target.value });
+$('#pl-tempo').onchange = (e) => {
+  speichereEinstellungen({ tempo: +e.target.value });
+  player.setzeTempo(+e.target.value);
+};
 
 // ---------------------------------------------------------------- Router
 // Zaehler gegen Wettlaeufe: eine langsamere, aeltere Ansicht darf eine neuere nicht ueberschreiben.
@@ -559,6 +562,13 @@ async function statischerLeser(slug, lang, nr) {
   if (veraltet(n)) return;
   if (!r.ok) throw new Error('Kapitel nicht gefunden.');
   const text = await r.text();
+  const nnn = String(nr).padStart(3, '0');
+  let zeiten = null;
+  try {
+    const rz = await fetch(`geschichten/${slug}/audio/${lang}/${nnn}.json`, { cache: 'no-cache' });
+    if (rz.ok) zeiten = (await rz.json()).zeiten;
+  } catch {}
+  if (veraltet(n)) return;
   if (nr > +(localStorage.getItem(posKeyS(slug, lang)) || 0)) localStorage.setItem(posKeyS(slug, lang), String(nr));
   speichereEinstellungen({ lesesprache: lang });
   const anzahl = info.kapitel || kanon.kapitel.length;
@@ -576,6 +586,7 @@ async function statischerLeser(slug, lang, nr) {
     endeText: lang === 'en' ? 'More chapters coming soon' : 'Weitere Kapitel folgen',
     lang,
     titelGeschichte: tr(info.titel, lang),
+    audio: zeiten ? { url: `geschichten/${slug}/audio/${lang}/${nnn}.mp3`, zeiten } : null,
   });
   bindeSprache((l) => `#/s/${slug}/${l}/${nr}`);
 }
@@ -622,6 +633,7 @@ function zeigeKapitel(c) {
   playerEl.hidden = false;
   player.naechstesHref = c.nachHref;
   player.lade(c.kanon, seg, `${c.kanon.meta.titel} – ${c.titel}`);
+  if (c.audio && c.audio.zeiten.length === seg.length) player.ladeDatei(c.audio.url, c.audio.zeiten);
   $('#pl-play').textContent = '▶';
   $('#pl-sprecher').textContent = `${en ? 'Chapter' : 'Kapitel'} ${c.nr}`;
   $('#pl-status').textContent = en ? 'Tap ▶ or a paragraph' : 'Tippe auf ▶ oder einen Absatz';

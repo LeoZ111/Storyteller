@@ -13,7 +13,7 @@
       "de": "Er versteckte sich in einer Glocke, während seine Sekte starb. Einundvierzig Jahre später erwacht er neunzig Tage vor jener Nacht.",
       "en": "He hid inside a bell while his sect died. Forty-one years later, he wakes ninety days before that night."
     },
-    "kapitel": 23,
+    "kapitel": 24,
     "kapiteltitel": {
       "de": [
         "Die Glocke, in der ich mich versteckte",
@@ -38,7 +38,8 @@
         "Die Glocke, die ich schlug",
         "Morgen danach",
         "Die Glocke im Fluss",
-        "Der Kodex der Laternen"
+        "Der Kodex der Laternen",
+        "Die Inspektorin"
       ],
       "en": [
         "The Bell I Hid In",
@@ -63,7 +64,8 @@
         "The Bell I Rang",
         "The Morning After",
         "The Bell in the River",
-        "The Lanterns' Code"
+        "The Lanterns' Code",
+        "The Inspector"
       ]
     }
   }

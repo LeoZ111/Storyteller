@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 9. Monat, 19. Tag",
+  "zeit": "Taehwa 12, 10. Monat, 1. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -120,6 +120,10 @@
         {
           "zu": "f-seo",
           "art": "Verbündete: Sie kennt die Wahrheit über sein erstes Leben und glaubt ihm"
+        },
+        {
+          "zu": "f-baek",
+          "art": "Sie verhaftete ihn im ersten Leben mit 39 in Mujang, hörte ihn die ganze Nacht an und ließ ihn frei. Er kann sie nicht anlügen."
         }
       ],
       "stimme": "Junge Stimme, aber tief gesetzt und langsam, wie ein alter Mann; ruhig, karg.",
@@ -513,6 +517,55 @@
       "beziehungen": [],
       "stimme": "Sehr alte, brüchige, leise Männerstimme.",
       "ersterAuftritt": 22
+    },
+    {
+      "id": "f-baek",
+      "name": "Baek Ha-seon",
+      "alias": "",
+      "rolle": "Inspektorin des Kampfkunstbunds, Zweig Seoan",
+      "geschlecht": "w",
+      "alter": "34",
+      "aussehen": "Groß und dünn, langes ernstes Gesicht, kurzes schwarzes Haar, frische rote Narbe durch die linke Augenbraue; schwarzes Gewand mit silbernem Abzeichen (zwei gekreuzte Schwerter im Kreis); statt Schwert ein Holzkasten mit Pinseln.",
+      "persoenlichkeit": "Unbestechlich, genau, schreibt alles selbst mit; ohne Verlegenheit, trocken. Mag es nicht, benutzt zu werden.",
+      "sprechweise": "Kurze, vollständige, sachliche Sätze, als diktiere sie.",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "",
+      "status": "lebendig",
+      "ort": "o-hacheon",
+      "beziehungen": [
+        {
+          "zu": "f-mok-yeon",
+          "art": "Er lügt nie – aber er verbirgt alles."
+        }
+      ],
+      "stimme": "Klare, sachliche Frauenstimme Mitte 30, präzise, ruhig.",
+      "ersterAuftritt": 24
+    },
+    {
+      "id": "f-tak",
+      "name": "Wachmann Tak",
+      "alias": "",
+      "rolle": "Wachmann des Kampfkunstbunds",
+      "geschlecht": "m",
+      "alter": "",
+      "aussehen": "Breit, schweigsam, Säbel auf dem Rücken.",
+      "persoenlichkeit": "",
+      "sprechweise": "",
+      "wunde": "",
+      "ziel": "",
+      "beduerfnis": "",
+      "geheimnis": "",
+      "bogen": "",
+      "stufe": "Erstklasse",
+      "status": "lebendig",
+      "ort": "o-hacheon",
+      "beziehungen": [],
+      "stimme": "Tiefe, heisere, wortkarge Männerstimme.",
+      "ersterAuftritt": 24
     }
   ],
   "orte": [
@@ -1585,6 +1638,25 @@
       ],
       "ereignis": "Meister Pyeon erstattet Anzeige wegen dämonischer Kunst.",
       "folgen": "Ermittlung durch Baek Ha-seon."
+    },
+    {
+      "id": "e-24-1",
+      "kapitel": 24,
+      "weltzeit": "Taehwa 12, 10. Monat, 1. Tag",
+      "ort": "o-unmu",
+      "figuren": [
+        "f-baek",
+        "f-tak",
+        "f-pyeon",
+        "f-seo",
+        "f-mok-yeon",
+        "f-seol-a",
+        "f-chil",
+        "f-doyun",
+        "f-dal"
+      ],
+      "ereignis": "Inspektion durch Baek Ha-seon; Prüfung des Glockenklangs an Wachmann Tak.",
+      "folgen": "Kein dämonischer Befund bisher; Untersuchung läuft weiter."
     }
   ],
   "faeden": [
@@ -2038,6 +2110,22 @@
     {
       "kapitel": 23,
       "text": "Die getöteten Laternenmänner hießen Kim (mit Zopf, aus dem Norden) und Byeon."
+    },
+    {
+      "kapitel": 24,
+      "text": "Artikel 9 der Statuten des Kampfkunstbunds (vollständig): Eine dämonische Kunst stört und verwirrt das Qi anderer Kampfkünstler zum Zweck, es zu rauben, zu vergiften oder dauerhaft zu zerstören. Beschlossen vor 102 Jahren nach den Blutmark-Prozessen in Mujang."
+    },
+    {
+      "kapitel": 24,
+      "text": "Baek Ha-seon prüfte den Glockenklang an Wachmann Tak: Sein Qi blieb vollständig, nichts fehlte. Ein Schild stört auch das Qi eines Hiebs – niemand nennt ihn dämonisch."
+    },
+    {
+      "kapitel": 24,
+      "text": "Die Untersuchung ist nicht abgeschlossen. Baek Ha-seon bleibt in Hacheon und will beim Heben der Flussglocke dabei sein."
+    },
+    {
+      "kapitel": 24,
+      "text": "Baek Ha-seon ahnt, dass jemand die Anzeige gelenkt und um sie als Inspektorin gebeten hat."
     }
   ],
   "kapitel": [
@@ -2201,6 +2289,13 @@
       "weltzeit": "Taehwa 12, 9. Monat, 19. Tag",
       "zusammenfassung": "Aus Hwang Ryeoms Sicht: Mit gebrochenen Rippen reitet er nach Seoan zur alten Färberei, wo für jeden Auftrag eine schwarze Laterne hängt. Für den Unmu gibt es keine. Seok, der Mann mit der gebrochenen Nase, fragt, warum sie keine Kinder töten. Hwang erzählt, wie er mit neun unter Wasser überlebte, weil ein junger Bandit ihn leben ließ. Cheon berichtet, dass Ui-jin weinend heimgekehrt ist und ihn gebeten hat, die Banditen zu jagen. Keine Laternen mehr: Über einen Brief hat Cheon Meister Pyeon dazu gebracht, Anzeige wegen dämonischer Kunst zu erstatten, und er sorgt dafür, dass die unbestechliche Baek Ha-seon prüft. Ihr ehrliches Urteil soll die Sekte zerstören. Hwang erzählt von Mok Yeons Satz: Das habe ich schon einmal getan. Cheon will wissen, wer der Junge ist. Nachts erfährt Hwang, dass Seo seine Toten begraben hat, und hängt für sie eine Laterne auf: Begraben.",
       "woerter": 2059
+    },
+    {
+      "nr": 24,
+      "titel": "Die Inspektorin",
+      "weltzeit": "Taehwa 12, 10. Monat, 1. Tag",
+      "zusammenfassung": "Inspektorin Baek Ha-seon kommt mit Schreiber, Wachmann Tak und Meister Pyeon auf den Unmu. Mok Yeon kennt sie: Im ersten Leben verhaftete sie ihn mit 39 in Mujang, hörte ihn die ganze Nacht an und ließ ihn frei. Sie verhört alle; Chil gibt ehrlich zu, das Tor geöffnet zu haben. Mok Yeon gesteht, den Berg zum Klingen gebracht zu haben, und erklärt die Kunst ehrlich. Baek zitiert den vollständigen Artikel 9: Dämonisch ist eine Kunst nur, wenn sie das Qi raubt, vergiftet oder zerstört; beschlossen nach den Blutmark-Prozessen. Im Turm zeigen Mok Yeon und Seol-a den Klang an Wachmann Tak; sein Qi bleibt vollständig. Ein Schild ist nicht dämonisch, sagt Baek, und Pyeons Schüler seien schlechte Reiter. Auf die Frage, wer angegriffen hat, sagt Mok Yeon: Das darf ich nicht sagen. Er lügt nie, aber er verbirgt alles, stellt sie fest. Sie bleibt, will beim Heben der Flussglocke dabei sein und ahnt, dass jemand sie benutzt.",
+      "woerter": 2322
     }
   ],
   "stimmen": {

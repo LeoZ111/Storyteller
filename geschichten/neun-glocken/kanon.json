@@ -84,7 +84,7 @@
     ]
   },
   "startzeit": "Taehwa 12, 6. Monat, 15. Tag",
-  "zeit": "Taehwa 12, 7. Monat, 4. Tag (Nacht)",
+  "zeit": "Taehwa 12, 7. Monat, 5. Tag",
   "figuren": [
     {
       "id": "f-mok-yeon",
@@ -216,18 +216,22 @@
       "aussehen": "Breit wie ein Türrahmen, eckiges Kinn, kurz geschnittenes Haar, riesige Hände; Schramme über der rechten Augenbraue.",
       "persoenlichkeit": "Gutmütig, langsam und gründlich, lacht laut und ungeschickt.",
       "sprechweise": "Bedächtig, einfach, unbeholfen freundlich.",
-      "wunde": "",
-      "ziel": "",
+      "wunde": "Brauchte drei Jahre für den ersten Ton und hält sich für kein Talent – nur für den Ochsen.",
+      "ziel": "Min-ji in der Mittherbstnacht am Fluss fragen.",
       "beduerfnis": "",
       "geheimnis": "",
       "bogen": "",
-      "stufe": "Glockenohr (dritter Ton)",
+      "stufe": "Glockenohr (dritter Ton) und Widerhall (fünfter Ton) – den vierten hat er nicht; er wächst die Töne wie ein Baum",
       "status": "lebendig",
       "ort": "o-unmu",
       "beziehungen": [
         {
           "zu": "f-minji",
           "art": "verliebt (unausgesprochen)"
+        },
+        {
+          "zu": "f-mok-yeon",
+          "art": "fragt ihn, wer er ist – und akzeptiert 'dein jüngerer Bruder'"
         }
       ],
       "stimme": "Tiefer, gutmütiger Bass, bedächtig.",
@@ -483,6 +487,14 @@
       "lage": "Hacheon, bei den Holzstegen der Kornschiffe",
       "beschreibung": "Vom Kornspeicher der Familie Yun bis zur Seilerei; hinter der Seilerei stehen Ölfässer. Madam Ok lagert hier große Pfänder.",
       "sinneseindruecke": ""
+    },
+    {
+      "id": "o-wolgok",
+      "name": "Wolgok und der Wolgok-Tempel",
+      "typ": "Marktflecken mit Bergtempel",
+      "lage": "Einen halben Tag westlich von Hacheon, hinter einer engen Schlucht",
+      "beschreibung": "Ein Marktflecken; darüber zwischen Kiefern ein Bergtempel mit grünem Ziegeldach. Madam Oks Vetter hat dort ein Haus mit trockenem Keller.",
+      "sinneseindruecke": "Reisfelder mit Reihern, Kiefernharz im Wald, das Rauschen des Bachs in der Schlucht."
     }
   ],
   "fraktionen": [
@@ -553,6 +565,13 @@
       "besitzer": "fr-gujong",
       "ort": "o-unmu",
       "beschreibung": "Zweite Glocke, schlank, mit Rankenmuster am Rand; heller Ton wie Wasser, das von einem Blatt fällt. Seit dem 4. Tag des 7. Monats wieder im Turm, auf dem Haken neben Morgen."
+    },
+    {
+      "id": "g-stille",
+      "name": "Die Glocke Stille",
+      "besitzer": "Wolgok-Tempel",
+      "ort": "o-wolgok",
+      "beschreibung": "Vierte Glocke. Tiefer, stiller Ton mit sehr langem Nachklang, als lausche die Glocke ihrem eigenen Ton nach. Wie sie in den Tempel kam, ist unbekannt."
     }
   ],
   "techniken": [
@@ -874,6 +893,30 @@
       ],
       "ereignis": "Cheon zieht einem gefangenen Banditen Qi ab.",
       "folgen": "Sein Schmerz wird leiser."
+    },
+    {
+      "id": "e-11-1",
+      "kapitel": 11,
+      "weltzeit": "Taehwa 12, 7. Monat, 5. Tag",
+      "ort": "o-wolgok",
+      "figuren": [
+        "f-doyun",
+        "f-mok-yeon"
+      ],
+      "ereignis": "Banditenüberfall in der Schlucht; Do-yun erreicht den Widerhall und zerschlägt einen Säbel.",
+      "folgen": "Die Banditen fliehen; Do-yun fragt Mok Yeon, wer er ist."
+    },
+    {
+      "id": "e-11-2",
+      "kapitel": 11,
+      "weltzeit": "Taehwa 12, 7. Monat, 5. Tag, Abend",
+      "ort": "o-wolgok",
+      "figuren": [
+        "f-mok-yeon",
+        "f-doyun"
+      ],
+      "ereignis": "Mok Yeon hört die Glocke Stille im Wolgok-Tempel.",
+      "folgen": "Die vierte Glocke ist gefunden."
     }
   ],
   "faeden": [
@@ -1099,6 +1142,22 @@
     {
       "kapitel": 10,
       "text": "Cheon will alles über Mok Yeon wissen."
+    },
+    {
+      "kapitel": 11,
+      "text": "Der Gründer schrieb: Manche steigen die Töne hinauf wie eine Treppe, andere wachsen sie wie ein Baum."
+    },
+    {
+      "kapitel": 11,
+      "text": "Die Banditen vom Schwarzkiefernpass sind seit einem Monat ohne ihren Anführer – er ist spurlos verschwunden."
+    },
+    {
+      "kapitel": 11,
+      "text": "Die vierte Glocke, Stille, hängt im Wolgok-Tempel. Im ersten Leben wusste Mok Yeon das nicht."
+    },
+    {
+      "kapitel": 11,
+      "text": "In der Mittherbstnacht gehen die jungen Leute von Hacheon mit Laternen an den Fluss; wer jemanden fragen will, fragt dann."
     }
   ],
   "kapitel": [
@@ -1171,6 +1230,13 @@
       "weltzeit": "Taehwa 12, 7. Monat, 4. Tag (Nacht)",
       "zusammenfassung": "Aus Cheon Mu-gyeongs Sicht: Er wohnt bei der Familie Yun, deren Reisvorrat verbrannte. Yun hatte Flüchtlingsreis gehortet; Cheon ließ den Brand legen, ohne Tote, und gibt den ersetzten Reis den Lagern. Ui-jin erzählt glücklich, dass Seol-a nach Seoan kommt, und von Mok Yeon. Hwang Ryeom, Haupt der Schwarzen Laternen, berichtet: Madam Oks Lager war leer, und ein Junge hat seinen dritten Mann mit Blech entwaffnet und die Karte des Unmu erbeutet. In einer verschlossenen Kammer zieht Cheon einem gefesselten Banditen Qi ab, um seinen Schmerz zu lindern. Er verrät: Die Laternen beobachten Seo, weil sie den vierten Ton hat. Hört sie beim Treffen etwas, sollen sie nicht mehr warten. Über Mok Yeon will er alles wissen.",
       "woerter": 2203
+    },
+    {
+      "nr": 11,
+      "titel": "Die Mauer",
+      "weltzeit": "Taehwa 12, 7. Monat, 5. Tag",
+      "zusammenfassung": "Aus Do-yuns Sicht: Er hält sich für kein Talent. Madam Ok beauftragt ihn, ihre geretteten Pfänder nach Wolgok zu bringen; Mok Yeon fährt mit. Min-ji gibt Do-yun Essen mit: Komm zurück, Idiot. In einer Schlucht zählt Mok Yeon neun Banditen, bevor man sie sieht, und sagt jeden Angriff an. Dann schweigt er absichtlich. Gegen den einzigen echten Kämpfer schlägt Do-yun den ersten Schritt des Glockenschlag-Schwerts, seine Klinge klingt, und der Säbel des Gegners zerspringt: Widerhall, der fünfte Ton. Die Banditen sagen, ihr Anführer sei seit einem Monat verschwunden. Auf dem Rückweg hört Mok Yeon die Glocke Stille im Wolgok-Tempel. Do-yun beschließt, Min-ji in der Mittherbstnacht zu fragen.",
+      "woerter": 2223
     }
   ],
   "stimmen": {

@@ -13,7 +13,7 @@
       "de": "Er versteckte sich in einer Glocke, während seine Sekte starb. Einundvierzig Jahre später erwacht er neunzig Tage vor jener Nacht.",
       "en": "He hid inside a bell while his sect died. Forty-one years later, he wakes ninety days before that night."
     },
-    "kapitel": 10,
+    "kapitel": 11,
     "kapiteltitel": {
       "de": [
         "Die Glocke, in der ich mich versteckte",
@@ -25,7 +25,8 @@
         "Die Pfandleihe",
         "Feuer am Fluss",
         "Zwei Glocken",
-        "Die gerechte Klinge"
+        "Die gerechte Klinge",
+        "Die Mauer"
       ],
       "en": [
         "The Bell I Hid In",
@@ -37,7 +38,8 @@
         "The Pawnshop",
         "Fire on the River",
         "Two Bells",
-        "The Righteous Blade"
+        "The Righteous Blade",
+        "The Wall"
       ]
     }
   }
